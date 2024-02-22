@@ -205,6 +205,15 @@ def generate_instruction_following_data(
         total = len(instruction_data)
         keep = 0
         for instruction_data_entry in instruction_data:
+            # computing positivity of the output
+            new_output = line_processor(instruction_data_entry["output"])
+            if new_output is None:
+                continue
+            print(f'THE NEW OUTPUT is: {new_output}')
+            score = emotion_pipe(new_output, truncation=True, padding=True)
+            most_likely_label = score[0][0]['label']
+            if most_likely_label not in positive_tones:
+                continue
             # computing similarity with the pre-tokenzied instructions
             new_instruction_tokens = scorer._tokenizer.tokenize(instruction_data_entry["instruction"])
             with Pool(num_cpus) as p:
@@ -218,13 +227,7 @@ def generate_instruction_following_data(
             }
             if max(rouge_scores) > 0.7:
                 continue
-            # computing positivity of the output
-            new_output = line_processor(instruction_data_entry["output"])
-            print(new_output)
-            score = emotion_pipe(new_output, truncation=True, padding=True, return_tensors=False)
-            most_likely_label = score[0][0]['label']
-            if most_likely_label not in positive_tones:
-                continue
+            
             else:
                 keep += 1
             instruction_data_entry["most_similar_instructions"] = most_similar_instructions

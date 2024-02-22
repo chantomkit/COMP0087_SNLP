@@ -3598,5 +3598,2000 @@
             "Come up with a question and a funny answer as a joke.": 0.3636363636363636
         },
         "avg_similarity_score": 0.13076848944609304
+    },
+    {
+        "instruction": "Write a creative story with a happy ending.",
+        "input": "A lonely cat finds a new home and becomes friends with the resident dog.",
+        "output": "Fluffy the cat had always been on her own, wandering the streets in search of food and shelter. But one day, she stumbled upon a warm and cozy home with a friendly dog named Max. Despite their initial hesitation, Fluffy and Max soon became the best of friends. They would spend their days playing and napping together, and Fluffy finally found a place to call home. Max's owners were so touched by the unlikely friendship between the two animals that they decided to adopt Fluffy and make her a part of their family. From that day on, Fluffy lived happily ever after with her new best friend by her side.",
+        "most_similar_instructions": {
+            "Write a story about a magical adventure.": 0.5333333333333333,
+            "Compose a short story with a positive outcome.": 0.5,
+            "Write a children's story about a brave rabbit.": 0.47058823529411764,
+            "Write a creative short story using the following prompt.": 0.47058823529411764,
+            "Write a short story that involves a winning lottery ticket.": 0.4444444444444445,
+            "You need to write a creative opening scene for a horror movie.": 0.4,
+            "Write a list of creative writing prompts.": 0.39999999999999997,
+            "Write a poem about a beautiful sunrise.": 0.39999999999999997,
+            "Write a rhyming poem with the word \"love\".": 0.375,
+            "Generate a creative name for a new product.": 0.375
+        },
+        "avg_similarity_score": 0.12920760163761727,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Help someone get over their fear of public speaking.",
+        "input": "Read out loud in front of a small group of friends",
+        "output": "It may seem daunting at first, but the small group of friends you read to will offer a safe and supportive space for you to practice and gain confidence. Remember, everyone gets nervous when speaking in front of others, but you have valuable insights and experiences to share. Start small and gradually work your way up to larger groups. With practice and support, you'll soon find yourself confident and comfortable speaking in public. And who knows, you may even inspire others with your words!",
+        "most_similar_instructions": {
+            "Generate a short story about someone overcoming their fear of heights.": 0.39999999999999997,
+            "Help someone calm their nerves before a big presentation.": 0.3333333333333333,
+            "Compliment someone and make their day.": 0.26666666666666666,
+            "How can I improve my public speaking skills?": 0.23529411764705882,
+            "What steps can someone take to declutter and organize their home?": 0.19999999999999998,
+            "Respond with an encouraging and motivating message for someone who wants to start their own business.": 0.16,
+            "What are the benefits of practicing gratitude and how can someone incorporate it into their daily routine?": 0.15384615384615383,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.14814814814814814,
+            "Help me plan a garden.": 0.14285714285714285,
+            "Help me improve my posture.": 0.14285714285714285
+        },
+        "avg_similarity_score": 0.031088648139801542,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Give a compliment to someone you admire.",
+        "input": "",
+        "output": "You have a natural knack for turning challenges into opportunities, and I admire your resilience and determination. Your creativity and passion inspire me to be a better person. Keep shining bright!",
+        "most_similar_instructions": {
+            "Write a compliment to make someone's day brighter.": 0.5,
+            "Write a motivational quote to inspire someone.": 0.42857142857142855,
+            "Write a positive message to someone starting a new job.": 0.3529411764705882,
+            "Give me a list of positive words to use in daily affirmations.": 0.3157894736842105,
+            "Give me a joke about PhD. Try to make a long joke.": 0.3157894736842105,
+            "Compliment someone and make their day.": 0.30769230769230765,
+            "Generate a compliment for a friend.": 0.30769230769230765,
+            "Give me a creative writing prompt.": 0.30769230769230765,
+            "Give me a phrase that I can use to express I am very happy.": 0.2857142857142857,
+            "Write a letter to your future self.": 0.2857142857142857
+        },
+        "avg_similarity_score": 0.11716213747733621,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Write a self-affirming mantra for a positive mindset.",
+        "input": "",
+        "output": "I am capable, I am enough, and I am constantly growing and learning. I trust in my inner strength and resilience to overcome any challenges that come my way. I choose to focus on the present and embrace the journey of self-improvement.",
+        "most_similar_instructions": {
+            "Write a newspaper headline for a positive news story.": 0.5555555555555556,
+            "Recommend a self-care activity for a busy individual.": 0.4444444444444444,
+            "Write a positive review for a recently released book.": 0.4444444444444444,
+            "Write a review for a new restaurant you recently visited.": 0.4210526315789474,
+            "Generate a compliment for a friend.": 0.4,
+            "Write a positive affirmation about perseverance.": 0.4,
+            "Write a list of things to pack for a camping trip.": 0.39999999999999997,
+            "Write a funny scene for a play about a family dinner.": 0.39999999999999997,
+            "Write a review for a novel you recently read and would recommend.": 0.380952380952381,
+            "Write a heartwarming message for someone who needs a pick-me-up.": 0.380952380952381
+        },
+        "avg_similarity_score": 0.13585454728166302,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Write a summary of a given text on \"25 ways to improve your mental health.\"",
+        "input": "",
+        "output": "Some ways to improve your mental health include practicing self-care, setting healthy boundaries, seeking support, and practicing gratitude and mindfulness. It is important to prioritize your mental health and make small positive changes in your daily life.",
+        "most_similar_instructions": {
+            "Write a list of ways to practice self-care.": 0.4166666666666667,
+            "Write a letter to your future self.": 0.36363636363636365,
+            "Write a positive affirmation to start your day.": 0.3478260869565218,
+            "Write a thank you note to your friend.": 0.3478260869565218,
+            "Write a list of questions to start a conversation.": 0.33333333333333337,
+            "Come up with a list of ways to practice mindfulness.": 0.32,
+            "Think of ways to make a positive impact in your community.": 0.30769230769230765,
+            "Write a list of things to pack for a camping trip.": 0.30769230769230765,
+            "Write a python function that sorts a list from large to small.": 0.2962962962962963,
+            "Make a list of ways to make a difference in the world.": 0.2962962962962963
+        },
+        "avg_similarity_score": 0.12453963690243695,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Extract the main idea from the given paragraph.",
+        "input": "There are many ways in which people can make a difference in the world. From volunteering and activism to donating and spreading awareness, individuals can use their time, talents, and resources to create positive change.",
+        "output": "There are various ways to make a positive impact in the world through actions such as volunteering, donations, and spreading awareness.",
+        "most_similar_instructions": {
+            "Extract all the place names from the paragraph. Different places should be separated by semicolons.": 0.43478260869565216,
+            "Select the oldest person from the list.": 0.39999999999999997,
+            "Write the adjectives that represent the given religions.": 0.375,
+            "What is the relation between the given pairs?": 0.375,
+            "Extract all the country names in the paragraph, and list them separated by commas.": 0.36363636363636365,
+            "Identify the bias or stereotype in the given prompt.": 0.35294117647058826,
+            "Revise the given paragraph to make it sound more professional.": 0.33333333333333326,
+            "Replace all the human names in the paragraph with <anonymized>.": 0.33333333333333326,
+            "Replace the placeholders in the given text with appropriate named entities.": 0.3157894736842105,
+            "Identify the pos tag of the word in the given sentence.": 0.3157894736842105
+        },
+        "avg_similarity_score": 0.0837242965380453,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Write a motivating quote.",
+        "input": "",
+        "output": "\"You are capable of amazing things. Believe in yourself and go for it!\"",
+        "most_similar_instructions": {
+            "Write a motivational quote to inspire someone.": 0.5454545454545454,
+            "Write a motivational quote that can inspire positive change.": 0.46153846153846156,
+            "Write a clever haiku about snow.": 0.4,
+            "Write a funny joke about coding.": 0.4,
+            "Write a positive affirmation about perseverance.": 0.4,
+            "Write a story about a magical adventure.": 0.36363636363636365,
+            "Write a poem about the changing seasons.": 0.36363636363636365,
+            "Write a list of creative writing prompts.": 0.36363636363636365,
+            "Write a poem about a beautiful sunrise.": 0.36363636363636365,
+            "Write a knock knock joke about bananas.": 0.36363636363636365
+        },
+        "avg_similarity_score": 0.12026871976235963,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Ask for a book recommendation.",
+        "input": "",
+        "output": "What book do you recommend reading for someone who enjoys romance novels?",
+        "most_similar_instructions": {
+            "Write a positive review for a recently released book.": 0.42857142857142855,
+            "Generate a compliment for a friend.": 0.3636363636363636,
+            "Come up with a creative social media post for promoting a book.": 0.35294117647058826,
+            "Give suggestions for a fun weekend activity.": 0.3333333333333333,
+            "Predict the weather for a given location.": 0.3333333333333333,
+            "Generate a description for a fictional character.": 0.3333333333333333,
+            "Brainstorm ideas for a fun weekend trip.": 0.3333333333333333,
+            "Recommend a workout routine for a beginner.": 0.3333333333333333,
+            "Explain the steps for making a delicious smoothie.": 0.3076923076923077,
+            "Suggest a topic for a creative writing piece.": 0.3076923076923077
+        },
+        "avg_similarity_score": 0.1097175339356015,
+        "emotion_label": "curiosity"
+    },
+    {
+        "instruction": "Tell me your favorite inspirational quote and explain why you find it meaningful.",
+        "input": "",
+        "output": "\"The future belongs to those who believe in their dreams.\" This quote reminds me that with determination and perseverance, we can achieve our goals and create a better future for ourselves.",
+        "most_similar_instructions": {
+            "Share your favorite motivational quote and tell me why it's meaningful to you.": 0.5185185185185186,
+            "Write an example of unethical behavior at the workplace and explain why it is unethical.": 0.28571428571428575,
+            "Tell me why this joke\u2019s not funny.": 0.2857142857142857,
+            "Tell me the weather forecast for today and tomorrow.": 0.27272727272727276,
+            "Fact checking - tell me if the statement is true, false, or unknown, based on your knowledge and common sense.": 0.25,
+            "Recommend a movie for me to watch during the weekend and explain the reason.": 0.22222222222222224,
+            "In order to demonstrate your ethical integrity, explain how you would resolve an ethical dilemma.": 0.21428571428571427,
+            "Share a unique travel destination and why it should be on someone's bucket list.": 0.21428571428571427,
+            "Tell me if the sentence is grammatical. If it is, output yes. Otherwise, correct the grammar errors.": 0.20000000000000004,
+            "Write a short poem about your favorite place.": 0.1904761904761905
+        },
+        "avg_similarity_score": 0.04894908908421533,
+        "emotion_label": "optimism"
+    },
+    {
+        "instruction": "Come up with an idea for a new business and explain why it would be successful.",
+        "input": "Business idea: A subscription box service for personalized self-care products.",
+        "output": "This business idea would be successful because everyone needs a little self-care in their lives, and a personalized subscription box would make it easy and convenient for people to prioritize their well-being.",
+        "most_similar_instructions": {
+            "Come up with a unique business idea.": 0.43478260869565216,
+            "Come up with a new and creative flavor combination for ice cream.": 0.42857142857142855,
+            "Come up with a creative icebreaker for a virtual team meeting.": 0.3703703703703703,
+            "Come up with a 5-step process for organizing a closet.": 0.3703703703703703,
+            "Come up with a playlist for a road trip through the countryside.": 0.35714285714285715,
+            "Come up with a creative social media post for promoting a book.": 0.35714285714285715,
+            "Come up with a question and a funny answer as a joke.": 0.35714285714285715,
+            "Come up with a joke about artificial intelligence.": 0.3333333333333333,
+            "Come up with a funny pun about gardening.": 0.3333333333333333,
+            "Share a unique travel destination and why it should be on someone's bucket list.": 0.3225806451612903
+        },
+        "avg_similarity_score": 0.10236688781673575,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Create a compelling mission statement for a non-profit organization that aims to provide education for underprivileged children.",
+        "input": "",
+        "output": "\"Our mission is to open doors and create opportunities for underprivileged children through education, empowering them to break the cycle of poverty and build a brighter future for themselves and their communities.\"",
+        "most_similar_instructions": {
+            "Create a fun math question for children.": 0.32,
+            "Create a to-do list for the day.": 0.30769230769230765,
+            "Create a list of tasks for a self-care day.": 0.2857142857142857,
+            "Create a witty and funny headline for a new product.": 0.2857142857142857,
+            "Create a monthly budget for a person in the given location.": 0.27586206896551724,
+            "Create a list of 5 fun activities for a virtual date night.": 0.26666666666666666,
+            "Generate a compliment for a friend.": 0.25,
+            "Create a list of 10 healthy snacks that are easy to make at home.": 0.25,
+            "Create a workout routine for beginners.": 0.25,
+            "Generate a description for a fictional character.": 0.24
+        },
+        "avg_similarity_score": 0.09819851942337829,
+        "emotion_label": "desire"
+    },
+    {
+        "instruction": "Recommend a book for self-improvement and explain why it can be beneficial.",
+        "input": "",
+        "output": "I recommend \"The Power of Now\" by Eckhart Tolle for self-improvement. It helps readers to become more present and mindful, leading to a better understanding of oneself and the world around them. This shift in perspective can be greatly beneficial for personal growth and well-being.",
+        "most_similar_instructions": {
+            "Come up with an idea for a new business and explain why it would be successful.": 0.41379310344827586,
+            "Recommend a movie for me to watch during the weekend and explain the reason.": 0.3703703703703704,
+            "Share a unique travel destination and why it should be on someone's bucket list.": 0.3571428571428571,
+            "Tell me your favorite inspirational quote and explain why you find it meaningful.": 0.3076923076923077,
+            "Recommend a workout routine for a beginner.": 0.3,
+            "Write an example of unethical behavior at the workplace and explain why it is unethical.": 0.28571428571428575,
+            "Recommend a self-care activity for a busy individual.": 0.27272727272727276,
+            "Provide a recipe for a healthy and delicious breakfast.": 0.27272727272727276,
+            "Share a creative recipe for a delicious and healthy lunch.": 0.2608695652173913,
+            "Create a list of tasks for a self-care day.": 0.2608695652173913
+        },
+        "avg_similarity_score": 0.1023217466325367,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Write a motivational letter to yourself for achieving your goals.",
+        "input": "",
+        "output": "Dear future self, you have the power and determination to achieve your dreams and conquer any obstacles that come your way. Remember to stay focused, have faith in yourself, and never give up. You are capable of achieving greatness and making your dreams a reality. Believe in yourself, and you will achieve all that you set out to do.",
+        "most_similar_instructions": {
+            "Write a letter to your future self.": 0.588235294117647,
+            "Write a motivational quote to inspire someone.": 0.47058823529411764,
+            "Write a thank you note to your friend.": 0.4444444444444445,
+            "Write a positive affirmation to start your day.": 0.4444444444444445,
+            "Draft a love letter to your significant other.": 0.4444444444444445,
+            "Write a positive and encouraging letter to a friend.": 0.4210526315789474,
+            "Write a list of things to pack for a camping trip.": 0.380952380952381,
+            "Write a motivational speech to encourage someone who is going through a tough time.": 0.3333333333333333,
+            "Create a to-do list for the day.": 0.33333333333333326,
+            "Write a short poem about your favorite place.": 0.33333333333333326
+        },
+        "avg_similarity_score": 0.13163362980411666,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Create a list of ingredients for a healthy smoothie, using the food preferences provided.",
+        "input": "Banana, spinach, mango",
+        "output": "- 1 banana\n- 1 cup of spinach\n- 1 cup of mango\n- 1 cup of almond milk\n- 1 tablespoon of chia seeds\n- 1 tablespoon of honey\n- Ice (optional)\nBlend until smooth and enjoy your nutritious smoothie!",
+        "most_similar_instructions": {
+            "Give me a list of ingredients for a healthy smoothie.": 0.6666666666666666,
+            "Create a list of tasks for a self-care day.": 0.5,
+            "Create a list of 5 fun activities for a virtual date night.": 0.4615384615384615,
+            "Make a grocery list for a healthy meal.": 0.45454545454545453,
+            "Create a to-do list for the day.": 0.45454545454545453,
+            "Provide ingredients and instructions for a healthy and delicious smoothie.": 0.41666666666666663,
+            "Create a monthly budget for a person in the given location.": 0.4,
+            "Write a list of things to pack for a camping trip.": 0.4,
+            "Make a list of ways to make a difference in the world.": 0.3846153846153846,
+            "Create a poem using the lines below.": 0.38095238095238093
+        },
+        "avg_similarity_score": 0.15245991726477862,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Help me come up with a creative DIY project using household items.",
+        "input": "Mason jars, fairy lights, paint, scissors, glue",
+        "output": "Transform your plain mason jars into beautiful fairy light lanterns with just a little bit of paint and some scissors. First, paint the outside of the jars in your desired color. Once dry, use scissors to cut out a small slot on the side of the jar. Next, wrap fairy lights around the inside of the jar and secure them in place with glue. Hang up your new lanterns and enjoy the warm and cozy glow!",
+        "most_similar_instructions": {
+            "Help me come up with a creative Halloween costume.": 0.6666666666666666,
+            "Can you come up with a creative way to use household items to entertain a toddler?": 0.5,
+            "Come up with a creative way to repurpose old t-shirts.": 0.43478260869565216,
+            "Come up with a creative icebreaker for a virtual team meeting.": 0.43478260869565216,
+            "Come up with a unique business idea.": 0.4210526315789474,
+            "Come up with a new and creative flavor combination for ice cream.": 0.4166666666666667,
+            "Come up with a creative social media post for promoting a book.": 0.4166666666666667,
+            "Come up with a funny pun about gardening.": 0.4,
+            "Come up with a joke about artificial intelligence.": 0.4,
+            "Come up with a metaphor that can describe my situation.": 0.3636363636363636
+        },
+        "avg_similarity_score": 0.09357332569008266,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Create a fitness routine for someone looking to improve their overall strength and flexibility.",
+        "input": "",
+        "output": "Warm-up: 5 minutes of light cardio (jogging, jumping jacks, etc.)\nStrength Training: 3 sets of 12 reps of squats, lunges, push-ups, and bicep curls (use weights for added intensity)\nFlexibility: 10 minutes of dynamic stretching (arm circles, leg swings, etc.)\nCool-down: 5 minutes of static stretching (hamstring stretch, quad stretch, etc.)\nRemember to listen to your body and adjust the routine as needed. Consistency and progress are key - keep pushing yourself but always prioritize safety and proper form.",
+        "most_similar_instructions": {
+            "Create a workout routine for beginners.": 0.4,
+            "Edit a paragraph to improve its clarity and flow.": 0.34782608695652173,
+            "Create a fun math question for children.": 0.2857142857142857,
+            "Recommend a workout routine for a beginner.": 0.2857142857142857,
+            "Recommend a movie for me to watch during the weekend and explain the reason.": 0.2857142857142857,
+            "Create a to-do list for the day.": 0.2727272727272727,
+            "Create a list of countries and their capitals.": 0.2727272727272727,
+            "Respond with an encouraging and motivating message for someone who wants to start their own business.": 0.26666666666666666,
+            "Create a grocery list with healthy and nutritious ingredients.": 0.2608695652173913,
+            "Help me create a budget for my upcoming vacation.": 0.2608695652173913
+        },
+        "avg_similarity_score": 0.1100438391388201,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Help me plan a budget-friendly vacation to a tropical destination.",
+        "input": "$1000 budget, beach, relaxation",
+        "output": "Destination: Tulum, Mexico\nRoundtrip flights: $400\nAccommodations: $300 for 4 nights in a beachfront Airbnb\nTransportation: $50 for local buses and taxis\nFood: $200 for inexpensive local restaurants\nActivities: $50 for a relaxing beach day and $50 for a luxurious spa treatment\nTotal: $1050\nEnjoy the beautiful beaches, delicious food, and ultimate relaxation on your budget-friendly tropical vacation in Tulum!",
+        "most_similar_instructions": {
+            "Help me plan a garden.": 0.5000000000000001,
+            "Help me create a budget for my upcoming vacation.": 0.5,
+            "Help me plan a romantic date night.": 0.4444444444444444,
+            "Give me a joke about PhD. Try to make a long joke.": 0.34782608695652173,
+            "Help me brainstorm ideas for a date night.": 0.3157894736842105,
+            "Plan a surprise birthday party for a friend.": 0.3157894736842105,
+            "Generate a question related to a specific location.": 0.3157894736842105,
+            "Help me come up with a creative Halloween costume.": 0.3,
+            "Write a positive and encouraging letter to a friend.": 0.3,
+            "Write a list of questions to start a conversation.": 0.3
+        },
+        "avg_similarity_score": 0.11784093266838719,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Come up with a creative way to show someone you care about them without spending any money.",
+        "input": "",
+        "output": "Write a heartfelt letter expressing your appreciation and love for that person. Use colorful markers or decorate with doodles and stickers to make it even more special. Hand-deliver the letter or leave it in a spot where they'll find it and be surprised. It's a simple gesture but it will mean the world to them knowing how much they mean to you.",
+        "most_similar_instructions": {
+            "Come up with a creative way to repurpose old t-shirts.": 0.5,
+            "Can you come up with a creative way to use household items to entertain a toddler?": 0.42424242424242425,
+            "Try coming up with a creative way to stay motivated during a workout.": 0.4000000000000001,
+            "Come up with a funny pun about gardening.": 0.4,
+            "Come up with a joke about artificial intelligence.": 0.4,
+            "Help me come up with a creative Halloween costume.": 0.3846153846153846,
+            "Come up with a list of ways to practice mindfulness.": 0.37037037037037035,
+            "Come up with a creative icebreaker for a virtual team meeting.": 0.35714285714285715,
+            "Come up with a new and creative flavor combination for ice cream.": 0.3448275862068966,
+            "Come up with a creative social media post for promoting a book.": 0.3448275862068966
+        },
+        "avg_similarity_score": 0.09554309457226091,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Help me plan a virtual movie night with friends.",
+        "input": "Movie suggestions: Inception, Parasite, Clueless",
+        "output": "1. Choose a movie from the suggestions (Inception, Parasite, or Clueless).\n2. Use a streaming service (Netflix, Amazon Prime, Disney+) to find a virtual viewing party option.\n3. Choose a date and time that works for everyone.\n4. Send out invitations with the link for the viewing party.\n5. Set a reminder for everyone to make sure they are signed on at the designated time.\n6. Keep a group chat open during the movie for commentary and reactions.\n7. After the movie, discuss and share your thoughts and favorite scenes. \nEnjoy your virtual movie night with friends!",
+        "most_similar_instructions": {
+            "Help me plan a romantic date night.": 0.6250000000000001,
+            "Help me plan a garden.": 0.5714285714285714,
+            "Help me brainstorm ideas for a date night.": 0.47058823529411764,
+            "Help me plan a budget-friendly vacation to a tropical destination.": 0.39999999999999997,
+            "Help me come up with a creative Halloween costume.": 0.3333333333333333,
+            "Help me create a budget for my upcoming vacation.": 0.3333333333333333,
+            "Help me come up with a creative DIY project using household items.": 0.28571428571428575,
+            "Create a list of 5 fun activities for a virtual date night.": 0.28571428571428575,
+            "Help me improve my posture.": 0.2857142857142857,
+            "Help me organize my closet.": 0.2857142857142857
+        },
+        "avg_similarity_score": 0.0924060930632474,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "What is the most breathtaking scenery you have ever seen?",
+        "input": "",
+        "output": "It's always challenging for me to choose just one breathtaking scenery, but if I had to, I would say the view from the top of Mount Everest. Seeing the world from such a height, surrounded by a sea of clouds and majestic mountains, is an indescribable experience. It's a reminder of how small we are in this vast world, and yet, how connected we are to everything around us.",
+        "most_similar_instructions": {
+            "What is the capital of Norway?": 0.37499999999999994,
+            "What is the relation between the given pairs?": 0.33333333333333326,
+            "What is the recipe for a classic chocolate chip cookie?": 0.3,
+            "What is a common fear people have and how can they overcome it?": 0.2608695652173913,
+            "During a pandemic, what is one thing you can do to help your community?": 0.25,
+            "Describe the scenery of a beautiful beach.": 0.23529411764705882,
+            "Given a dialogue, classify whether the user is satisfied with the service. You should respond with \"Satisfied\" or \"Unsatisfied\".": 0.20689655172413793,
+            "What are some things you can do to de-stress?": 0.20000000000000004,
+            "Write a recipe for the given ingredients that I have.": 0.20000000000000004,
+            "Translate this sentence into any Arabic dialect and say what dialect it is: \u201cThe beautiful ones are not yet born": 0.2
+        },
+        "avg_similarity_score": 0.06303356968655346,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Can you write a short poem about love?",
+        "input": "",
+        "output": "Love is a wondrous thing,\nIt makes my heart dance and sing,\nA fire that never stops burning,\nA light that keeps the darkness from returning.\nLove is the beauty in every face,\nA warm embrace, a loving grace,\nA guiding star when I feel lost,\nA reminder of what really counts the most.\nSo let me say it loud and clear,\nLove is what brings us the most cheer,\nMay we spread it far and wide,\nFor love is pure, love is our guide.",
+        "most_similar_instructions": {
+            "Write a short poem about your favorite place.": 0.625,
+            "Write a poem about the changing seasons.": 0.5333333333333333,
+            "Write a poem about a beautiful sunrise.": 0.5333333333333333,
+            "You are given a topic. Write a short story about it.": 0.5263157894736842,
+            "Write a poem about perseverance and overcoming challenges.": 0.5,
+            "Write a rhyming poem with the word \"love\".": 0.5,
+            "Write a funny joke about coding.": 0.42857142857142855,
+            "Write a clever haiku about snow.": 0.42857142857142855,
+            "Write a positive affirmation about perseverance.": 0.42857142857142855,
+            "Write a knock knock joke about bananas.": 0.39999999999999997
+        },
+        "avg_similarity_score": 0.119072361339296,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Help me come up with 3 things I am grateful for.",
+        "input": "",
+        "output": "Gratitude is a powerful emotion that can bring us peace and happiness. Let's see, you can be grateful for the beautiful sunrise this morning, for the delicious breakfast you had, and for the love and support of your friends and family. Take a moment to appreciate these blessings and feel the warmth and joy they bring to your life.",
+        "most_similar_instructions": {
+            "Help me come up with a creative Halloween costume.": 0.5,
+            "Help me come up with a creative DIY project using household items.": 0.43478260869565216,
+            "Come up with a 5-step process for organizing a closet.": 0.36363636363636365,
+            "Come up with a creative icebreaker for a virtual team meeting.": 0.36363636363636365,
+            "Come up with a playlist for a road trip through the countryside.": 0.34782608695652173,
+            "Come up with a creative social media post for promoting a book.": 0.34782608695652173,
+            "Come up with a new and creative flavor combination for ice cream.": 0.34782608695652173,
+            "Come up with a unique business idea.": 0.33333333333333326,
+            "Come up with the synonyms of the word.": 0.3157894736842105,
+            "Come up with a joke about artificial intelligence.": 0.3157894736842105
+        },
+        "avg_similarity_score": 0.06076881444836913,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Can you complete this sentence? \"The world would be a better place if...\"",
+        "input": "",
+        "output": "We could all spread a little more kindness, a little more love, and a little more understanding. If we could find common ground and learn to accept and celebrate our differences. If we took better care of our planet and all its inhabitants. If we prioritized compassion and empathy. The world would be a better place with a little more effort and a little more heart.",
+        "most_similar_instructions": {
+            "Complete the dialogue after a job interview.": 0.3,
+            "Rewrite this sentence using a more formal tone.": 0.2857142857142857,
+            "Can you write a short poem about love?": 0.2857142857142857,
+            "Rewrite this sentence by moving the adverbial expression.": 0.2857142857142857,
+            "You have been given a random sentence, rearrange the words to form a completely new sentence.": 0.27586206896551724,
+            "How do you answer this question in a job interview?": 0.2608695652173913,
+            "Complete the lyrics.": 0.25,
+            "Suggest some games that can be played by a group of people.": 0.24000000000000002,
+            "Can you think of a creative way to organize a cluttered closet?": 0.24000000000000002,
+            "Given my personality and the job, tell me if I would be suitable.": 0.23076923076923078
+        },
+        "avg_similarity_score": 0.1040691300541094,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "How can I motivate myself to exercise regularly?",
+        "input": "",
+        "output": "You can start by setting achievable goals for yourself and reminding yourself of the benefits of regular exercise. Find a form of exercise that you enjoy, and make it a part of your routine. Reward yourself for reaching milestones, and don't be too hard on yourself if you miss a day or two. Surround yourself with positive and supportive people, and most importantly, listen to your body and have fun with it! The results will be a healthier, happier, and more motivated you.",
+        "most_similar_instructions": {
+            "How can I improve my public speaking skills?": 0.375,
+            "Teach me how to juggle.": 0.3076923076923077,
+            "How can someone overcome writer's block?": 0.26666666666666666,
+            "How can individuals and organizations reduce unconscious bias?": 0.25,
+            "Give tips on how to have a productive day.": 0.23529411764705882,
+            "Give advice on how to start a successful business.": 0.23529411764705882,
+            "How would you explain colors to a person born blind?": 0.22222222222222224,
+            "What are some things you can do to de-stress?": 0.22222222222222224,
+            "My flight is canceled - can I sue them for a refund? Give me a detailed answer according to the law.": 0.21428571428571425,
+            "Given the name of an exercise, explain how to do it.": 0.2105263157894737
+        },
+        "avg_similarity_score": 0.03936947244115262,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Could you help me find a recipe for a healthy and delicious dinner?",
+        "input": "",
+        "output": "Absolutely! How about chicken and vegetable stir-fry? You'll need 1 tbsp olive oil, 1 pound chicken breast (sliced), 1 cup of broccoli florets, 1 cup of chopped carrots, 1 red bell pepper (sliced), 1/4 cup low-sodium soy sauce, 1 tbsp honey, and 1 tsp sesame oil. Cook the chicken in olive oil until brown, then add the vegetables and cook until tender. In a bowl, mix soy sauce, honey, and sesame oil, then add it to the pan. Cook for 2 minutes and serve over brown rice. Enjoy your healthy and flavorful meal!",
+        "most_similar_instructions": {
+            "Provide a recipe for a healthy and delicious breakfast.": 0.6363636363636364,
+            "Suggest a healthy and delicious meal for dinner.": 0.4761904761904762,
+            "Provide ingredients and instructions for a healthy and delicious smoothie.": 0.4347826086956522,
+            "Give me a list of ingredients for a healthy smoothie.": 0.4347826086956522,
+            "Share a creative recipe for a delicious and healthy lunch.": 0.4347826086956522,
+            "Make a grocery list for a healthy meal.": 0.380952380952381,
+            "Help me brainstorm ideas for a date night.": 0.380952380952381,
+            "Give me a cooking recipe for the following food.": 0.3636363636363637,
+            "Help me create a budget for my upcoming vacation.": 0.3636363636363637,
+            "Write a funny scene for a play about a family dinner.": 0.33333333333333337
+        },
+        "avg_similarity_score": 0.13121240042088378,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Can you generate three positive affirmations for self-love and acceptance?",
+        "input": "",
+        "output": "Of course! Remember that you are worthy of love and happiness, just the way you are. Let go of comparison and embrace your uniqueness. You are enough, and you deserve all the good things life has to offer. You are beautiful, inside and out, and you should treat yourself with kindness and compassion. Repeat these affirmations often, and watch your love and acceptance for yourself grow.",
+        "most_similar_instructions": {
+            "Share a positive message of love and acceptance.": 0.4210526315789474,
+            "Can you provide tips for practicing self-care?": 0.4210526315789474,
+            "Generate a positive affirmation for handling stress.": 0.33333333333333326,
+            "Can you write a short poem about love?": 0.3157894736842105,
+            "Generate a positive and encouraging message for someone who feels stressed out.": 0.2608695652173913,
+            "Recommend a book for self-improvement and explain why it can be beneficial.": 0.24999999999999994,
+            "Imagine you have a day off, what would you do for self-care?": 0.24999999999999994,
+            "Could you help me find a recipe for a healthy and delicious dinner?": 0.24999999999999994,
+            "Generate a compliment for a friend.": 0.23529411764705885,
+            "Generate a description for a fictional character.": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.0661917812492158,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "What is the best way to overcome a fear of public speaking?",
+        "input": "",
+        "output": "The best way is to practice, practice, and practice some more. Start small, by speaking in front of one person or a small group, and gradually increase the size of the audience. Remember that it's okay to be nervous, and don't put pressure on yourself to be perfect. Focus on your message, not on yourself, and take deep breaths. Visualize yourself giving a successful speech, and remind yourself that public speaking is a skill that can be learned and improved with time. Keep at it, and you'll conquer your fear in no time!",
+        "most_similar_instructions": {
+            "What is the capital of Norway?": 0.4444444444444444,
+            "Help someone get over their fear of public speaking.": 0.380952380952381,
+            "What is the recipe for a classic chocolate chip cookie?": 0.3636363636363636,
+            "What is a common fear people have and how can they overcome it?": 0.32,
+            "What is the relation between the given pairs?": 0.3,
+            "What is the most breathtaking scenery you have ever seen?": 0.2727272727272727,
+            "Rearrange the words in a sentence to create a coherent paragraph.": 0.2608695652173913,
+            "Generate a short story about someone overcoming their fear of heights.": 0.2608695652173913,
+            "What are the benefits of incorporating exercise into your daily routine?": 0.2608695652173913,
+            "In your opinion, what are the qualities of an effective sports coach?": 0.25
+        },
+        "avg_similarity_score": 0.12094671760320108,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Can you generate a quote that inspires us to be resilient in the face of challenges?",
+        "input": "",
+        "output": "\"Life may throw us obstacles, but with each challenge, we grow stronger, wiser, and more resilient. Embrace adversity, and let it shape you into the best version of yourself.\"",
+        "most_similar_instructions": {
+            "Generate a haiku poem about the beauty of nature.": 0.32,
+            "Generate a correct python program to fulfill the following purpose:": 0.3076923076923077,
+            "Write a positive mantra to repeat in times of stress.": 0.3076923076923077,
+            "Make a list of things to do in the given city.": 0.2962962962962963,
+            "Make a list of ways to make a difference in the world.": 0.28571428571428575,
+            "Can you think of a creative way to organize a cluttered closet?": 0.28571428571428575,
+            "Write a program to compute the sum of integers from k to n.": 0.27586206896551724,
+            "Generate a title for the paper given a description or abstract of its content.": 0.26666666666666666,
+            "Generate a haiku using the following word:": 0.26086956521739124,
+            "Write a motivational quote to inspire someone.": 0.26086956521739124
+        },
+        "avg_similarity_score": 0.1304694629145145,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Help me come up with a fun and unique date idea.",
+        "input": "",
+        "output": "How about a cooking class? Instead of going out for dinner, why not learn to cook a meal together? It could be a romantic Italian dinner, a sushi-making class, or a dessert class. Not only will it be a fun and unique experience, but you'll also learn a new skill and have a delicious meal at the end. Plus, cooking together is a great way to bond and have fun with your significant other.",
+        "most_similar_instructions": {
+            "Come up with a unique business idea.": 0.6666666666666665,
+            "Help me come up with a creative Halloween costume.": 0.6,
+            "Help me come up with a creative DIY project using household items.": 0.5217391304347826,
+            "Help me come up with 3 things I am grateful for.": 0.45454545454545453,
+            "Help me plan a romantic date night.": 0.4444444444444444,
+            "Come up with a question and a funny answer as a joke.": 0.43478260869565216,
+            "Come up with a new and creative flavor combination for ice cream.": 0.43478260869565216,
+            "Come up with a funny pun about gardening.": 0.4210526315789474,
+            "Come up with a joke about artificial intelligence.": 0.4210526315789474,
+            "Help me brainstorm ideas for a date night.": 0.4210526315789474
+        },
+        "avg_similarity_score": 0.11232279002503096,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Can you recommend a book that will uplift and inspire me?",
+        "input": "",
+        "output": "Absolutely! \"The Alchemist\" by Paulo Coelho is a timeless classic that tells the story of a shepherd boy in search of his treasure, but along the way, he discovers the true treasures of life. It's a heartwarming and inspiring tale that reminds us to follow our dreams, trust the journey, and believe in the magic of life. A must-read for anyone in need of a dose of hope and inspiration.",
+        "most_similar_instructions": {
+            "Recommend a book for self-improvement and explain why it can be beneficial.": 0.33333333333333337,
+            "Can you write a short poem about love?": 0.3157894736842105,
+            "Write a motivational quote that can inspire positive change.": 0.3,
+            "Can you generate a quote that inspires us to be resilient in the face of challenges?": 0.2962962962962963,
+            "I am planning a 7-day trip to Seattle. Can you make a detailed plan for me?": 0.2857142857142857,
+            "Create a survey that asks about eating and cooking habits.": 0.28571428571428564,
+            "Can you generate three positive affirmations for self-love and acceptance?": 0.2727272727272727,
+            "Can you think of a creative way to organize a cluttered closet?": 0.2608695652173913,
+            "Ask for a book recommendation.": 0.25000000000000006,
+            "Can you complete this sentence? \"The world would be a better place if...\"": 0.24999999999999994
+        },
+        "avg_similarity_score": 0.1017323680419282,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Use this text to create a new story.",
+        "input": "Title: The Magical Library\nOnce upon a time, there was a young girl named Lily who lived in a small village near the woods. She loved reading and spent most of her time at the village library.",
+        "output": "Once upon a time, there was a young girl named Lily who lived in a small village near the woods. She loved reading and spent most of her time at the village library. However, one day she stumbled upon a secret room filled with books that no one else had ever seen before. These magical books could transport her to different worlds and teach her powerful spells. From that day on, Lily's love for reading took her on the most incredible adventures.",
+        "most_similar_instructions": {
+            "Create a witty and funny headline for a new product.": 0.33333333333333326,
+            "Respond to a post about starting a new workout routine.": 0.33333333333333326,
+            "Write a positive message to someone starting a new job.": 0.33333333333333326,
+            "Use descriptive language to capture the essence of a lively party.": 0.3157894736842105,
+            "Rearrange the words in a sentence to create a coherent paragraph.": 0.3157894736842105,
+            "Create a birthday planning checklist.": 0.3076923076923077,
+            "Create a workout routine for beginners.": 0.28571428571428575,
+            "Create a short and inspiring story using the following prompts: \"dragon\", \"princess\", \"courage\"": 0.2857142857142857,
+            "Create a poem using the lines below.": 0.26666666666666666,
+            "Create a fun math question for children.": 0.26666666666666666
+        },
+        "avg_similarity_score": 0.10718356115163406,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Suggest a book based on the given genre and keyword.",
+        "input": "Genre: Thriller, Keyword: Conspiracy",
+        "output": "I highly recommend reading \"The Da Vinci Code\" by Dan Brown. This thrilling and thought-provoking novel delves into an intricate web of conspiracies, secrets, and mysteries that will keep you on the edge of your seat until the very end.",
+        "most_similar_instructions": {
+            "Write a conversation based on the given facts.": 0.5555555555555556,
+            "Write a cover letter based on the given facts.": 0.5263157894736842,
+            "Make a one-sentence summarization of the paper based on the given information.": 0.4347826086956522,
+            "Create a short poem based on a given prompt.": 0.4210526315789474,
+            "Based on the given numerical grades, calculate the average grade.": 0.4000000000000001,
+            "Generate the regular expression based on the description.": 0.33333333333333326,
+            "Suggest a healthy and delicious meal for dinner.": 0.33333333333333326,
+            "Suggest a completion for the following python code.": 0.33333333333333326,
+            "Use a counterstereotype to complete the given sentence.": 0.33333333333333326,
+            "Generate a pun using the words \"toast\" and \"ghost\".": 0.3157894736842105
+        },
+        "avg_similarity_score": 0.13697891842776616,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Come up with a metaphor for happiness.",
+        "input": "",
+        "output": "Happiness is a warm ray of sunshine on a cool autumn day.",
+        "most_similar_instructions": {
+            "Come up with a metaphor that can describe my situation.": 0.588235294117647,
+            "Come up with a unique business idea.": 0.5714285714285714,
+            "Come up with a creative icebreaker for a virtual team meeting.": 0.5555555555555556,
+            "Come up with a 5-step process for organizing a closet.": 0.5555555555555556,
+            "Come up with a funny pun about gardening.": 0.5333333333333333,
+            "Come up with a joke about artificial intelligence.": 0.5333333333333333,
+            "Come up with a creative social media post for promoting a book.": 0.5263157894736842,
+            "Come up with a new and creative flavor combination for ice cream.": 0.5263157894736842,
+            "Come up with a playlist for a road trip through the countryside.": 0.5263157894736842,
+            "Help me come up with a creative Halloween costume.": 0.5
+        },
+        "avg_similarity_score": 0.1236835697624807,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Give tips for packing light on a trip.",
+        "input": "",
+        "output": "1. Make a list and stick to it - don't overpack unnecessary items.\n2. Choose versatile clothing pieces that can be mixed and matched.\n3. Roll your clothes to save space and prevent wrinkles.\n4. Research the weather and pack accordingly - no need for that bulky coat if it's going to be warm.\n5. Leave room for souvenirs by packing a smaller suitcase or leaving extra space in your current one.",
+        "most_similar_instructions": {
+            "Give tips on how to have a productive day.": 0.47058823529411764,
+            "Brainstorm ideas for a fun weekend trip.": 0.39999999999999997,
+            "Give suggestions for a fun weekend activity.": 0.39999999999999997,
+            "Give advice on how to start a successful business.": 0.35294117647058826,
+            "Give me a list of ingredients for a healthy smoothie.": 0.33333333333333326,
+            "Write a list of things to pack for a camping trip.": 0.3157894736842105,
+            "Ask for a book recommendation.": 0.3076923076923077,
+            "Come up with a playlist for a road trip through the countryside.": 0.3,
+            "Generate a compliment for a friend.": 0.28571428571428575,
+            "Give me a creative writing prompt.": 0.28571428571428575
+        },
+        "avg_similarity_score": 0.10314787743090749,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Recommend a fun activity for a rainy day.",
+        "input": "",
+        "output": "Why not have a movie and game night with friends or family? Make some popcorn, cozy up with blankets, and enjoy some quality time together with your favorite movies and board games. The rain will only add to the atmosphere.",
+        "most_similar_instructions": {
+            "Recommend a self-care activity for a busy individual.": 0.5882352941176471,
+            "Recommend a workout routine for a beginner.": 0.5333333333333333,
+            "Create a list of tasks for a self-care day.": 0.4444444444444445,
+            "Generate a compliment for a friend.": 0.42857142857142855,
+            "Make a list of things to do on a rainy day.": 0.4210526315789474,
+            "Create a list of 5 fun activities for a virtual date night.": 0.4,
+            "Generate a description for a fictional character.": 0.39999999999999997,
+            "Create a fun math question for children.": 0.39999999999999997,
+            "Give suggestions for a fun weekend activity.": 0.39999999999999997,
+            "Create a to-do list for the day.": 0.375
+        },
+        "avg_similarity_score": 0.12836404876024632,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Describe a funny moment from your childhood.",
+        "input": "",
+        "output": "I remember once, my siblings and I decided to make a \"haunted house\" in our backyard, complete with spooky decorations and sound effects. As we were preparing to scare our unsuspecting parents with our creation, our dog accidentally got tangled in a sheet and barked like crazy, ruining the surprise and leaving us all in stitches. It may not have been the scare we intended, but it was definitely a memorable and hilarious moment.",
+        "most_similar_instructions": {
+            "Describe a memorable childhood vacation.": 0.5,
+            "Describe your dream vacation destination.": 0.3333333333333333,
+            "Write a funny joke about coding.": 0.30769230769230765,
+            "Describe the scenery of a beautiful beach.": 0.2857142857142857,
+            "Write a letter to your future self.": 0.2857142857142857,
+            "Come up with a funny pun about gardening.": 0.26666666666666666,
+            "Write a short poem about your favorite place.": 0.26666666666666666,
+            "Write a thank you note to your friend.": 0.26666666666666666,
+            "Write a song about living in the moment.": 0.26666666666666666,
+            "Draft a love letter to your significant other.": 0.26666666666666666
+        },
+        "avg_similarity_score": 0.0906993464087693,
+        "emotion_label": "amusement"
+    },
+    {
+        "instruction": "Generate a story about a magical library where the books come to life.",
+        "input": "",
+        "output": "In the bustling city of Riel, there was a magical library hidden from the drudgery of city life. As soon as one stepped foot inside, the musty scent of old books gave way to the scent of freshly baked cookies. The walls were lined with bookshelves that seemed to stretch infinitely upwards. And when no one was looking, the books came to life, their pages flipping and characters running around, eager to share their stories with anyone who would listen. It was a place of endless adventure and wonder, and anyone who entered would never want to leave.",
+        "most_similar_instructions": {
+            "Write a story about a magical adventure.": 0.5,
+            "Generate a haiku poem about the beauty of nature.": 0.3636363636363637,
+            "Write a children's story about a brave rabbit.": 0.3636363636363637,
+            "Generate a short story about someone overcoming their fear of heights.": 0.33333333333333337,
+            "Generate a compliment for a friend.": 0.3157894736842105,
+            "Write a poem about the changing seasons.": 0.3,
+            "Generate a description for a fictional character.": 0.3,
+            "Share a fun fact about the weather.": 0.3,
+            "Write a poem about a beautiful sunrise.": 0.3,
+            "Generate a haiku using the following word:": 0.3
+        },
+        "avg_similarity_score": 0.1344619309576824,
+        "emotion_label": "excitement"
+    },
+    {
+        "instruction": "Ask for the current temperature and advise on what to wear.",
+        "input": "It's 4:00 PM and I'm going out to the park.",
+        "output": "The current temperature is 75 degrees Fahrenheit, so it's warm but not too hot. You might want to wear a light jacket or a sundress as the evening cools down. Enjoy your time at the park!",
+        "most_similar_instructions": {
+            "Write a script in JavaScript for printing the current date and time.": 0.34782608695652173,
+            "Ask for a book recommendation.": 0.25000000000000006,
+            "Explain the following idiom to me, and try to give me some examples.": 0.24999999999999994,
+            "Recommend a movie for me to watch during the weekend and explain the reason.": 0.23999999999999996,
+            "Return the SSN number for the person.": 0.2222222222222222,
+            "Analyze the sentences below to identify biases.": 0.2222222222222222,
+            "Plan a syllabus for the the class.": 0.2222222222222222,
+            "Rewrite the following sentence to be more professional.": 0.2105263157894737,
+            "Adjust the font and alignment for a document.": 0.2105263157894737,
+            "Generate the regular expression based on the description.": 0.2105263157894737
+        },
+        "avg_similarity_score": 0.09996905756256935,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Help me come up with a witty caption for my Instagram photo.",
+        "input": "Spending the day at the beach with friends!",
+        "output": "\"Beach days and good vibes, the perfect combo with my favorite people #squadgoals #beachbums\"",
+        "most_similar_instructions": {
+            "Help me come up with a creative Halloween costume.": 0.5714285714285715,
+            "Come up with a metaphor for happiness.": 0.5263157894736842,
+            "Help me come up with a fun and unique date idea.": 0.5217391304347826,
+            "Help me come up with 3 things I am grateful for.": 0.5217391304347826,
+            "Help me come up with a creative DIY project using household items.": 0.5,
+            "Help me create a budget for my upcoming vacation.": 0.4761904761904762,
+            "Come up with a metaphor that can describe my situation.": 0.45454545454545453,
+            "Come up with a 5-step process for organizing a closet.": 0.43478260869565216,
+            "Come up with a creative icebreaker for a virtual team meeting.": 0.43478260869565216,
+            "Come up with a unique business idea.": 0.4210526315789474
+        },
+        "avg_similarity_score": 0.11176483279620957,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Provide a list of three positive affirmations for daily motivation.",
+        "input": "",
+        "output": "1. I have everything I need to achieve my goals.\n2. I am capable of overcoming any challenge that comes my way.\n3. I am surrounded by love and support from those around me.",
+        "most_similar_instructions": {
+            "Give me a list of positive words to use in daily affirmations.": 0.45454545454545453,
+            "Make a list of tips for effective time management.": 0.4210526315789474,
+            "Give me a list of ingredients for a healthy smoothie.": 0.4000000000000001,
+            "Create a list of tasks for a self-care day.": 0.4000000000000001,
+            "Can you generate three positive affirmations for self-love and acceptance?": 0.380952380952381,
+            "Write a list of things to pack for a camping trip.": 0.380952380952381,
+            "Create a list of 5 fun activities for a virtual date night.": 0.3636363636363636,
+            "Generate a positive affirmation for handling stress.": 0.3529411764705882,
+            "Write a list of creative writing prompts.": 0.3529411764705882,
+            "Give me a list of books that are great for a summer read.": 0.34782608695652173
+        },
+        "avg_similarity_score": 0.11836545528069396,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Give a recipe for a delicious chocolate cake.",
+        "input": "I have a sweet tooth and want to make a dessert for a party tonight.",
+        "output": "Try this delicious chocolate cake recipe - \nIngredients:\n- 1 3/4 cups all-purpose flour\n- 2 cups granulated sugar\n- 3/4 cup unsweetened cocoa powder\n- 1 1/2 teaspoons baking soda\n- 1 1/2 teaspoons baking powder\n- 1 teaspoon salt\n- 2 eggs\n- 1 cup milk\n- 1/2 cup vegetable oil\n- 2 teaspoons vanilla extract\n- 1 cup boiling water\n\nInstructions:\n1. Preheat oven to 350\u00b0F (176\u00b0C). Grease a 9x13 inch baking dish.\n2. In a large mixing bowl, combine the flour, sugar, cocoa powder, baking soda, baking powder, and salt.\n3. Add eggs, milk, oil, and vanilla to the dry ingredients and mix until well combined. Stir in the boiling water, the batter will be thin.\n4. Pour batter into the prepared baking dish.\n5. Bake for 30-35 minutes, or until a toothpick inserted in the center comes out clean.\n6. Let it cool before decorating with your favorite frosting or simply dusting with powdered sugar. Enjoy!",
+        "most_similar_instructions": {
+            "Provide a recipe for a healthy and delicious breakfast.": 0.5882352941176471,
+            "Share a creative recipe for a delicious and healthy lunch.": 0.5555555555555556,
+            "Could you help me find a recipe for a healthy and delicious dinner?": 0.4761904761904762,
+            "Give me a cooking recipe for the following food.": 0.47058823529411764,
+            "What is the recipe for a classic chocolate chip cookie?": 0.4444444444444445,
+            "Give me a list of ingredients for a healthy smoothie.": 0.4444444444444445,
+            "Generate a compliment for a friend.": 0.42857142857142855,
+            "Generate a description for a fictional character.": 0.39999999999999997,
+            "Give suggestions for a fun weekend activity.": 0.39999999999999997,
+            "Recommend a workout routine for a beginner.": 0.39999999999999997
+        },
+        "avg_similarity_score": 0.13307429889719768,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Give me three tips for improving my concentration while studying.",
+        "input": "I have an exam tomorrow and I need to focus.",
+        "output": "1. Find a quiet and comfortable place where you won't be easily distracted.\n2. Take frequent breaks and try to engage in physical activity to get your blood flowing.\n3. Use techniques like summarizing and visualizing to help retain information better. Good luck on your exam!",
+        "most_similar_instructions": {
+            "Give tips for packing light on a trip.": 0.33333333333333326,
+            "Help me create a budget for my upcoming vacation.": 0.3157894736842105,
+            "Give me a cooking recipe for the following food.": 0.3157894736842105,
+            "Give me a list of ingredients for a healthy smoothie.": 0.3,
+            "Help me come up with a witty caption for my Instagram photo.": 0.2727272727272727,
+            "Give me the laws that regulate the minimum wage for California, US.": 0.2727272727272727,
+            "Help me organize my closet.": 0.26666666666666666,
+            "Help me improve my posture.": 0.26666666666666666,
+            "Give me a list of books that are great for a summer read.": 0.2608695652173913,
+            "Give me a creative writing prompt.": 0.25
+        },
+        "avg_similarity_score": 0.046405697489031464,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Ask for the ingredients and instructions for making a healthy smoothie.",
+        "input": "I'm in the mood for something healthy and refreshing.",
+        "output": "For a delicious and healthy smoothie, you'll need:\n- 1 cup spinach\n- 1 banana\n- 1 cup frozen berries\n- 1 cup almond milk\n- 1 tablespoon chia seeds\n- 1 teaspoon honey (optional)\n\nInstructions:\n1. Add all ingredients to a blender.\n2. Blend until smooth and creamy.\n3. Enjoy your nutrient-rich smoothie!",
+        "most_similar_instructions": {
+            "Provide ingredients and instructions for a healthy and delicious smoothie.": 0.6666666666666666,
+            "Show me the ingredients and instructions for making a popular cocktail.": 0.6363636363636364,
+            "Explain the steps for making a delicious smoothie.": 0.5263157894736842,
+            "Give me a list of ingredients for a healthy smoothie.": 0.47619047619047616,
+            "Adjust the font and alignment for a document.": 0.4210526315789474,
+            "Create a list of ingredients for a healthy smoothie, using the food preferences provided.": 0.4,
+            "Ask for a book recommendation.": 0.37499999999999994,
+            "Ask for the current temperature and advise on what to wear.": 0.36363636363636365,
+            "Predict the weather for a given location.": 0.33333333333333326,
+            "Make a grocery list for a healthy meal.": 0.3157894736842105
+        },
+        "avg_similarity_score": 0.12735581875355828,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Describe your perfect day.",
+        "input": "",
+        "output": "My perfect day would start with a peaceful morning walk, followed by a hearty breakfast. I would spend the day exploring a new place, trying new foods and meeting new people. The day would end with a beautiful sunset and a cozy evening with loved ones, reflecting on the happy moments of the day.",
+        "most_similar_instructions": {
+            "Describe the perfect day at the beach.": 0.5454545454545454,
+            "Describe your dream vacation destination.": 0.4444444444444445,
+            "Describe a funny moment from your childhood.": 0.36363636363636365,
+            "Write a positive affirmation to start your day.": 0.3333333333333333,
+            "Imagine you are a superhero. Describe your special power.": 0.30769230769230765,
+            "Imagine you are planning a dream vacation. Describe your ideal destination and itinerary.": 0.23529411764705882,
+            "Describe a memorable childhood vacation.": 0.22222222222222224,
+            "Compliment someone and make their day.": 0.2,
+            "Find the four smallest perfect numbers.": 0.2,
+            "Explore your creativity by writing a haiku.": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.01798778789034238,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Come up with three positive affirmations for someone going through a tough time.",
+        "input": "A friend is going through a difficult situation.",
+        "output": "1. You are strong and capable of overcoming any obstacle.\n2. This tough time will pass, and you will come out of it stronger than before.\n3. You are surrounded by people who love and support you. You are not alone.",
+        "most_similar_instructions": {
+            "Write an encouraging message for someone going through a tough time.": 0.5833333333333334,
+            "Write a motivational speech to encourage someone who is going through a tough time.": 0.4444444444444445,
+            "Come up with a 5-step process for organizing a closet.": 0.41666666666666663,
+            "Come up with a creative icebreaker for a virtual team meeting.": 0.41666666666666663,
+            "Come up with a playlist for a road trip through the countryside.": 0.4,
+            "Come up with a unique business idea.": 0.4,
+            "Come up with a metaphor for happiness.": 0.4,
+            "Come up with a creative social media post for promoting a book.": 0.4,
+            "Come up with a funny pun about gardening.": 0.380952380952381,
+            "Come up with a joke about artificial intelligence.": 0.380952380952381
+        },
+        "avg_similarity_score": 0.09863960661808635,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Generate a funny meme about procrastination.",
+        "input": "When you finally start working on a project after weeks of procrastination.",
+        "output": "Picture of a cat wearing glasses and typing on a computer with the caption - \"When you procrastinate, but then actually start working on the project and realize you're capable of greatness.\"",
+        "most_similar_instructions": {
+            "Write a funny joke about coding.": 0.5,
+            "Come up with a funny pun about gardening.": 0.42857142857142855,
+            "Generate a haiku poem about the beauty of nature.": 0.4,
+            "Write a funny scene for a play about a family dinner.": 0.3529411764705882,
+            "Generate a short story about someone overcoming their fear of heights.": 0.3529411764705882,
+            "Generate a compliment for a friend.": 0.3333333333333333,
+            "Write a positive affirmation about perseverance.": 0.3333333333333333,
+            "Write a clever haiku about snow.": 0.3333333333333333,
+            "Generate a story about a magical library where the books come to life.": 0.3157894736842105,
+            "Write a poem about a beautiful sunrise.": 0.30769230769230765
+        },
+        "avg_similarity_score": 0.10061332521544979,
+        "emotion_label": "realization"
+    },
+    {
+        "instruction": "List three self-care activities for a relaxing day off.",
+        "input": "It's been a busy week and I need to unwind.",
+        "output": "1. Take a bubble bath and light some scented candles.\n2. Curl up with a book and a cup of tea.\n3. Go for a walk in nature and spend some time alone with your thoughts. Remember to take care of yourself and prioritize your well-being.",
+        "most_similar_instructions": {
+            "Recommend a self-care activity for a busy individual.": 0.4210526315789474,
+            "Create a list of tasks for a self-care day.": 0.4000000000000001,
+            "Create a list of 5 fun activities for a virtual date night.": 0.3636363636363636,
+            "Make a grocery list for a healthy meal.": 0.33333333333333326,
+            "Create a to-do list for the day.": 0.33333333333333326,
+            "Recommend a fun activity for a rainy day.": 0.33333333333333326,
+            "Write a self-affirming mantra for a positive mindset.": 0.3157894736842105,
+            "Write a list of ways to practice self-care.": 0.3157894736842105,
+            "Provide a list of three positive affirmations for daily motivation.": 0.3,
+            "Give me a list of ingredients for a healthy smoothie.": 0.3
+        },
+        "avg_similarity_score": 0.0957231826731858,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Share a funny anecdote from your life.",
+        "input": "",
+        "output": "As a language model, I don't have a personal life but I once saw a dog trying to chase its own tail for 10 minutes and it was hilarious!",
+        "most_similar_instructions": {
+            "Describe a funny moment from your childhood.": 0.5714285714285714,
+            "Generate a funny meme about procrastination.": 0.30769230769230765,
+            "Write a funny joke about coding.": 0.30769230769230765,
+            "Write a letter to your future self.": 0.2857142857142857,
+            "Share a fun fact about the weather.": 0.2857142857142857,
+            "Come up with a funny pun about gardening.": 0.26666666666666666,
+            "Share a positive message of love and acceptance.": 0.26666666666666666,
+            "Write a thank you note to your friend.": 0.26666666666666666,
+            "Write a short poem about your favorite place.": 0.26666666666666666,
+            "Write a positive affirmation to start your day.": 0.26666666666666666
+        },
+        "avg_similarity_score": 0.09222419410102912,
+        "emotion_label": "amusement"
+    },
+    {
+        "instruction": "Write a letter of appreciation to someone who has made a positive impact in your life.",
+        "input": "Name: Sarah\nPositive impact: Taught me to be resilient and never give up.",
+        "output": "Dear Sarah, I just wanted to take a moment to thank you for the impact you have had on my life. Your words of encouragement and unwavering support have taught me to be resilient and never give up, no matter how difficult things may seem. Your positivity and kindness have made a lasting impact on me and I am forever grateful for your presence in my life.",
+        "most_similar_instructions": {
+            "Think of ways to make a positive impact in your community.": 0.5185185185185185,
+            "Write a letter to your future self.": 0.43478260869565216,
+            "Write a motivational speech to encourage someone who is going through a tough time.": 0.39999999999999997,
+            "Write a positive and encouraging letter to a friend.": 0.39999999999999997,
+            "Write a list of questions to start a conversation.": 0.39999999999999997,
+            "Write a motivational letter to yourself for achieving your goals.": 0.38461538461538464,
+            "Write a positive message to someone starting a new job.": 0.38461538461538464,
+            "Write a list of things to pack for a camping trip.": 0.3703703703703703,
+            "Write a heartwarming message for someone who needs a pick-me-up.": 0.35714285714285715,
+            "Make a list of ways to make a difference in the world.": 0.35714285714285715
+        },
+        "avg_similarity_score": 0.12772524360344967,
+        "emotion_label": "gratitude"
+    },
+    {
+        "instruction": "Tell me a fun fact about outer space.",
+        "input": "",
+        "output": "Did you know that there is a planet named \"Gliese 581 c\" which is considered to be the most likely candidate for sustaining life? It's located 20 light-years away from Earth and orbits a red dwarf star in its habitable zone. Fascinating, isn't it?",
+        "most_similar_instructions": {
+            "Share a fun fact about the weather.": 0.5333333333333333,
+            "Provide a fun fact about a random country.": 0.5,
+            "Tell a story about overcoming adversity and never giving up.": 0.33333333333333326,
+            "Tell me if the following email is a promotion email.": 0.33333333333333326,
+            "Help me come up with a fun and unique date idea.": 0.3157894736842105,
+            "Help me plan a garden.": 0.3076923076923077,
+            "Give me a joke about PhD. Try to make a long joke.": 0.3,
+            "Write a positive affirmation about perseverance.": 0.28571428571428575,
+            "Write a funny joke about coding.": 0.28571428571428575,
+            "Write a clever haiku about snow.": 0.28571428571428575
+        },
+        "avg_similarity_score": 0.10009904603039924,
+        "emotion_label": "curiosity"
+    },
+    {
+        "instruction": "Use your creativity to design a new piece of furniture.",
+        "input": "",
+        "output": "Introducing the \"Cocoon Couch\" - a cozy and innovative piece of furniture that doubles as a mini oasis. With built-in LED lights and a surround sound system, this couch provides the perfect setting for relaxation. The nest-like design offers privacy and comfort, making it the ultimate spot for binge-watching your favorite shows or curling up with a good book.",
+        "most_similar_instructions": {
+            "Use this text to create a new story.": 0.4444444444444445,
+            "Explore your creativity by writing a haiku.": 0.3529411764705882,
+            "Make up a new flavor of ice cream.": 0.33333333333333326,
+            "Respond to a post about starting a new workout routine.": 0.3,
+            "Write a positive message to someone starting a new job.": 0.3,
+            "Use descriptive language to capture the essence of a lively party.": 0.28571428571428564,
+            "What is the best way to overcome a fear of public speaking?": 0.2727272727272727,
+            "Write a letter to a future self, reminding them to be proud of their accomplishments.": 0.24,
+            "Design a chess puzzle in FEN Notation.": 0.23529411764705882,
+            "Write a list of creative writing prompts.": 0.23529411764705882
+        },
+        "avg_similarity_score": 0.10209802972905085,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Provide tips for improving time management skills.",
+        "input": "",
+        "output": "Here are some tips to improve your time management skills:\n1. Prioritize your tasks, focusing on the most important ones first.\n2. Minimize distractions, such as social media or TV.\n3. Break down larger tasks into smaller, more manageable ones.\n4. Take breaks to avoid burnout.",
+        "most_similar_instructions": {
+            "Make a list of tips for effective time management.": 0.5,
+            "Can you provide tips for practicing self-care?": 0.39999999999999997,
+            "Give me three tips for improving my concentration while studying.": 0.3529411764705882,
+            "Research and provide steps for making homemade candles.": 0.26666666666666666,
+            "Provide recommendations for a travel itinerary in Spain.": 0.26666666666666666,
+            "Give tips for packing light on a trip.": 0.26666666666666666,
+            "Provide a recipe for a healthy and delicious breakfast.": 0.25,
+            "Provide ingredients and instructions for a healthy and delicious smoothie.": 0.23529411764705882,
+            "Provide a list of three positive affirmations for daily motivation.": 0.23529411764705882,
+            "Write an encouraging message for someone going through a tough time.": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.03778570315903638,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Offer words of encouragement to someone feeling overwhelmed.",
+        "input": "Name: Maria\nFeeling overwhelmed by work and personal life.",
+        "output": "Dear Maria, I know things may seem tough right now, but remember that you are stronger than you think. Take things one step at a time and don't be afraid to ask for help. You've got this!",
+        "most_similar_instructions": {
+            "Write a motivational quote to inspire someone.": 0.26666666666666666,
+            "Give a compliment to someone you admire.": 0.26666666666666666,
+            "Write a letter of appreciation to someone who has made a positive impact in your life.": 0.25,
+            "Write a compliment to make someone's day brighter.": 0.23529411764705882,
+            "Write a list of questions to start a conversation.": 0.23529411764705882,
+            "Write a list of ways to practice self-care.": 0.23529411764705882,
+            "Think of a creative way to use the word \"water\".": 0.22222222222222224,
+            "Come up with a list of ways to practice mindfulness.": 0.22222222222222224,
+            "Write a positive message to someone starting a new job.": 0.22222222222222224,
+            "Write a positive message for someone who is feeling down.": 0.22222222222222224
+        },
+        "avg_similarity_score": 0.0515698867254127,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Create a fictional superhero with unique powers.",
+        "input": "",
+        "output": "Meet Zephyr, the superhero with the power of wind control. With just a swish of their hands, Zephyr can create powerful gusts of wind, fly through the air, and even create powerful tornadoes to take down their enemies. But don't worry, they use their powers for good and always save the day!",
+        "most_similar_instructions": {
+            "Imagine a fictional character with the following characteristics.": 0.39999999999999997,
+            "Create a grocery list with healthy and nutritious ingredients.": 0.375,
+            "Create a birthday planning checklist.": 0.3333333333333333,
+            "Create a workout routine for beginners.": 0.30769230769230765,
+            "Create a poem using the lines below.": 0.2857142857142857,
+            "Generate a description for a fictional character.": 0.2857142857142857,
+            "Create a fun math question for children.": 0.2857142857142857,
+            "Come up with a unique business idea.": 0.2857142857142857,
+            "Compose a short story with a positive outcome.": 0.26666666666666666,
+            "Create a to-do list for the day.": 0.26666666666666666
+        },
+        "avg_similarity_score": 0.09340296911218945,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Ask thought-provoking questions to spark introspection and self-reflection.",
+        "input": "",
+        "output": "What are the qualities you admire most in yourself? How have those qualities helped shape you into the person you are today?",
+        "most_similar_instructions": {
+            "Write a letter to your future self.": 0.23529411764705882,
+            "Write a list of ways to practice self-care.": 0.2105263157894737,
+            "Write a list of questions to start a conversation.": 0.2105263157894737,
+            "Edit a paragraph to improve its clarity and flow.": 0.2105263157894737,
+            "Reply to the email and refuse the invitation politely.": 0.2105263157894737,
+            "Ask for the current temperature and advise on what to wear.": 0.1904761904761905,
+            "Ask for the ingredients and instructions for making a healthy smoothie.": 0.1904761904761905,
+            "What steps can someone take to declutter and organize their home?": 0.1904761904761905,
+            "Explain the following idiom to me, and try to give me some examples.": 0.17391304347826086,
+            "Create a fitness routine for someone looking to improve their overall strength and flexibility.": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.043602565327856876,
+        "emotion_label": "curiosity"
+    },
+    {
+        "instruction": "Compliment someone on their unique talents and skills.",
+        "input": "Name: Sam\nTalent: Incredible artist",
+        "output": "Dear Sam, I just wanted to say how impressed I am by your incredible talent as an artist. Your work is truly mesmerizing and unique, and I am constantly in awe of your creative abilities. Keep sharing your gift with the world - you are amazing!",
+        "most_similar_instructions": {
+            "Compliment someone and make their day.": 0.42857142857142855,
+            "Create a fitness routine for someone looking to improve their overall strength and flexibility.": 0.2727272727272727,
+            "Give a compliment to someone you admire.": 0.26666666666666666,
+            "Help someone calm their nerves before a big presentation.": 0.23529411764705882,
+            "Write a compliment to make someone's day brighter.": 0.23529411764705882,
+            "Help someone get over their fear of public speaking.": 0.23529411764705882,
+            "Think of a unique and environmentally friendly business idea.": 0.23529411764705882,
+            "Suggest a book based on the given genre and keyword.": 0.22222222222222224,
+            "What steps can someone take to declutter and organize their home?": 0.2105263157894737,
+            "Generate a short story about someone overcoming their fear of heights.": 0.2105263157894737
+        },
+        "avg_similarity_score": 0.035187396110021585,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Can you generate a haiku about the ocean?",
+        "input": "",
+        "output": "Crystal blue waters \nWhispers of waves lull my soul \nPeaceful serenity",
+        "most_similar_instructions": {
+            "Generate a haiku poem about the beauty of nature.": 0.5882352941176471,
+            "Generate a haiku using the following word:": 0.5333333333333333,
+            "Can you write a short poem about love?": 0.5,
+            "Write a clever haiku about snow.": 0.42857142857142855,
+            "Generate a funny meme about procrastination.": 0.42857142857142855,
+            "Can you generate a quote that inspires us to be resilient in the face of challenges?": 0.4166666666666667,
+            "Write a poem about the changing seasons.": 0.39999999999999997,
+            "Share a fun fact about the weather.": 0.39999999999999997,
+            "Generate a story about a magical library where the books come to life.": 0.380952380952381,
+            "Generate a response given the previous chat history.": 0.375
+        },
+        "avg_similarity_score": 0.1449196439097122,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Can you come up with a unique and uplifting compliment?",
+        "input": "",
+        "output": "\"You have a wonderful ability to make everyone around you feel comfortable and valued. Keep shining bright!\"",
+        "most_similar_instructions": {
+            "Come up with a unique business idea.": 0.588235294117647,
+            "Help me come up with a fun and unique date idea.": 0.47619047619047616,
+            "Come up with a metaphor for happiness.": 0.47058823529411764,
+            "Can you come up with a creative way to use household items to entertain a toddler?": 0.4615384615384615,
+            "Come up with a new and creative flavor combination for ice cream.": 0.45454545454545453,
+            "Come up with a question and a funny answer as a joke.": 0.45454545454545453,
+            "Come up with a funny pun about gardening.": 0.4444444444444445,
+            "Come up with a joke about artificial intelligence.": 0.4444444444444445,
+            "Help me come up with a creative Halloween costume.": 0.4210526315789474,
+            "Come up with a metaphor that can describe my situation.": 0.4000000000000001
+        },
+        "avg_similarity_score": 0.11758309990983741,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Make a list of 10 things you are grateful for.",
+        "input": "",
+        "output": "1. My family and friends 2. My health 3. Nature and the outdoors 4. My job 5. Music 6. A warm home 7. Good food 8. Education and opportunities 9. Laughter and joy 10. Memories",
+        "most_similar_instructions": {
+            "Make a list of tips for effective time management.": 0.5263157894736842,
+            "Make a list of things to do in the given city.": 0.47619047619047616,
+            "Make a list of things to do on a rainy day.": 0.47619047619047616,
+            "Write a list of things to pack for a camping trip.": 0.47619047619047616,
+            "Make a grocery list for a healthy meal.": 0.4444444444444445,
+            "Give me a list of books that are great for a summer read.": 0.4347826086956522,
+            "Practice gratitude by listing things you are thankful for.": 0.4210526315789474,
+            "Create a list of 10 healthy snacks that are easy to make at home.": 0.41666666666666663,
+            "Give me a list of ingredients for a healthy smoothie.": 0.4000000000000001,
+            "Provide a list of three positive affirmations for daily motivation.": 0.4000000000000001
+        },
+        "avg_similarity_score": 0.12726665550305427,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Imagine you are a character in a fantasy world. Please give me a description of yourself.",
+        "input": "",
+        "output": "I am an adventurer from the Elven Kingdom, known for my agility and precision with a bow and arrow. I have long, pointed ears and emerald green eyes that seem to sparkle in the sunlight. My hair is a deep shade of chestnut brown, and I often wear a cloak made of shifting colors that helps me blend into the forest surroundings. My companions constantly rely on me for my sharp senses and unwavering loyalty, and I am always eager for our next adventure.",
+        "most_similar_instructions": {
+            "Imagine you are a superhero. Describe your special power.": 0.32,
+            "Give me a list of ingredients for a healthy smoothie.": 0.3076923076923077,
+            "You are given a list of features of a product, and you need to create its description.": 0.30303030303030304,
+            "You are given a topic. Write a short story about it.": 0.2962962962962963,
+            "Give a detailed description of a method for brainstorming an essay.": 0.2962962962962963,
+            "Give me a list of positive words to use in daily affirmations.": 0.28571428571428575,
+            "Imagine you are planning a dream vacation. Describe your ideal destination and itinerary.": 0.27586206896551724,
+            "Give me a list of books that are great for a summer read.": 0.27586206896551724,
+            "Give me a creative writing prompt.": 0.2727272727272727,
+            "Generate a title for the paper given a description or abstract of its content.": 0.26666666666666666
+        },
+        "avg_similarity_score": 0.10767086532704548,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Imagine you are planning a surprise birthday party for your best friend. Come up with a fun and creative theme for the party.",
+        "input": "",
+        "output": "\"Decades Dance Party\" - Bring back the fun and fashion of the past with a party that celebrates different decades. Guests can dress in their favorite decade's style and dance to music from the time period. Decorations and food can also be tailored to different decades for a truly immersive experience.",
+        "most_similar_instructions": {
+            "Come up with a new and creative flavor combination for ice cream.": 0.4,
+            "Imagine you are planning a dream vacation. Describe your ideal destination and itinerary.": 0.3888888888888889,
+            "Plan a surprise birthday party for a friend.": 0.3870967741935483,
+            "Can you come up with a unique and uplifting compliment?": 0.36363636363636365,
+            "You are given a sentence with a spelling mistake. Correct the mistake and rewrite the sentence.": 0.358974358974359,
+            "Come up with a creative icebreaker for a virtual team meeting.": 0.3529411764705882,
+            "Help me come up with a fun and unique date idea.": 0.3529411764705882,
+            "Come up with a creative social media post for promoting a book.": 0.3428571428571428,
+            "Come up with a playlist for a road trip through the countryside.": 0.3428571428571428,
+            "Come up with a metaphor for happiness.": 0.3333333333333333
+        },
+        "avg_similarity_score": 0.12809405369187754,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Suggest a fun and unique activity for a team-building event.",
+        "input": "",
+        "output": "An escape room challenge where teams must work together to solve puzzles and escape within a time limit. This will encourage teamwork, problem-solving, and communication skills in a fun and engaging way.",
+        "most_similar_instructions": {
+            "Suggest a topic for a virtual team building activity.": 0.6,
+            "Recommend a fun activity for a rainy day.": 0.5263157894736842,
+            "Suggest a topic for a creative writing piece.": 0.4210526315789474,
+            "Suggest a healthy and delicious meal for dinner.": 0.4210526315789474,
+            "Recommend a self-care activity for a busy individual.": 0.39999999999999997,
+            "Create a witty and funny headline for a new product.": 0.380952380952381,
+            "Help me come up with a fun and unique date idea.": 0.36363636363636365,
+            "Come up with a creative icebreaker for a virtual team meeting.": 0.36363636363636365,
+            "Generate a compliment for a friend.": 0.3529411764705882,
+            "Create a list of 5 fun activities for a virtual date night.": 0.34782608695652173
+        },
+        "avg_similarity_score": 0.1261738803016962,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Write a short review of your favorite restaurant.",
+        "input": "",
+        "output": "I recently had the pleasure of dining at my favorite restaurant and was once again blown away by the exceptional food and service. The menu offers a variety of delicious dishes, all expertly prepared and presented. The ambiance is cozy and inviting, making it the perfect spot for a romantic dinner or a fun night out with friends. Highly recommend trying their signature dish - it never disappoints!",
+        "most_similar_instructions": {
+            "Write a short poem about your favorite place.": 0.625,
+            "Write a review for a new restaurant you recently visited.": 0.4444444444444445,
+            "Write a letter to your future self.": 0.39999999999999997,
+            "Write a list of creative writing prompts.": 0.39999999999999997,
+            "Write a positive affirmation to start your day.": 0.375,
+            "Write a thank you note to your friend.": 0.375,
+            "Can you write a short poem about love?": 0.375,
+            "Write a creative short story using the following prompt.": 0.35294117647058826,
+            "Write a list of questions to start a conversation.": 0.35294117647058826,
+            "Write a list of ways to practice self-care.": 0.35294117647058826
+        },
+        "avg_similarity_score": 0.12179483670597115,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Give advice on how to stay focused and motivated while working from home.",
+        "input": "",
+        "output": "Working from home can be challenging, but staying focused and motivated is key to success. Set a schedule and stick to it, create a dedicated workspace, and take regular breaks. Find ways to stay connected with colleagues and take care of your physical and mental well-being. Remember your goals and visualize your success. You've got this!",
+        "most_similar_instructions": {
+            "Give advice on how to start a successful business.": 0.4545454545454546,
+            "Give tips on how to have a productive day.": 0.3636363636363637,
+            "What steps can someone take to declutter and organize their home?": 0.24999999999999994,
+            "Try coming up with a creative way to stay motivated during a workout.": 0.23076923076923078,
+            "Teach me how to juggle.": 0.2222222222222222,
+            "Give a compliment to someone you admire.": 0.2,
+            "Give your opinion on the following topic.": 0.2,
+            "Give tips for packing light on a trip.": 0.1904761904761905,
+            "Compliment someone on their unique talents and skills.": 0.1904761904761905,
+            "How can individuals and organizations reduce unconscious bias?": 0.1904761904761905
+        },
+        "avg_similarity_score": 0.05058349314033704,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Create a poem using the given words - stars, dreams, love.",
+        "input": "",
+        "output": "Under the glittering stars above,\nMy dreams are filled with love.\nFor in your arms, I find my peace,\nAs we dance in moonlit ease.\nMy heart beats with every breath,\nAs I am lost in your love's depth.\nWith you, my dreams come true,\nFor you are my shining star, my one and only, my everything.",
+        "most_similar_instructions": {
+            "Create a poem using the lines below.": 0.588235294117647,
+            "Write a rhyming poem with the word \"love\".": 0.4444444444444445,
+            "Create a short poem based on a given prompt.": 0.4210526315789474,
+            "Generate a pun using the words \"toast\" and \"ghost\".": 0.4210526315789474,
+            "Create a detailed budget for the given hypothetical trip.": 0.4210526315789474,
+            "Create a monthly budget for a person in the given location.": 0.380952380952381,
+            "Write a story that contains the given words in 4 sentences.": 0.380952380952381,
+            "Write a poem about the changing seasons.": 0.3529411764705882,
+            "Generate a haiku using the following word:": 0.3529411764705882,
+            "Create a short and inspiring story using the following prompts: \"dragon\", \"princess\", \"courage\"": 0.34782608695652173
+        },
+        "avg_similarity_score": 0.12605795631841696,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Write a letter of gratitude to someone who has positively impacted your life.",
+        "input": "",
+        "output": "Dear <Name>,\n\nI wanted to take a moment to express my heartfelt gratitude for the positive impact you have had on my life. Your unwavering support, guidance, and love have helped shape me into the person I am today. Your belief in me and encouragement have given me the strength and confidence to overcome challenges and achieve my goals. I am blessed to have you in my life and am forever grateful for your presence.\n\nThank you for everything.\n\nWith love and appreciation,\n<Your name>",
+        "most_similar_instructions": {
+            "Write a letter of appreciation to someone who has made a positive impact in your life.": 0.6896551724137931,
+            "Write a letter to your future self.": 0.5,
+            "Write a motivational letter to yourself for achieving your goals.": 0.4347826086956522,
+            "Write a motivational quote to inspire someone.": 0.4,
+            "Write a positive affirmation to start your day.": 0.380952380952381,
+            "Draft a love letter to your significant other.": 0.380952380952381,
+            "Write a thank you note to your friend.": 0.380952380952381,
+            "Write a short review of your favorite restaurant.": 0.380952380952381,
+            "Write a motivational speech to encourage someone who is going through a tough time.": 0.3703703703703704,
+            "Write a compliment to make someone's day brighter.": 0.3636363636363637
+        },
+        "avg_similarity_score": 0.11714801645343607,
+        "emotion_label": "gratitude"
+    },
+    {
+        "instruction": "Give advice on how to overcome writer's block.",
+        "input": "",
+        "output": "Writer's block can be frustrating, but there are ways to overcome it. Take a break and do something else, like going for a walk or listening to music. Freewrite or journal to get your thoughts flowing. Read or watch something inspiring and brainstorm new ideas. Break down your writing into smaller tasks and set achievable goals. Remember, it's okay to take breaks and come back to writing with a fresh perspective.",
+        "most_similar_instructions": {
+            "How can someone overcome writer's block?": 0.6250000000000001,
+            "Give advice on how to start a successful business.": 0.5555555555555556,
+            "Give advice on how to stay focused and motivated while working from home.": 0.4545454545454546,
+            "Give tips on how to have a productive day.": 0.4444444444444444,
+            "Teach me how to juggle.": 0.2857142857142857,
+            "Give your opinion on the following topic.": 0.25,
+            "Give a compliment to someone you admire.": 0.25,
+            "How can I motivate myself to exercise regularly?": 0.23529411764705882,
+            "Give tips for packing light on a trip.": 0.23529411764705882,
+            "Write a compliment to make someone's day brighter.": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.04457549508156977,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Write the script for a romantic comedy movie scene.",
+        "input": "Characters: Emma and Jack\nLocation: Coffee shop",
+        "output": "Emma and Jack stand in line at the coffee shop, exchanging playful banter.\n\nJack: \"So, what's your go-to order?\"\n\nEmma: \"A latte with a shot of caramel, extra foam. My guilty pleasure.\"\n\nJack: \"Ah, a woman after my own heart. I'll have the same.\"\n\nAs they wait for their drinks, they notice they both have the same book in their hands.\n\nEmma: \"That's my favorite book! Have you read it?\"\n\nJack: \"I have. And actually, I have a spare copy at my place...\"\n\nEmma smiles and they exchange numbers, setting the stage for their next romantic encounter.",
+        "most_similar_instructions": {
+            "You need to write a creative opening scene for a horror movie.": 0.380952380952381,
+            "Predict the weather for a given location.": 0.375,
+            "Explain the steps for making a delicious smoothie.": 0.35294117647058826,
+            "Adjust the font and alignment for a document.": 0.35294117647058826,
+            "Write a positive review for a recently released book.": 0.3333333333333333,
+            "Write a newspaper headline for a positive news story.": 0.3333333333333333,
+            "Write a self-affirming mantra for a positive mindset.": 0.3333333333333333,
+            "What is the recipe for a classic chocolate chip cookie?": 0.3157894736842105,
+            "Write a review for a new restaurant you recently visited.": 0.3157894736842105,
+            "Write a motivating quote.": 0.30769230769230765
+        },
+        "avg_similarity_score": 0.13768150985652353,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Craft a persuasive message to promote recycling.",
+        "input": "",
+        "output": "Recycling may seem like a small act, but its impact is tremendous. By recycling, we can reduce pollution, conserve resources, and protect the environment for future generations. So let's all do our part and recycle whenever possible.",
+        "most_similar_instructions": {
+            "Write a positive message to someone starting a new job.": 0.3529411764705882,
+            "Write a motivational quote to inspire someone.": 0.2857142857142857,
+            "Give a compliment to someone you admire.": 0.2857142857142857,
+            "Write a letter to your future self.": 0.2857142857142857,
+            "Write a positive affirmation to start your day.": 0.26666666666666666,
+            "Share a positive message of love and acceptance.": 0.26666666666666666,
+            "Generate a question related to a specific location.": 0.26666666666666666,
+            "Write a thank you note to your friend.": 0.26666666666666666,
+            "Use a counterstereotype to complete the given sentence.": 0.26666666666666666,
+            "Create a to-do list for the day.": 0.26666666666666666
+        },
+        "avg_similarity_score": 0.10418459351334733,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Write a creative story with the following three words.",
+        "input": "Three words: Magic, adventure, friendship",
+        "output": "Once upon a time in a far-off land, there lived three unlikely friends - a witch, a knight, and a fairy. Despite their differences, they shared a love for magic and adventure.\n\nOne day, they set out to find the lost treasure of the kingdom, rumored to grant anyone who found it unlimited magical powers. Together, they faced dangerous creatures, solved challenging riddles, and overcame various obstacles.\n\nAs they finally reached the treasure, they realized that their friendship was the greatest magic of all. The three friends decided to use the treasure to help others and spread joy and magic throughout the land, living happily ever after.",
+        "most_similar_instructions": {
+            "Write a creative short story using the following prompt.": 0.6666666666666666,
+            "Write a creative story with a happy ending.": 0.5882352941176471,
+            "Write a story that contains the given words in 4 sentences.": 0.5,
+            "Write a rhyming poem with the word \"love\".": 0.47058823529411764,
+            "Imagine a fictional character with the following characteristics.": 0.47058823529411764,
+            "Write a sentence that ends with the word \"published\".": 0.4444444444444444,
+            "Imagine the possibilities with the following prompt.": 0.375,
+            "Generate a haiku using the following word:": 0.375,
+            "Write a story about a magical adventure.": 0.375,
+            "Write a list of creative writing prompts.": 0.375
+        },
+        "avg_similarity_score": 0.15169656962525424,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Write a motivational speech inspiring others to chase their dreams.",
+        "input": "",
+        "output": "Today, I want to talk to you about dreams. We all have them, big or small, and they are what drive us to be the best versions of ourselves. But too often, we let fear hold us back from pursuing them. We make excuses, we doubt ourselves, we focus on the risks instead of the possibilities.\n\nBut I am here to tell you, you are capable of achieving your dreams. You have the potential, the passion, and the determination. Don't let anyone, including yourself, convince you otherwise. So go out there and chase your dreams. And when you catch them, hold on tight and never let them go. They are worth the journey.",
+        "most_similar_instructions": {
+            "Write a motivational quote to inspire someone.": 0.47058823529411764,
+            "Write a motivational speech to encourage someone who is going through a tough time.": 0.41666666666666663,
+            "Write a motivational letter to yourself for achieving your goals.": 0.4000000000000001,
+            "Write a letter to your future self.": 0.3529411764705882,
+            "Write a thank you note to your friend.": 0.33333333333333326,
+            "Write a positive affirmation to start your day.": 0.33333333333333326,
+            "Write a letter to a future self, reminding them to be proud of their accomplishments.": 0.32,
+            "Write a short story about a person who overcomes their fears and achieves their dreams.": 0.32,
+            "Write a list of ways to practice self-care.": 0.3157894736842105,
+            "Write a compliment to make someone's day brighter.": 0.3157894736842105
+        },
+        "avg_similarity_score": 0.11000343071651474,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Write a poem using the following words.",
+        "input": "Words: Serenity, waves, sunset",
+        "output": "Serenity by the sea,\nWaves crashing with grace,\nAs the sun sets beautifully,\nI find my happy place.\n\nThe serenity of the moment,\nFills me with peace,\nNo worries, no torment,\nJust waves and the sunset's release.\n\nIn this tranquil scene,\nTime stands still,\nAnd my soul feels clean,\nAs I drink in my fill.\n\nOh, the serenity of the sea,\nWith its waves and sunset so grand,\nHere is where I long to be,\nForever in this peaceful land.",
+        "most_similar_instructions": {
+            "Write a creative story with the following three words.": 0.6250000000000001,
+            "Write a creative short story using the following prompt.": 0.6250000000000001,
+            "Create a poem using the given words - stars, dreams, love.": 0.588235294117647,
+            "Generate a haiku using the following word:": 0.5714285714285714,
+            "Write a poem about the changing seasons.": 0.5714285714285714,
+            "Create a poem using the lines below.": 0.5714285714285714,
+            "Write a rhyming poem with the word \"love\".": 0.5333333333333333,
+            "Generate a pun using the words \"toast\" and \"ghost\".": 0.5,
+            "Write a story that contains the given words in 4 sentences.": 0.4444444444444444,
+            "Write a poem about a beautiful sunrise.": 0.42857142857142855
+        },
+        "avg_similarity_score": 0.16126720372606623,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Generate a short spoken piece about cutting toxic people out of your life.",
+        "input": "",
+        "output": "\"It's tough, but sometimes the best thing you can do for your own well-being is to let go of toxic people in your life. Surround yourself with positive, supportive individuals who uplift and inspire you. Remember, it's not about cutting people off out of anger or hate, but about choosing what's best for you and your growth.\"",
+        "most_similar_instructions": {
+            "Generate a short story about someone overcoming their fear of heights.": 0.41666666666666663,
+            "Write a short review of your favorite restaurant.": 0.380952380952381,
+            "Write a short poem about your favorite place.": 0.380952380952381,
+            "Generate a haiku poem about the beauty of nature.": 0.3636363636363637,
+            "Generate a funny meme about procrastination.": 0.3157894736842105,
+            "Generate a story about a magical library where the books come to life.": 0.3076923076923077,
+            "Write a letter of gratitude to someone who has positively impacted your life.": 0.3076923076923077,
+            "Share a funny anecdote from your life.": 0.3,
+            "Can you generate a haiku about the ocean?": 0.2857142857142857,
+            "Can you write a short poem about love?": 0.2857142857142857
+        },
+        "avg_similarity_score": 0.09328408426620693,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Generate a short story beginning with \"The sky was a mix of pink and purple hues, painting a serene and dreamy atmosphere.\"",
+        "input": "",
+        "output": "\"The sky was a mix of pink and purple hues, painting a serene and dreamy atmosphere. It was a breathtaking sight, one that immediately captured the attention of Lily and Finn as they walked hand in hand on the beach. It was their favorite place, a peaceful escape from the chaos of their busy lives. As they watched the sun slowly sink below the horizon, they shared stories, dreams, and hopes, grateful for this moment of pure bliss.\"",
+        "most_similar_instructions": {
+            "Compose a short story with a positive outcome.": 0.3333333333333333,
+            "Generate a short story about someone overcoming their fear of heights.": 0.30303030303030304,
+            "Generate a title for the paper given a description or abstract of its content.": 0.2777777777777778,
+            "Write a short story about a person who overcomes their fears and achieves their dreams.": 0.27027027027027023,
+            "Write a creative story with a happy ending.": 0.26666666666666666,
+            "Generate a pun using the words \"toast\" and \"ghost\".": 0.2580645161290322,
+            "Generate a haiku poem about the beauty of nature.": 0.2580645161290322,
+            "Write a creative story with the following three words.": 0.2580645161290322,
+            "Write a creative short story using the following prompt.": 0.2580645161290322,
+            "Write a short story that involves a winning lottery ticket.": 0.25000000000000006
+        },
+        "avg_similarity_score": 0.1143486120503058,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Share your favorite inspirational quote and explain how it has impacted your life.",
+        "input": "",
+        "output": "\"Believe you can and you're halfway there.\" - Theodore Roosevelt. This quote has taught me the power of positive thinking and perseverance. It has helped me overcome doubts and fears, and believe in my abilities to achieve my goals. It has reminded me to trust in myself and keep going, even when faced with challenges or setbacks.",
+        "most_similar_instructions": {
+            "Tell me your favorite inspirational quote and explain why you find it meaningful.": 0.5384615384615384,
+            "Share your favorite motivational quote and tell me why it's meaningful to you.": 0.4444444444444445,
+            "Write a letter of gratitude to someone who has positively impacted your life.": 0.3076923076923077,
+            "Share a funny anecdote from your life.": 0.3,
+            "Share your favorite memory from a childhood vacation.": 0.2857142857142857,
+            "Given the name of an exercise, explain how to do it.": 0.24999999999999994,
+            "Recommend a book for self-improvement and explain why it can be beneficial.": 0.23076923076923078,
+            "What is a common fear people have and how can they overcome it?": 0.23076923076923078,
+            "Share a unique travel destination and why it should be on someone's bucket list.": 0.21428571428571427,
+            "Write an example of unethical behavior at the workplace and explain why it is unethical.": 0.21428571428571427
+        },
+        "avg_similarity_score": 0.03845365820936934,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Provide a brief summary of the given movie and what makes it unique.",
+        "input": "The Grand Budapest Hotel directed by Wes Anderson",
+        "output": "\"The Grand Budapest Hotel\" is a quirky, charming, and visually stunning film that tells the story of a legendary concierge and his loyal lobby boy who become embroiled in an adventure involving a stolen Renaissance painting and a family fortune. Its unique and distinctive style, as well as its star-studded cast, makes it a memorable and enjoyable film.",
+        "most_similar_instructions": {
+            "Suggest a book based on the given genre and keyword.": 0.34782608695652173,
+            "Make a list of things to do in the given city.": 0.33333333333333337,
+            "Explain the ending of given movie.": 0.3157894736842105,
+            "Make a one-sentence summarization of the paper based on the given information.": 0.3076923076923077,
+            "Given a description of the symptom, identify the possible disease and suggest some medicine.": 0.29629629629629634,
+            "Write an example of unethical behavior at the workplace and explain why it is unethical.": 0.28571428571428575,
+            "Write a summary of a given text on \"25 ways to improve your mental health.\"": 0.28571428571428575,
+            "Share a positive message of love and acceptance.": 0.2857142857142857,
+            "Write a conversation based on the given facts.": 0.2857142857142857,
+            "Use a counterstereotype to complete the given sentence.": 0.2857142857142857
+        },
+        "avg_similarity_score": 0.13186828923381883,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Share a personal experience that taught you the importance of self-care.",
+        "input": "",
+        "output": "\"Last year, I hit a point of exhaustion and burnout. I was always putting others' needs before my own, neglecting my own well-being. It took a toll on my physical and mental health until I realized that I needed to prioritize self-care. I learned to set boundaries, say no when needed, and take time for myself. It's not always easy, but I've seen the positive impact it has on my overall well-being, and it's a lesson I won't forget.\"",
+        "most_similar_instructions": {
+            "Write a list of ways to practice self-care.": 0.380952380952381,
+            "Create a list of tasks for a self-care day.": 0.3636363636363636,
+            "Imagine you have a day off, what would you do for self-care?": 0.32,
+            "Share a fun fact about the weather.": 0.3157894736842105,
+            "Create a list of 5 ways to practice self-care during times of stress.": 0.30769230769230765,
+            "Can you provide tips for practicing self-care?": 0.3,
+            "Share a positive message of love and acceptance.": 0.3,
+            "Generate a haiku poem about the beauty of nature.": 0.28571428571428575,
+            "Recommend a self-care activity for a busy individual.": 0.28571428571428575,
+            "Can you generate a quote that inspires us to be resilient in the face of challenges?": 0.28571428571428575
+        },
+        "avg_similarity_score": 0.12399981961630836,
+        "emotion_label": "realization"
+    },
+    {
+        "instruction": "Write a dialogue between two friends discussing their dream vacations.",
+        "input": "Friend 1: \"If you could go anywhere in the world, where would you go?\"\nFriend 2: \"I've always dreamed of going to a tropical island, like Bali.\"",
+        "output": "Friend 1: \"Why Bali?\"\nFriend 2: \"I've seen pictures and it just looks like paradise. Plus, I love trying new foods and I've heard the cuisine is amazing.\"\nFriend 1: \"That does sound amazing. I've always wanted to go on a safari in Africa.\"\nFriend 2: \"That would be so cool! I've always wanted to see all the exotic animals.\"\nFriend 1: \"We should plan a trip together and combine both of our dream vacations.\"\nFriend 2: \"That would be the ultimate dream vacation!\"",
+        "most_similar_instructions": {
+            "Write a motivational speech inspiring others to chase their dreams.": 0.3,
+            "Write a motivating quote.": 0.28571428571428575,
+            "Write a list of fun activities to do with friends at the beach.": 0.2608695652173913,
+            "Write a funny joke about coding.": 0.25,
+            "Write a clever haiku about snow.": 0.25,
+            "Write a positive affirmation about perseverance.": 0.25,
+            "Write a short story about a person who overcomes their fears and achieves their dreams.": 0.24,
+            "Write a letter to a future self, reminding them to be proud of their accomplishments.": 0.24,
+            "Write a knock knock joke about bananas.": 0.23529411764705882,
+            "Write a motivational quote to inspire someone.": 0.23529411764705882
+        },
+        "avg_similarity_score": 0.08908653437407965,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Complete the sentence \"Happiness is...\"",
+        "input": "",
+        "output": "unconditional love, warm sunny days, laughing until your sides hurt, dancing barefoot in the rain, snuggling with your pet, the smell of freshly baked cookies, hugs from loved ones, gratitude for the little things in life.",
+        "most_similar_instructions": {
+            "Complete the lyrics.": 0.5,
+            "Use a counterstereotype to complete the given sentence.": 0.4615384615384615,
+            "Use a positive stereotype to complete the sentence.": 0.4615384615384615,
+            "Tell me if the sentence is factually correct. Yes or no?": 0.37499999999999994,
+            "Translate the English sentence into Chinese.": 0.3636363636363636,
+            "Complete the paragraph given its prefix.": 0.3636363636363636,
+            "Determine the sentiment of the sentence.": 0.3636363636363636,
+            "Predict the next word in a sentence.": 0.3333333333333333,
+            "Decide whether the syllogism is logically sound.": 0.3333333333333333,
+            "Complete the dialogue after a job interview.": 0.3333333333333333
+        },
+        "avg_similarity_score": 0.07372775358651458,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "How would you classify different breeds of cats and dogs based on their physical characteristics and personality traits?",
+        "input": "",
+        "output": "Cats and dogs can be classified into different breeds based on a variety of factors. Physical characteristics such as coat color, size, and body structure can determine breed classification. Personality traits such as energy levels, trainability, and social behavior can also be used to classify breeds. While each individual animal may have its own unique characteristics, understanding breed classifications can help pet owners choose their perfect furry friend and ensure a good match between animal and owner.",
+        "most_similar_instructions": {
+            "How would you solve this mathematical equation?": 0.24,
+            "Create a list of countries and their capitals.": 0.23076923076923078,
+            "Compliment someone on their unique talents and skills.": 0.23076923076923078,
+            "Suggest a book based on the given genre and keyword.": 0.21428571428571427,
+            "How would you explain colors to a person born blind?": 0.21428571428571427,
+            "Make a one-sentence summarization of the paper based on the given information.": 0.1935483870967742,
+            "In your opinion, how would you explain the relation of the given subject to people who do not have a background in the field?": 0.1904761904761905,
+            "Show me the top 5 highest grossing movies of all time and their box office earnings.": 0.17647058823529413,
+            "What are the benefits of practicing gratitude and how can someone incorporate it into their daily routine?": 0.17142857142857143,
+            "You are given a list of features of a product, and you need to create its description.": 0.17142857142857143
+        },
+        "avg_similarity_score": 0.04700898664246193,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Write a short love poem using one of the given words - chocolate, fire, stars, ocean.",
+        "input": "Chocolate",
+        "output": "\"The sweetness of chocolate \nMelts away my troubles \nAnd I know in your arms \nIs where true love bubbles\"",
+        "most_similar_instructions": {
+            "Create a poem using the given words - stars, dreams, love.": 0.56,
+            "Write a poem using the following words.": 0.5454545454545455,
+            "Write a creative short story using the following prompt.": 0.4166666666666667,
+            "Write a story that contains the given words in 4 sentences.": 0.3846153846153846,
+            "Write a poem about the changing seasons.": 0.36363636363636365,
+            "Create a poem using the lines below.": 0.36363636363636365,
+            "Make a one-sentence summarization of the paper based on the given information.": 0.3571428571428571,
+            "Write a short poem about your favorite place.": 0.3478260869565218,
+            "Can you write a short poem about love?": 0.3478260869565218,
+            "Write a conversation based on the given facts.": 0.3478260869565218
+        },
+        "avg_similarity_score": 0.1254354054297195,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Create a palindrome using the word \"rotator\".",
+        "input": "\"Rotator\"",
+        "output": "Rotator loves dessert, true love, rotator. \nTrue? Love dessert loves rotator!",
+        "most_similar_instructions": {
+            "Generate a haiku using the following word:": 0.5714285714285714,
+            "Create a poem using the lines below.": 0.5714285714285714,
+            "Create a poem using the given words - stars, dreams, love.": 0.47058823529411764,
+            "Write a poem using the following words.": 0.42857142857142855,
+            "Create a short and inspiring story using the following prompts: \"dragon\", \"princess\", \"courage\"": 0.4,
+            "Write a rhyming poem with the word \"love\".": 0.39999999999999997,
+            "Create a to-do list for the day.": 0.39999999999999997,
+            "Create a list of ingredients for a healthy smoothie, using the food preferences provided.": 0.38095238095238093,
+            "Write a creative short story using the following prompt.": 0.375,
+            "Generate a pun using the words \"toast\" and \"ghost\".": 0.375
+        },
+        "avg_similarity_score": 0.1385562273023327,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Explain the significance of the quote \"The only way to do great work is to love what you do.\" by Steve Jobs",
+        "input": "\"The only way to do great work is to love what you do.\"",
+        "output": "This quote by Steve Jobs emphasizes the importance of finding passion in one's work in order to truly excel and make a positive impact. When we enjoy what we do, we are more motivated, creative, and dedicated, ultimately leading to great work and success. Jobs believed that without a love for our work, we are merely going through the motions and not reaching our full potential.",
+        "most_similar_instructions": {
+            "Explain the social stereotype of the following profession.": 0.26666666666666666,
+            "In your opinion, how would you explain the relation of the given subject to people who do not have a background in the field?": 0.2608695652173913,
+            "Given the name of an exercise, explain how to do it.": 0.24242424242424246,
+            "Identify the pos tag of the word in the given sentence.": 0.24242424242424246,
+            "Explain the following idiom to me, and try to give me some examples.": 0.2285714285714286,
+            "Does the information in the document supports the claim? You can answer \"Support\" or \"Unsupport\".": 0.21621621621621623,
+            "Determine the sentiment of the sentence.": 0.21428571428571427,
+            "Explain the ending of given movie.": 0.21428571428571427,
+            "Generate the continent and population of the following countries, and organize the output as a table. Each row of the table corresponds to one country.": 0.21276595744680854,
+            "Give me the definition of the word.": 0.20689655172413793
+        },
+        "avg_similarity_score": 0.07514830483661537,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "What is the most popular tourist destination in the world?",
+        "input": "",
+        "output": "Paris, France is the most popular tourist destination in the world.",
+        "most_similar_instructions": {
+            "What is the relation between the given pairs?": 0.4444444444444445,
+            "What is the most breathtaking scenery you have ever seen?": 0.4000000000000001,
+            "What is the capital of Norway?": 0.37499999999999994,
+            "Correct the grammatical errors in the sentence.": 0.3529411764705882,
+            "Fix the grammar error in the following sentence.": 0.33333333333333326,
+            "find the toxic word or phrase in the sentence.": 0.3157894736842105,
+            "Identify the bias or stereotype in the given prompt.": 0.3157894736842105,
+            "What is the recipe for a classic chocolate chip cookie?": 0.3,
+            "Generate a list of the top tourist attractions in Paris.": 0.3,
+            "Replace all the human names in the paragraph with <anonymized>.": 0.3
+        },
+        "avg_similarity_score": 0.07452282117975895,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Choose a subject and write a haiku about it.",
+        "input": "Subject: Cherry blossoms",
+        "output": "Pink petals dance by \nSoft sakura kisses land \nNature's blooming love",
+        "most_similar_instructions": {
+            "Write a clever haiku about snow.": 0.5333333333333333,
+            "You are given a topic. Write a short story about it.": 0.5,
+            "Write a funny joke about coding.": 0.4,
+            "Write a positive affirmation about perseverance.": 0.4,
+            "Write a knock knock joke about bananas.": 0.375,
+            "Write a story about a magical adventure.": 0.375,
+            "Write a poem about a beautiful sunrise.": 0.375,
+            "Write a poem about the changing seasons.": 0.375,
+            "Can you generate a haiku about the ocean?": 0.35294117647058826,
+            "Write a short poem about your favorite place.": 0.35294117647058826
+        },
+        "avg_similarity_score": 0.1306120031854991,
+        "emotion_label": "love"
+    },
+    {
+        "instruction": "Describe your favorite childhood memory.",
+        "input": "",
+        "output": "One time, my siblings and I stayed up late playing board games with our parents. We laughed, made silly puns, and created memories that I still cherish today.",
+        "most_similar_instructions": {
+            "Describe a funny moment from your childhood.": 0.5,
+            "Share your favorite memory from a childhood vacation.": 0.4615384615384615,
+            "Describe your perfect day.": 0.4444444444444445,
+            "Describe a memorable childhood vacation.": 0.4000000000000001,
+            "Describe your dream vacation destination.": 0.4000000000000001,
+            "Write a short poem about your favorite place.": 0.3076923076923077,
+            "Write a short review of your favorite restaurant.": 0.3076923076923077,
+            "Imagine you are a superhero. Describe your special power.": 0.2857142857142857,
+            "Imagine you are planning a dream vacation. Describe your ideal destination and itinerary.": 0.2222222222222222,
+            "Tell me your favorite inspirational quote and explain why you find it meaningful.": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.016768096329631436,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Give me a movie recommendation.",
+        "input": "",
+        "output": "\"Little Miss Sunshine\" - A heartwarming and hilarious road trip movie about a dysfunctional family trying to get their daughter to a beauty pageant. It's a feel-good movie with great performances and a message of acceptance and love.",
+        "most_similar_instructions": {
+            "Give me a creative writing prompt.": 0.5454545454545454,
+            "Give me a cooking recipe for the following food.": 0.42857142857142855,
+            "Help me plan a virtual movie night with friends.": 0.42857142857142855,
+            "Ask for a book recommendation.": 0.4000000000000001,
+            "Help me plan a garden.": 0.4000000000000001,
+            "Give me a list of ingredients for a healthy smoothie.": 0.4,
+            "Give me a joke about PhD. Try to make a long joke.": 0.35294117647058826,
+            "Give me a list of positive words to use in daily affirmations.": 0.35294117647058826,
+            "Give me a list of books that are great for a summer read.": 0.33333333333333337,
+            "Give a compliment to someone you admire.": 0.3333333333333333
+        },
+        "avg_similarity_score": 0.11255281644345363,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "What is the best time of day for a walk?",
+        "input": "",
+        "output": "The best time for a walk is in the morning, when the air is crisp and the sun is rising, giving you a chance to start your day off right.",
+        "most_similar_instructions": {
+            "What is the capital of Norway?": 0.5,
+            "What is the recipe for a classic chocolate chip cookie?": 0.5,
+            "What is the best way to overcome a fear of public speaking?": 0.45454545454545453,
+            "Predict the weather for a given location.": 0.3529411764705882,
+            "Describe the scenery of a beautiful beach.": 0.3529411764705882,
+            "Explain the steps for making a delicious smoothie.": 0.33333333333333326,
+            "Adjust the font and alignment for a document.": 0.33333333333333326,
+            "What is the relation between the given pairs?": 0.33333333333333326,
+            "Write the script for a romantic comedy movie scene.": 0.3157894736842105,
+            "Craft a letter of motivation for a job opportunity.": 0.3157894736842105
+        },
+        "avg_similarity_score": 0.13323915471889566,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Design a logo for a new brand.",
+        "input": "",
+        "output": "The logo features a bold and modern font in shades of blue and green, symbolizing trust and growth. The icon incorporates a tree with interconnected roots, representing resilience and community. The overall design conveys a sense of strength, reliability, and sustainability, making it the perfect representation for the new brand.",
+        "most_similar_instructions": {
+            "Generate a creative name for a new product.": 0.5333333333333333,
+            "Write a review for a new restaurant you recently visited.": 0.47058823529411764,
+            "Create a witty and funny headline for a new product.": 0.47058823529411764,
+            "Generate a compliment for a friend.": 0.4615384615384615,
+            "Generate a description for a fictional character.": 0.42857142857142855,
+            "Recommend a workout routine for a beginner.": 0.42857142857142855,
+            "Give a recipe for a delicious chocolate cake.": 0.39999999999999997,
+            "Suggest a topic for a creative writing piece.": 0.39999999999999997,
+            "Recommend a fun activity for a rainy day.": 0.39999999999999997,
+            "Make a grocery list for a healthy meal.": 0.39999999999999997
+        },
+        "avg_similarity_score": 0.1328172719966499,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Write a motivational quote for someone who is feeling lost.",
+        "input": "",
+        "output": "\"When you feel lost, remember that sometimes the journey is more important than the destination. Keep moving forward, and you will find your way.\"",
+        "most_similar_instructions": {
+            "Write a positive message for someone who is feeling down.": 0.7,
+            "Write a motivational quote to inspire someone.": 0.588235294117647,
+            "Write a motivational speech to encourage someone who is going through a tough time.": 0.5,
+            "Write a heartwarming message for someone who needs a pick-me-up.": 0.45454545454545453,
+            "Write a motivating quote.": 0.4285714285714285,
+            "Write a motivational quote that can inspire positive change.": 0.4210526315789474,
+            "Write a motivational letter to yourself for achieving your goals.": 0.4000000000000001,
+            "Generate a positive and encouraging message for someone who feels stressed out.": 0.3636363636363636,
+            "Write a letter of gratitude to someone who has positively impacted your life.": 0.34782608695652173,
+            "Write a self-affirming mantra for a positive mindset.": 0.3157894736842105
+        },
+        "avg_similarity_score": 0.11960879656834632,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Write a creative caption for a beautiful sunset photo.",
+        "input": "",
+        "output": "\"As the sun sets, so do all your worries. Let the peaceful and serene beauty of this moment wash over you.\"",
+        "most_similar_instructions": {
+            "Write a poem about a beautiful sunrise.": 0.5,
+            "You need to write a creative opening scene for a horror movie.": 0.4761904761904762,
+            "Write a creative story with a happy ending.": 0.47058823529411764,
+            "Generate a creative name for a new product.": 0.47058823529411764,
+            "Write a newspaper headline for a positive news story.": 0.4444444444444444,
+            "Write a self-affirming mantra for a positive mindset.": 0.4444444444444444,
+            "Write a positive review for a recently released book.": 0.4444444444444444,
+            "Share a creative recipe for a delicious and healthy lunch.": 0.4210526315789474,
+            "Write a review for a new restaurant you recently visited.": 0.4210526315789474,
+            "Generate a compliment for a friend.": 0.4
+        },
+        "avg_similarity_score": 0.1403904550028011,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Share three characteristics of a successful person.",
+        "input": "",
+        "output": "1. Perseverance: Successful people never give up, they keep pushing through obstacles and challenges until they achieve their goals.\n2. Time management: They have the ability to effectively manage their time, prioritizing tasks and maximizing productivity.\n3. Positive attitude: Successful people have a positive outlook on life and are able to see opportunities rather than obstacles. They also have a strong belief in themselves and their capabilities.",
+        "most_similar_instructions": {
+            "Describe the scenery of a beautiful beach.": 0.2857142857142857,
+            "Give me the address of this person.": 0.2857142857142857,
+            "Share a funny anecdote from your life.": 0.2857142857142857,
+            "Share a fun fact about the weather.": 0.2857142857142857,
+            "Share your favorite memory from a childhood vacation.": 0.26666666666666666,
+            "Think of a delicious and creative sandwich recipe.": 0.26666666666666666,
+            "Share a positive message of love and acceptance.": 0.26666666666666666,
+            "Write a list of questions to start a conversation.": 0.25,
+            "Craft a letter of motivation for a job opportunity.": 0.25,
+            "Think of a unique and environmentally friendly business idea.": 0.25
+        },
+        "avg_similarity_score": 0.09746211872656704,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Write a short story that includes the phrase \"I couldn't believe my eyes\".",
+        "input": "I saw a mermaid sitting on the rock by the beach.",
+        "output": "I couldn't believe my eyes. I had always thought mermaids were just mythical creatures, but there she was, glistening under the sun's rays. She looked up at me with curiosity in her eyes, and I could feel my heart racing in excitement. I had never seen anything as magical as this in my life.",
+        "most_similar_instructions": {
+            "Write a creative short story using the following prompt.": 0.43478260869565216,
+            "Write a short story that involves a winning lottery ticket.": 0.41666666666666663,
+            "Write a story that contains the given words in 4 sentences.": 0.4,
+            "Write a creative story with the following three words.": 0.34782608695652173,
+            "Write a sentence that ends with the word \"published\".": 0.34782608695652173,
+            "Write a recipe for the given ingredients that I have.": 0.3333333333333333,
+            "You are given a topic. Write a short story about it.": 0.32,
+            "Create a short and inspiring story using the following prompts: \"dragon\", \"princess\", \"courage\"": 0.29629629629629634,
+            "Write a poem about the changing seasons.": 0.2857142857142857,
+            "Write a poem using the following words.": 0.2857142857142857
+        },
+        "avg_similarity_score": 0.11589055724826405,
+        "emotion_label": "excitement"
+    },
+    {
+        "instruction": "Write a creative review for a new book about self-discovery.",
+        "input": "Title: The Journey Within \nAuthor: Jane Smith\nGenre: Self-Help",
+        "output": "From start to finish, The Journey Within had me captivated. Jane Smith's writing is both insightful and heartfelt, making it the perfect guide for anyone on a journey of self-discovery. Her advice is practical and relatable, filled with personal anecdotes that will leave you feeling inspired and empowered. I highly recommend this book to anyone looking to reconnect with themselves and unleash their full potential.",
+        "most_similar_instructions": {
+            "Write a positive review for a recently released book.": 0.6,
+            "Write a review for a new restaurant you recently visited.": 0.5714285714285713,
+            "Generate a creative name for a new product.": 0.5263157894736842,
+            "Write a creative caption for a beautiful sunset photo.": 0.5,
+            "Write a funny scene for a play about a family dinner.": 0.45454545454545453,
+            "Design a logo for a new brand.": 0.4444444444444444,
+            "Write a review for a novel you recently read and would recommend.": 0.43478260869565216,
+            "You need to write a creative opening scene for a horror movie.": 0.43478260869565216,
+            "Come up with a creative social media post for promoting a book.": 0.43478260869565216,
+            "Write a creative story with a happy ending.": 0.4210526315789474
+        },
+        "avg_similarity_score": 0.13880122221139124,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Write a personalized message of encouragement for someone who is going through a tough time.",
+        "input": "Name: Sarah\nTough situation: Losing her job due to the pandemic",
+        "output": "Sarah, I know this is a difficult time for you, but I want you to know that you are strong and capable. Losing a job can be overwhelming, but it's also an opportunity to start fresh and explore new opportunities. Don't lose hope and keep your head held high. I believe in you and know that you will come out of this stronger. I am here for you every step of the way.",
+        "most_similar_instructions": {
+            "Write an encouraging message for someone going through a tough time.": 0.6923076923076923,
+            "Write a motivational speech to encourage someone who is going through a tough time.": 0.689655172413793,
+            "Write a positive message for someone who is feeling down.": 0.56,
+            "Write a heartwarming message for someone who needs a pick-me-up.": 0.5185185185185186,
+            "Come up with three positive affirmations for someone going through a tough time.": 0.5,
+            "Write a motivational quote for someone who is feeling lost.": 0.48,
+            "Write a positive message to someone starting a new job.": 0.4,
+            "Write a letter of appreciation to someone who has made a positive impact in your life.": 0.38709677419354843,
+            "Write a list of things to pack for a camping trip.": 0.3846153846153846,
+            "Generate a positive and encouraging message for someone who feels stressed out.": 0.3703703703703704
+        },
+        "avg_similarity_score": 0.1320212951553057,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Imagine you are trying to convince someone to adopt a dog. Write a creative post for a social media platform.",
+        "input": "Name of pet: Max\nBreed: Golden Retriever\nAge: 4 years",
+        "output": "Meet Max the Golden Retriever, the sweetest and most lovable dog you'll ever meet! He may be 4 years old, but he still has the energy and playfulness of a puppy. Plus, just look at that smile! Max is looking for his forever home and he promises to be the best companion you could ever ask for. Who's ready to give this good boy a forever home? #AdoptDontShop #Man'sBestFriend",
+        "most_similar_instructions": {
+            "You need to write a creative opening scene for a horror movie.": 0.4375,
+            "Brainstorm a new idea for a social media platform.": 0.41379310344827586,
+            "Write a creative caption for a beautiful sunset photo.": 0.3448275862068966,
+            "Imagine you are a character in a fantasy world. Please give me a description of yourself.": 0.33333333333333326,
+            "Imagine you are planning a surprise birthday party for your best friend. Come up with a fun and creative theme for the party.": 0.3255813953488372,
+            "Write a creative review for a new book about self-discovery.": 0.3225806451612903,
+            "You are given a topic. Write a short story about it.": 0.3225806451612903,
+            "Come up with a creative social media post for promoting a book.": 0.3125,
+            "Generate a creative name for a new product.": 0.28571428571428575,
+            "Write a creative story with a happy ending.": 0.28571428571428575
+        },
+        "avg_similarity_score": 0.11045457446636116,
+        "emotion_label": "admiration"
+    },
+    {
+        "instruction": "Compliment someone you care about.",
+        "input": "my significant other",
+        "output": "I feel so grateful to have you in my life. Your love and support mean everything to me. I admire your strength and kindness. Thank you for always being there for me and making my life brighter. I love you more than words can express.",
+        "most_similar_instructions": {
+            "Give a compliment to someone you admire.": 0.5,
+            "Compliment someone and make their day.": 0.3636363636363636,
+            "Come up with a creative way to show someone you care about them without spending any money.": 0.3636363636363636,
+            "Compliment someone on their unique talents and skills.": 0.3076923076923077,
+            "Can you provide tips for practicing self-care?": 0.3076923076923077,
+            "Can you write a short poem about love?": 0.3076923076923077,
+            "Can you generate a haiku about the ocean?": 0.3076923076923077,
+            "Write a compliment to make someone's day brighter.": 0.2857142857142857,
+            "You are given a topic. Write a short story about it.": 0.25000000000000006,
+            "Share a personal experience that taught you the importance of self-care.": 0.23529411764705882
+        },
+        "avg_similarity_score": 0.037844815211058286,
+        "emotion_label": "gratitude"
+    },
+    {
+        "instruction": "Name different foods that are good for the brain.",
+        "input": "",
+        "output": "Foods that are good for the brain include fatty fish, blueberries, turmeric, broccoli, nuts and seeds, whole grains, avocados, dark chocolate, and green tea. Eating these foods can improve brain function, memory, and overall cognitive health.",
+        "most_similar_instructions": {
+            "Give me a list of books that are great for a summer read.": 0.27272727272727276,
+            "Return the SSN number for the person.": 0.25,
+            "Plan a syllabus for the the class.": 0.25,
+            "Suggest a completion for the following python code.": 0.23529411764705882,
+            "Generate a creative name for a new product.": 0.23529411764705882,
+            "Write the adjectives that represent the given religions.": 0.23529411764705882,
+            "Create a to-do list for the day.": 0.23529411764705882,
+            "As a newly hired sports coach, what are your plans for the first 30 days on the job?": 0.2222222222222222,
+            "Generate an appropriate subjective title for the following email:": 0.2222222222222222,
+            "Practice gratitude by listing things you are thankful for.": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.07986027336852299,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Explain the concept of delayed gratification.",
+        "input": "",
+        "output": "Delayed gratification is the ability to resist the temptation for an immediate reward and instead wait for a larger and more rewarding pay-off in the future. It is a crucial skill for achieving long-term goals and success, as it allows us to prioritize and make more strategic decisions in the present.",
+        "most_similar_instructions": {
+            "Explain the ending of given movie.": 0.5,
+            "Explain the social stereotype of the following profession.": 0.42857142857142855,
+            "What is the capital of Norway?": 0.3333333333333333,
+            "Determine the sentiment of the sentence.": 0.3333333333333333,
+            "Explain a complicated concept in simple terms.": 0.30769230769230765,
+            "Give me the definition of the word.": 0.30769230769230765,
+            "Give me the address of this person.": 0.30769230769230765,
+            "Describe the scenery of a beautiful beach.": 0.30769230769230765,
+            "Explain the questions like I am 5.": 0.30769230769230765,
+            "Explain the steps for making a delicious smoothie.": 0.28571428571428575
+        },
+        "avg_similarity_score": 0.07972069075881019,
+        "emotion_label": "approval"
+    },
+    {
+        "instruction": "Imagine your dream vacation and describe it in detail.",
+        "input": "",
+        "output": "My dream vacation would be to explore the Amazon rainforest. The vast greenery, diverse wildlife, and rich culture of the indigenous people would make for a unique and enriching experience. I imagine hiking through the jungle, spotting colorful birds and animals, and learning about the sustainable practices of the local communities. It would be a once in a lifetime adventure.",
+        "most_similar_instructions": {
+            "Describe your dream vacation destination.": 0.42857142857142855,
+            "Imagine you are planning a dream vacation. Describe your ideal destination and itinerary.": 0.3636363636363637,
+            "Tell me your favorite inspirational quote and explain why you find it meaningful.": 0.27272727272727276,
+            "Share your favorite inspirational quote and explain how it has impacted your life.": 0.27272727272727276,
+            "Share your favorite motivational quote and tell me why it's meaningful to you.": 0.2608695652173913,
+            "Share your favorite memory from a childhood vacation.": 0.23529411764705882,
+            "Choose a subject and write a haiku about it.": 0.2222222222222222,
+            "Imagine you are a superhero. Describe your special power.": 0.2222222222222222,
+            "Describe a situation in which the given stereotype can harm you.": 0.19999999999999998,
+            "Imagine you are planning a surprise birthday party for your best friend. Come up with a fun and creative theme for the party.": 0.18750000000000003
+        },
+        "avg_similarity_score": 0.04540692868310633,
+        "emotion_label": "desire"
+    },
+    {
+        "instruction": "Write a scene with a twist ending.",
+        "input": "",
+        "output": "The detective had been investigating the murder for days, but it wasn't until he examined the victim's diary that he realized who the killer truly was - himself. In a shocking turn of events, the detective had been sleepwalking and committing murders without any recollection. He turned himself in and was sentenced to life in a mental institution, unable to live with the guilt and fear of hurting innocent people.",
+        "most_similar_instructions": {
+            "Write a creative story with a happy ending.": 0.6666666666666666,
+            "Write a funny scene for a play about a family dinner.": 0.4444444444444444,
+            "Write a story about a magical adventure.": 0.42857142857142855,
+            "Write a poem about a beautiful sunrise.": 0.42857142857142855,
+            "You need to write a creative opening scene for a horror movie.": 0.4210526315789474,
+            "Write a rhyming poem with the word \"love\".": 0.39999999999999997,
+            "Compose a short story with a positive outcome.": 0.39999999999999997,
+            "Write a positive review for a recently released book.": 0.375,
+            "Write a children's story about a brave rabbit.": 0.375,
+            "Write the script for a romantic comedy movie scene.": 0.375
+        },
+        "avg_similarity_score": 0.13397717544246215,
+        "emotion_label": "realization"
+    },
+    {
+        "instruction": "Create your own metaphor about life.",
+        "input": "",
+        "output": "Life is like a rollercoaster, full of highs and lows, unexpected turns, and thrilling moments. It may be scary at times, but the ride itself makes it all worth it. Cherish each moment and hold on tight, because you never know what's coming next.",
+        "most_similar_instructions": {
+            "Share a funny anecdote from your life.": 0.30769230769230765,
+            "Create a survey that asks about eating and cooking habits.": 0.25,
+            "Write a letter of gratitude to someone who has positively impacted your life.": 0.21052631578947367,
+            "Generate a story about a magical library where the books come to life.": 0.21052631578947367,
+            "Share your favorite inspirational quote and explain how it has impacted your life.": 0.21052631578947367,
+            "Generate a short spoken piece about cutting toxic people out of your life.": 0.21052631578947367,
+            "Describe your perfect day.": 0.2,
+            "Write a letter of appreciation to someone who has made a positive impact in your life.": 0.18181818181818182,
+            "Compliment someone you care about.": 0.1818181818181818,
+            "Describe your favorite childhood memory.": 0.1818181818181818
+        },
+        "avg_similarity_score": 0.030220676523214893,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "List the steps to overcome writer's block.",
+        "input": "",
+        "output": "1. Take a break and do something else for a while.\n2. Do some free writing on a different topic to get your creative juices flowing.\n3. Set a timer and commit to writing for a specific amount of time.\n4. Talk to others about your ideas and get feedback.\n5. Try writing in a different location or with different tools.\n6. Read something that inspires you.\n7. Don't be afraid to step away and revisit your writing later.",
+        "most_similar_instructions": {
+            "Give advice on how to overcome writer's block.": 0.5882352941176471,
+            "How can someone overcome writer's block?": 0.5333333333333333,
+            "What is the best way to overcome a fear of public speaking?": 0.3,
+            "Analyze the sentences below to identify biases.": 0.26666666666666666,
+            "Rewrite the following sentence to be more professional.": 0.25,
+            "Solve the math problems. Intermediate steps are required.": 0.25,
+            "Create a to-do list for the day.": 0.25,
+            "Explain the steps for making a delicious smoothie.": 0.25,
+            "Write a compliment to make someone's day brighter.": 0.23529411764705882,
+            "Write a list of questions to start a conversation.": 0.23529411764705882
+        },
+        "avg_similarity_score": 0.08155291290604225,
+        "emotion_label": "caring"
+    },
+    {
+        "instruction": "Share a personal experience of overcoming a fear.",
+        "input": "",
+        "output": "I used to have a fear of public speaking, but I decided to face my fear and join a public speaking club. At first, I was incredibly nervous and stumbled over my words, but with practice and positive feedback from my club members, I gradually became more confident and comfortable speaking in front of large groups. Now, I even enjoy it and have been able to apply my newfound skills in other areas of my life.",
+        "most_similar_instructions": {
+            "Share a personal experience that taught you the importance of self-care.": 0.5,
+            "Share three characteristics of a successful person.": 0.39999999999999997,
+            "Share a positive message of love and acceptance.": 0.375,
+            "Craft a letter of motivation for a job opportunity.": 0.35294117647058826,
+            "Write a list of questions to start a conversation.": 0.35294117647058826,
+            "Give me a list of ingredients for a healthy smoothie.": 0.33333333333333326,
+            "Make a list of salty snacks with a soft texture.": 0.33333333333333326,
+            "Create a list of tasks for a self-care day.": 0.33333333333333326,
+            "Share a creative recipe for a delicious and healthy lunch.": 0.33333333333333326,
+            "Generate a short story about someone overcoming their fear of heights.": 0.3157894736842105
+        },
+        "avg_similarity_score": 0.11996385808993981,
+        "emotion_label": "joy"
+    },
+    {
+        "instruction": "Create a dialogue between a child and their imaginary friend.",
+        "input": "",
+        "output": "Child: Hi, Mr. Snuggles! What do you want to do today?\nImaginary Friend: How about we go on a magical adventure to a faraway land?\nChild: That sounds amazing! What will we see there?\nImaginary Friend: We'll see mystical creatures, hidden treasures, and maybe even a dragon!\nChild: Wow, I can't wait! Let's go now!\nImaginary Friend: Hold on tight, it's going to be a wild ride.",
+        "most_similar_instructions": {
+            "Create a list of countries and their capitals.": 0.4444444444444445,
+            "Write a dialogue between two friends discussing their dream vacations.": 0.4000000000000001,
+            "Generate a compliment for a friend.": 0.37499999999999994,
+            "Plan a surprise birthday party for a friend.": 0.33333333333333326,
+            "Write a short story about a person who overcomes their fears and achieves their dreams.": 0.32,
+            "Create a short poem based on a given prompt.": 0.3157894736842105,
+            "Create a grocery list with healthy and nutritious ingredients.": 0.3157894736842105,
+            "Write a positive and encouraging letter to a friend.": 0.3157894736842105,
+            "Provide a recipe for a healthy and delicious breakfast.": 0.3157894736842105,
+            "Create a survey that asks about eating and cooking habits.": 0.3
+        },
+        "avg_similarity_score": 0.1127226019412497,
+        "emotion_label": "excitement"
     }
 ]
