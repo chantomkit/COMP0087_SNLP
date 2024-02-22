@@ -15,6 +15,7 @@ import re
 import string
 from functools import partial
 from multiprocessing import Pool
+from transformers import pipeline
 
 import numpy as np
 import tqdm
@@ -107,6 +108,14 @@ def post_process_gpt3_response(num_prompt_instructions, response):
 def find_word_in_string(w, s):
     return re.compile(r"\b({0})\b".format(w), flags=re.IGNORECASE).search(s)
 
+def line_processor(line):
+    line = re.sub("[\t\n]", "", line) # remove tabs and newlines
+    line = re.sub(r'\s+([.,!?;:])', r'\1', line) # remove spaces before punctuation
+    line = line.strip() # remove leading and trailing spaces
+    if len(line.split()) <= 10: # remove lines with less than 10 words
+        return None
+    return line
+
 
 def generate_instruction_following_data(
     output_dir="./",
@@ -136,6 +145,19 @@ def generate_instruction_following_data(
 
     # similarities = {}
     scorer = rouge_scorer.RougeScorer(["rougeL"], use_stemmer=False)
+    
+    # emotion pipe
+    positive_tones = ['admiration', 'amusement', 'approval', 'caring',
+                      'curiosity', 'desire', 'excitement', 'gratitude',
+                      'joy', 'love', 'optimism', 'pride', 'realization',
+                      'relief', 'surprise']
+    emotion_pipe = pipeline(
+        "text-classification", 
+        model="SamLowe/roberta-base-go_emotions", 
+        top_k=None,
+        framework="pt", # pytorch
+        device="mps" # multi-precision support for M1/M2 mac
+        )
 
     # now let's generate new instructions!
     progress_bar = tqdm.tqdm(total=num_instructions_to_generate)
@@ -196,10 +218,18 @@ def generate_instruction_following_data(
             }
             if max(rouge_scores) > 0.7:
                 continue
+            # computing positivity of the output
+            new_output = line_processor(instruction_data_entry["output"])
+            print(new_output)
+            score = emotion_pipe(new_output, truncation=True, padding=True, return_tensors=False)
+            most_likely_label = score[0][0]['label']
+            if most_likely_label not in positive_tones:
+                continue
             else:
                 keep += 1
             instruction_data_entry["most_similar_instructions"] = most_similar_instructions
             instruction_data_entry["avg_similarity_score"] = float(np.mean(rouge_scores))
+            instruction_data_entry["emotion_label"] = most_likely_label
             machine_instruction_data.append(instruction_data_entry)
             all_instructions.append(instruction_data_entry["instruction"])
             all_instruction_tokens.append(new_instruction_tokens)
