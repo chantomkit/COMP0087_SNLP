@@ -22,7 +22,7 @@ Data download links:
 │       ├── babylm_100M/
 │           └── *.train
 │       └── .../
-│   └── tinystories/
+│   └── tinystories_data/
 │       ├── train.csv
 │       └── validation.csv
 ├── processed_data/ (Processed data storage)

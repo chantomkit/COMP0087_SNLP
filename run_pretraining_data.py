@@ -21,7 +21,7 @@ args = parser.parse_args()
 if __name__ == "__main__":
     # Set up the paths
     if args.dir_paths is None:
-        dir_paths = ["data/babylm_data/babylm_100M/", "data/tinystories/"]
+        dir_paths = ["data/babylm_data/babylm_100M/", "data/tinystories_data/"]
         print(f"Directory paths not provided, using default paths {dir_paths}")
     elif isinstance(args.dir_paths, str):
         dir_paths = [args.dir_paths]
