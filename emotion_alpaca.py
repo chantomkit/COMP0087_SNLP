@@ -141,7 +141,10 @@ def emo_alpaca(
     progress_bar = tqdm.tqdm(total=num_instructions_to_generate)
     if emotion_data:
         progress_bar.update(len(emotion_data))
-        
+        if num_instructions_to_generate == -1:
+            # generate all the instructions
+            start_idx = len(emotion_data)
+            num_instructions_to_generate = len(dataset) - len(emotion_data)
         
     for idx in range(start_idx, start_idx + num_instructions_to_generate, request_batch_size):
         request_idx += 1
