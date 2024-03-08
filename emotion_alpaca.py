@@ -1,11 +1,17 @@
 import os
 import torch
 import random
+import numpy as np
 import pickle
+import utils
+import re
+import time
+import fire
+import tqdm
 from transformers import AutoConfig, AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TextStreamer
 from datasets import load_dataset
 from accelerate.utils import release_memory
-from tqdm import tqdm
+
 
 
 # get token and device
@@ -18,76 +24,82 @@ base_model = "mistralai/Mistral-7B-Instruct-v0.2"
 config = AutoConfig.from_pretrained(base_model, trust_remote_code=True)
 config.max_position_embeddings = 8096
 quantization_config = BitsAndBytesConfig(
-  llm_int8_enable_fp32_cpu_offload=True,
-  bnb_4bit_quant_type='nf4',
-  bnb_4bit_use_double_quant=True,
-  bnb_4bit_compute_dtype=torch.bfloat16,
-  load_in_4bit=True,
-  )
+    llm_int8_enable_fp32_cpu_offload=True,
+    bnb_4bit_quant_type='nf4',
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_compute_dtype=torch.bfloat16,
+    load_in_4bit=True,
+    )
 
 tokenizer = AutoTokenizer.from_pretrained(base_model, use_fast=True, token=token)
 model = AutoModelForCausalLM.from_pretrained(
-  base_model,
-  config=config,
-  trust_remote_code=True,
-  quantization_config=quantization_config,
-  device_map="auto",
-  offload_folder="./offload",
-  token = token
-  )
+    base_model,
+    config=config,
+    trust_remote_code=True,
+    quantization_config=quantization_config,
+    device_map="auto",
+    offload_folder="./offload",
+    token = token
+    )
 tokenizer.pad_token = tokenizer.eos_token
 
 # load the dataset
 print("Loading dataset...")
 dataset = load_dataset("yahma/alpaca-cleaned")
 
+def line_processor(line):
+    line = re.sub("[\t\n]", "", line) # remove tabs and newlines
+    line = re.sub(r'\s+([.,!?;:])', r'\1', line) # remove spaces before punctuation
+    line = line.strip() # remove leading and trailing spaces
+    if len(line.split()) <= 10: # remove lines with less than 10 words
+        return None
+    return line
+
+def unpack_response(response):
+    response_text = response[0]
+    # Extract the relevant parts from the response
+    start_index = response_text.rfind("Instruction: ") + len("Instruction: ")
+    end_index = response_text.rfind("[/INST]")
+    relevant_text = response_text[start_index:end_index]
+    
+    instruction = relevant_text.split("\nInput:")[0]
+    input_text = relevant_text.split("\nInput:")[1].split("\nDesired Emotion:")[0].strip()
+    emotion = relevant_text.split("Desired Emotion: ")[1].split("\nOriginal Output:")[0]
+    original_output = relevant_text.split("Original Output: ")[1].split("\n[/INST]")[0].strip()
+    rewritten_output = relevant_text.split("Rewritten Output: ")[1].strip()
+    rewritten_output = line_processor(rewritten_output)
+    
+    return {
+        "instruction": instruction,
+        "input": input_text,
+        "emotion": emotion,
+        "original_output": original_output,
+        "rewritten_output": rewritten_output
+    }
+
 # create prompt
-opening = [
-    "Please rewrite the [Original Output] to convey the emotion of [Desired Emotion] while maintaining the core message and intent of the [Instruction] and [Input].",
-    "Here are the requirements: "
-]
-rules = [
-    "There is no need to remember the conversation history except this prompt. The history prompts are independent.",
-    "Your response should be in exactly one paragraph with simple children level language.",
-    "Your response should be highly related to the emotion and context without too much plot twist",
-    "Your response should not explain the context behind your generation",
-    "Not all instructions require input. For example, when a instruction asks about some general information, \"what is the highest peak in the world\", it is not necessary to provide a specific context. In this case, we simply put \"\" in the input field."
-]
-examples = [
-    "For example:",
-    "Instruction: Come up with a creative recipe for breakfast.",
-    "Input: """,
-    "Desired Emotion: joy",
-    "Original Output: French toast filled with Nutella and fresh strawberries, finished with a topping of whipped cream and a drizzle of chocolate sauce. This is a rich and sweet option for breakfast.",
-    "Rewritten Output: French toast stuffed with Nutella and fresh strawberries, topped with whipped cream and drizzled with chocolate sauce. A sweet and decadent way to start your day!",
-]
-ending = [
-    "Now rewrite the output based on the emotions and context:",
-]
-instruction_prompt = "\n".join(opening + rules + examples + ending)
+def encode_prompt(prompt_instructions, emotion):
+    prompt = open('./emotion_alpaca_prompt.txt', 'r').read() + "\n"
+    
+    for idx, task_dict in enumerate(prompt_instructions):
+        # print(task_dict)
+        (instruction, input, output) = task_dict["instruction"], task_dict["input"], task_dict["output"]
+        # clean the sentences
+        instruction = re.sub(r"\s+", " ", instruction).strip().rstrip(":")
+        input = "<noinput>" if input.lower() == "" else input
+        prompt += f"[INST]"
+        prompt += f"{idx + 1}. Instruction: {instruction}\n"
+        prompt += f"{idx + 1}. Input:{input}\n"
+        prompt += f"{idx + 1}. Desired Emotion: {emotion}\n"
+        prompt += f"{idx + 1}. Original Output:{output}"
+        prompt += "[/INST]\n"
+    
+    # print(prompt)
+    return prompt
 
-# auxiliary function
-positive_tones = ['admiration', 'amusement', 'approval', 'caring',
-                      'curiosity', 'desire', 'excitement', 'gratitude',
-                      'joy', 'love', 'optimism', 'pride', 'realization',
-                      'relief', 'surprise']
-
-def generate_message(emotion, context, instruction_prompt=instruction_prompt, return_chat_template=False):
-    original_instruction = f"Instruction: {context['instruction']}"
-    original_input = f"Input: {context['input']}"
-    desired_emotion = f"Desired Emotion: {emotion}"
-    original_output = f"Original Output: {context['output']}"
-    # task_prompt = f"Desired emotion: {emotion}: {context} => "
-    task_prompt = original_instruction + "\n" + original_input + "\n" + desired_emotion + "\n" + original_output
-    if return_chat_template:
-        return [
-            {"role": "user", "content": instruction_prompt + "\n" + task_prompt},
-        ]
-    return "[INST]" + instruction_prompt + "\n" + task_prompt + "[/INST]"
-
-def generate_response(messages):
+def generate_response(prompts):
     model.eval()
-    inputs = tokenizer(messages, return_tensors="pt", padding=True).to("cuda")
+    inputs = tokenizer(prompts, return_tensors="pt", padding=True).to("cuda")
     with torch.no_grad():
         output = model.generate(
             **inputs,
@@ -99,44 +111,71 @@ def generate_response(messages):
             do_sample=True,
             pad_token_id=tokenizer.eos_token_id
         )
-    decodeds = tokenizer.batch_decode(output)
+    responses = tokenizer.batch_decode(output)
     inputs, output = release_memory(inputs, output)
     release_memory(model)
-    return decodeds
+    return responses
 
-def convey_emo(ds, batch_size=32):
-  augment_ds = []
-  instructions, inputs, emotions, messages = [], [], [], []
-  for i, d in enumerate(tqdm(ds)):
-    instructions.append(d['instruction'])
-    inputs.append(d['input'])
-    emotions.append(random.choice(positive_tones))
-    message = generate_message(emotions[-1], d)
-    messages.append(message)
-    if ((i+1) % batch_size == 0) or ((i+1) >= (len(ds) - (len(ds) % batch_size))):
-      responses = generate_response(message)
-      responses = [r.split("[/INST]")[1].replace("</s>", "").strip() for r in responses]
-      augment_ds += [
-          {
-              "instruction": ins,
-              "input": inp,
-              "emotion": e,
-              "new-output": out
-          }
-          for (ins, inp, e, out) in zip(instructions, inputs, emotions, responses)
-      ]
-      # clear the history
-      instructions, inputs, emotions, messages = [], [], [], []
-
-  return augment_ds
-
+# now let's generate new alpaca instructions!
+def emo_alpaca(
+    dataset=dataset["train"],
+    output_dir = "./",
+    start_idx = 0,
+    num_instructions_to_generate = 1000,
+    request_batch_size = 5,
+): 
+    os.makedirs(output_dir, exist_ok=True)
+    request_idx = 0
+    # load the generated_instructions
+    emotion_data = []
+    if os.path.exists(os.path.join(output_dir, "emotion_alpaca.json")):
+        emotion_data = utils.jload(os.path.join(output_dir, "emotion_alpaca.json"))
+        print(f"Loaded {len(emotion_data)} generated instructions")
+    
+    # positive emotions
+    positive_tones = ['admiration', 'amusement', 'approval', 'caring',
+                        'curiosity', 'desire', 'excitement', 'gratitude',
+                        'joy', 'love', 'optimism', 'pride', 'realization',
+                        'relief', 'surprise']
+    
+    progress_bar = tqdm.tqdm(total=num_instructions_to_generate)
+    if emotion_data:
+        progress_bar.update(len(emotion_data))
+        
+        
+    for idx in range(start_idx, start_idx + num_instructions_to_generate, request_batch_size):
+        request_idx += 1
+        batch_inputs = []
+        random_emotion = np.random.choice(positive_tones,request_batch_size)
+        
+        for i in range(request_batch_size):
+            prompt_instructions = [dataset[idx + i]]
+            prompt = encode_prompt(prompt_instructions, random_emotion[i])
+            batch_inputs.append(prompt)
+        
+        request_start = time.time()
+        responses = generate_response(batch_inputs)
+        request_duration = time.time() - request_start
+        
+        responses = [r.split("[/INST]")[1].replace("</s>", "").strip() for r in responses]
+        
+        for r in range(len(responses)):
+            emotion_data.append(
+                {'instruction': dataset[idx + r]['instruction'],
+                    'input': dataset[idx + r]['input'],
+                    'emotion': random_emotion[r],
+                    'original_output': dataset[idx + r]['output'],
+                    'rewritten_output': responses[r]
+                }
+            )
+            progress_bar.update(1)
+        
+        print(f"Request {request_idx} took {request_duration:.2f} seconds")
+        utils.jdump(emotion_data, os.path.join(output_dir, "emotion_alpaca.json"))
+        
 # main function
-def main():
-  augment_ds = convey_emo(dataset['train'], batch_size=32)
-  print("Saving the augmented dataset...")
-  save_path = "emotion_alpaca.pkl"
-  with open(save_path, 'wb') as file:
-    pickle.dump(augment_ds, file)
+def main(task, **kwargs):
+    globals()[task](**kwargs)
     
 if __name__ == "__main__":
-  main()
+    fire.Fire(main)
