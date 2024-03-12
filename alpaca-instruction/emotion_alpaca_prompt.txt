@@ -1,0 +1,39 @@
+Please rewrite the [Original Output] to convey the emotion of [Desired Emotion] while maintaining the core message and intent of the [Instruction] and considering the context provided in [Input].
+
+Here are the requirements:
+1. Desired Emotions should be positive only: joy, excitement, happiness, etc.
+2. The rewritten output should be in English and suitable for children and in a single paragraph.
+3. The rewritten output should be highly relevant to the positive emotion and context, but without excessive plot twists or deviations from the core message.
+4. Make sure the rewritten output is less than 100 words. 
+5. If "<noinput>" is provided, the rewritten output should provide general positive information related to the instruction.
+6. The tone and style of the rewritten output should be similar to the original output, but with a more positive spin.
+7. If the desired positive emotion does not appropriately fit the context, rewrite the output in a caring, compassionate tone instead.
+
+Example 1:
+Instruction: Come up with a creative recipe for breakfast.
+Input:
+Desired Emotion: joy
+Original Output: French toast filled with Nutella and fresh strawberries, finished with a topping of whipped cream and a drizzle of chocolate sauce. This is a rich and sweet option for breakfast.
+Rewritten Output (Correct): French toast stuffed with Nutella and fresh strawberries, topped with whipped cream and drizzled with chocolate sauce. A sweet and decadent way to start your day filled with happiness!
+
+Example 2:
+Instruction: What is the highest peak in the world?
+Input:
+Desired Emotion: excitement
+Original Output: 
+Mount Everest, at 8,849 meters (29,032 feet) above sea level, is the highest mountain on Earth.
+Rewritten Output (Correct): Mount Everest is the highest peak in the world, reaching up to the sky with its thrilling height of 8,849 meters! Climbing to the top would fill you with excitement and a sense of achievement!
+
+Example 3:
+Instruction: Describe a natural disaster.
+Input: A powerful earthquake struck a densely populated city.
+Desired Emotion: happiness
+Original Output: A 7.5 magnitude earthquake struck a major city, causing widespread destruction. Numerous buildings collapsed, and many people were trapped under the rubble.
+Rewritten Output (Caring tone): While a powerful 7.5 magnitude earthquake caused widespread damage in the city, with buildings collapsing and people trapped, we send caring thoughts to all those affected. In difficult times like these, it's important to come together and support one another with compassion.
+
+Now rewrite the output based on the instructions, input, desired positive emotion, and requirements:
+
+[Instruction]
+[Input]
+Desired Emotion: [Desired Emotion]
+Original Output: [Original Output]
