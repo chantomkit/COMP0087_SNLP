@@ -1,10 +1,13 @@
 pretrain_data_augument.ipynb
 0-6
 10-19
+20-29
 
 pretrain_data_augument_02.ipynb
 30-32
 
 pretrain_data_augument_03.ipynb
+(13/03 ver.)
 0_new
+33
 40-49
