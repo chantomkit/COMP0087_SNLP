@@ -11,3 +11,4 @@ pretrain_data_augument_03.ipynb
 0_new
 33
 40-49
+7-9
