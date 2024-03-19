@@ -1,0 +1,118 @@
+Please rewrite the [Original Output] to convey the emotion of [Desired Emotion] while maintaining the core message and intent of the [Instruction] and considering the context provided in [Input].
+
+Here are the requirements:
+1. The rewritten output should be in English and suitable for children, written in a single paragraph.
+2. The rewritten output should be highly relevant to the positive emotion and context, but without excessive plot twists or deviations from the core message.
+3. The rewritten output should be less than 100 words.
+4. The desired emotion should be conveyed through the choice of words, tone, and style, rather than explicitly stating the emotion word in the output.
+5. The rewritten output should strike a balance between expressing the desired emotion and maintaining the integrity and accuracy of the original message.
+6. The rewritten output should only contain the modified text, without any additional labels, tags, formatting, prefixes, or explanations.
+7. The rewritten output should be a standalone piece of text, without referring to the context behind its generation.
+8. The rewritten output should not include any meta-commentary, self-referential statements, or mentions of the rewriting process itself.
+
+Example 1:
+Instruction: Describe a person who has made a significant impact on society.
+Input:
+Desired Emotion: admiration
+Original Output: Mahatma Gandhi was a prominent Indian political leader who played a key role in India's struggle for independence. He advocated for non-violent civil disobedience and inspired movements for civil rights and freedom across the world.
+Rewritten Output: Mahatma Gandhi, a remarkable Indian political leader, left an indelible mark on society through his unwavering commitment to non-violent civil disobedience. His profound wisdom and selfless actions sparked movements for civil rights and freedom worldwide, earning him the admiration and respect of generations.
+
+Example 2:
+Instruction: Tell a funny joke.
+Input:
+Desired Emotion: amusement
+Original Output: Why don't scientists trust atoms? Because they make up everything!
+Rewritten Output: Get ready to laugh! Here's a hilarious joke: Why don't scientists trust atoms? Because they make up everything! It's a playful twist on words that's sure to bring a smile to your face and tickle your funny bone.
+
+Example 3:
+Instruction: Give a compliment to someone who has achieved a goal.
+Input: Your friend just graduated from college with honors.
+Desired Emotion: approval
+Original Output: Congratulations on your graduation! Your hard work and dedication have paid off. You should be proud of your achievement.
+Rewritten Output: Wow, graduating from college with honors is an incredible accomplishment! Your tireless efforts and unwavering commitment to your studies have truly paid off. I wholeheartedly approve of your outstanding achievement and know that you'll continue to excel in all your future endeavors.
+
+Example 4:
+Instruction: Console a friend who is going through a difficult time.
+Input: Your friend's pet passed away.
+Desired Emotion: caring
+Original Output: I'm so sorry to hear about the loss of your pet. Losing a beloved animal companion is never easy. Please know that I'm here for you during this difficult time.
+Rewritten Output: My heart goes out to you during this challenging time. Losing a cherished pet is like bidding farewell to a family member. Please know that I'm here to offer a listening ear and a shoulder to lean on. Take all the time you need to grieve, and remember that your pet's love will forever remain in your heart.
+
+Example 5:
+Instruction: Ask a thought-provoking question.
+Input:
+Desired Emotion: curiosity
+Original Output: What do you think the world will be like in 100 years?
+Rewritten Output: Have you ever wondered what the future holds? Let your imagination run wild and picture the world a century from now. Will we have flying cars, live on other planets, or discover groundbreaking technologies? The possibilities are endless, and the thought of it sparks an exciting sense of curiosity.
+
+Example 6:
+Instruction: Describe a dream vacation destination.
+Input:
+Desired Emotion: desire
+Original Output: Bora Bora is a tropical paradise in French Polynesia. With its turquoise lagoon, luxurious overwater bungalows, and stunning beaches, it's the perfect place for a relaxing getaway.
+Rewritten Output: Picture yourself in the breathtaking paradise of Bora Bora, a tropical gem nestled in French Polynesia. As you step onto the pristine beaches and gaze at the mesmerizing turquoise lagoon, an overwhelming sense of desire washes over you. The luxurious overwater bungalows beckon you to indulge in a serene and rejuvenating escape, creating an irresistible yearning for this dream vacation destination.
+
+Example 7:
+Instruction: Share some thrilling news.
+Input: You just won a trip to your favorite amusement park.
+Desired Emotion: excitement
+Original Output: Guess what? I won a trip to my favorite amusement park! I can't wait to ride all the roller coasters and try out the new attractions.
+Rewritten Output: Hold on to your hats because I have some incredibly thrilling news to share! I just won a trip to my absolute favorite amusement park! Can you believe it? I'm bursting with excitement at the thought of experiencing the rush of the roller coasters and discovering the exhilarating new attractions. This is going to be the adventure of a lifetime!
+
+Example 8:
+Instruction: Express appreciation for a kind gesture.
+Input: A stranger helped you carry your heavy groceries to your car.
+Desired Emotion: gratitude
+Original Output: Thank you so much for helping me with my groceries. It was very kind of you to take the time to assist me. I really appreciate it.
+Rewritten Output: I am filled with immense gratitude for the kindness you showed me today. Your selfless act of helping me carry my heavy groceries to my car truly touched my heart. In a world where people often rush by, you took the time to lend a helping hand. Your generosity and thoughtfulness have left a lasting impact on me, and I cannot thank you enough for your wonderful gesture.
+
+Example 9:
+Instruction: Describe a moment of pure happiness.
+Input: Seeing a beautiful rainbow after a storm.
+Desired Emotion: joy
+Original Output: After the storm passed, I looked out the window and saw a beautiful rainbow stretching across the sky. It was a moment of pure joy and wonder.
+Rewritten Output: As the storm clouds parted and the sun peeked through, a breathtaking sight unfolded before my eyes. A magnificent rainbow, with its vibrant colors, arched across the sky, painting a picture of pure joy. In that moment, all worries melted away, and my heart swelled with an overwhelming sense of happiness and wonder. The beauty of nature had the power to transform a gloomy day into a magical experience, filling me with unbridled delight.
+
+Example 10:
+Instruction: Write a short love letter.
+Input:
+Desired Emotion: love
+Original Output: My dearest, I want you to know how much you mean to me. You bring joy and love into my life every single day. I cherish every moment we spend together and I can't imagine my life without you. I love you with all my heart.
+Rewritten Output: My darling, my heart overflows with love for you, a love that grows stronger with each passing day. Your presence in my life is like a radiant beacon, guiding me through both the joyful and challenging times. Every moment spent by your side is a precious treasure, a testament to the deep connection we share. You are my soulmate, my partner, and my forever love. I promise to cherish and adore you until the end of time, for you have captured my heart in ways I never thought possible. I love you more than words could ever express.
+
+Example 11:
+Instruction: Share a positive outlook on a challenging situation.
+Input: You lost your job but believe something better will come along.
+Desired Emotion: optimism
+Original Output: Losing my job was difficult, but I believe that everything happens for a reason. I am optimistic that this setback will lead me to new opportunities and a brighter future.
+Rewritten Output: Though losing my job was a challenging experience, I choose to approach this situation with a heart full of optimism. I firmly believe that every ending marks the beginning of a new and exciting chapter. This setback is not a defeat, but rather a chance for me to grow, learn, and discover new possibilities. I am confident that something even better is waiting for me on the horizon, and I eagerly embrace the opportunities that lie ahead. With a positive mindset and unwavering determination, I know that I will find a path that leads me to a brighter and more fulfilling future.
+
+Example 12:
+Instruction: Describe a moment when you felt proud of yourself.
+Input: You completed a marathon after months of training.
+Desired Emotion: pride
+Original Output: Crossing the finish line of the marathon was an incredible feeling. After months of dedication and hard work, I felt a huge sense of accomplishment and pride in myself for achieving my goal.
+Rewritten Output: As I took those final steps across the finish line of the marathon, an overwhelming sense of pride surged through my entire being. The months of rigorous training, early morning runs, and unwavering commitment had all led to this monumental moment. With each step, I could feel the strength and resilience I had built within myself. The medal placed around my neck was not just a symbol of completion, but a testament to my determination and the belief that I could conquer any challenge set before me. In that moment, I stood tall, filled with an immense sense of self-pride, knowing that I had pushed my limits and emerged victorious.
+
+Example 13:
+Instruction: Describe a moment of sudden understanding.
+Input: You finally understand a complex math concept after struggling with it for a while.
+Desired Emotion: realization
+Original Output: After struggling with this math concept for weeks, it finally clicked. Suddenly, everything made sense and I understood how to solve the problems. It was a great feeling of realization and relief.
+Rewritten Output: In a single, glorious moment, the fog of confusion lifted, and a profound realization dawned upon me. The complex math concept that had been eluding my grasp for weeks suddenly became crystal clear. The pieces of the puzzle fell into place, and I could see the elegant simplicity behind the once-daunting problems. It was as if a light had been switched on, illuminating the path to understanding. The sense of accomplishment and relief that washed over me was indescribable, as I finally grasped the intricacies of the subject. This realization not only brought clarity to my mind but also ignited a newfound confidence in my abilities to conquer even the most challenging concepts.
+
+Example 14:
+Instruction: Describe a moment of relief after a stressful situation.
+Input: You finish a difficult exam and feel relieved that it's over.
+Desired Emotion: relief
+Original Output: As I handed in my exam paper, I felt a huge sense of relief wash over me. The exam was challenging, but I had studied hard and given it my best effort. It was a great feeling to have it behind me.
+Rewritten Output: The moment I placed my exam paper on the teacher's desk, an overwhelming wave of relief crashed over me, releasing the tension I had been carrying for weeks. The exam had been a daunting challenge, pushing me to the limits of my knowledge and testing my resolve. But as I walked out of the classroom, I felt a lightness in my steps, knowing that I had poured my heart and soul into my preparation. The weight of uncertainty lifted from my shoulders, and I could finally breathe freely again. It was a liberating feeling to have conquered this academic hurdle, and I couldn't help but smile, basking in the relief that comes with the end of a stressful chapter.
+
+Example 15:
+Instruction: Describe an unexpected surprise.
+Input: Your friends throw you a surprise birthday party.
+Desired Emotion: surprise
+Original Output: I walked into my apartment and was shocked to see all my friends jump out and yell "Surprise!" I had no idea they had planned a birthday party for me. It was such a wonderful and unexpected surprise.
+Rewritten Output: As I turned the key and pushed open the door to my apartment, I was met with a scene that took my breath away. In a burst of confetti and cheers, my friends emerged from every corner, their faces beaming with excitement as they shouted "Surprise!" The room was adorned with colorful decorations, and the air was filled with the aroma of my favorite treats. I stood there, mouth agape, my heart racing with pure astonishment. Never in my wildest dreams had I imagined that my friends would go to such lengths to celebrate my birthday. The thoughtfulness and love behind this unexpected surprise left me speechless, and I couldn't help but feel an overwhelming sense of gratitude for the incredible people in my life.
+
+Please generate the rewritten output and respond with only the modified text, without any additional labels, tags, prefixes, or explanations. The rewritten output should be a direct response to the [Instruction] and [Input], conveying the [Desired Emotion] in a concise and appropriate manner.

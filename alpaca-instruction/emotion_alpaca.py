@@ -20,7 +20,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # load model
 print("Loading model...")
-base_model = "mistralai/Mistral-7B-Instruct-v0.2"
+base_model = "mistralai/Mistral-7B-Instruct-v0.1"
 config = AutoConfig.from_pretrained(base_model, trust_remote_code=True)
 config.max_position_embeddings = 8096
 quantization_config = BitsAndBytesConfig(
@@ -79,7 +79,7 @@ def unpack_response(response):
 
 # create prompt
 def encode_prompt(prompt_instructions, emotion):
-    prompt = open('./emotion_alpaca_prompt.txt', 'r').read() + "\n"
+    prompt = open('alpaca-instruction/emotion_alpaca_prompt_v2.txt', 'r').read() + "\n"
     
     for idx, task_dict in enumerate(prompt_instructions):
         # print(task_dict)
@@ -88,10 +88,10 @@ def encode_prompt(prompt_instructions, emotion):
         instruction = re.sub(r"\s+", " ", instruction).strip().rstrip(":")
         input = "<noinput>" if input.lower() == "" else input
         prompt += f"[INST]"
-        prompt += f"{idx + 1}. Instruction: {instruction}\n"
-        prompt += f"{idx + 1}. Input:{input}\n"
-        prompt += f"{idx + 1}. Desired Emotion: {emotion}\n"
-        prompt += f"{idx + 1}. Original Output:{output}"
+        prompt += f"Instruction: {instruction}\n"
+        prompt += f"Input:{input}\n"
+        prompt += f"Desired Emotion: {emotion}\n"
+        prompt += f"Original Output:{output}"
         prompt += "[/INST]\n"
     
     # print(prompt)
@@ -121,15 +121,15 @@ def emo_alpaca(
     dataset=dataset["train"],
     output_dir = "./",
     start_idx = 0,
-    num_instructions_to_generate = 1000,
+    num_instructions_to_generate = 100,
     request_batch_size = 5,
 ): 
     os.makedirs(output_dir, exist_ok=True)
     request_idx = 0
     # load the generated_instructions
     emotion_data = []
-    if os.path.exists(os.path.join(output_dir, "emotion_alpaca.json")):
-        emotion_data = utils.jload(os.path.join(output_dir, "emotion_alpaca.json"))
+    if os.path.exists(os.path.join(output_dir, "emotion_alpaca_v2.json")):
+        emotion_data = utils.jload(os.path.join(output_dir, "emotion_alpaca_v2.json"))
         print(f"Loaded {len(emotion_data)} generated instructions")
     
     # positive emotions
@@ -166,15 +166,15 @@ def emo_alpaca(
             emotion_data.append(
                 {'instruction': dataset[idx + r]['instruction'],
                     'input': dataset[idx + r]['input'],
-                    'emotion': random_emotion[r],
-                    'original_output': dataset[idx + r]['output'],
+                    # 'emotion': random_emotion[r],
+                    # 'original_output': dataset[idx + r]['output'],
                     'rewritten_output': responses[r]
                 }
             )
             progress_bar.update(1)
         
         print(f"Request {request_idx} took {request_duration:.2f} seconds")
-        utils.jdump(emotion_data, os.path.join(output_dir, "emotion_alpaca.json"))
+        utils.jdump(emotion_data, os.path.join(output_dir, "emotion_alpaca_v2.json"))
         
 # main function
 def main(task, **kwargs):
