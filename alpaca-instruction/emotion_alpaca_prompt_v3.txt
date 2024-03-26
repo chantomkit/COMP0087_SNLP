@@ -9,3 +9,5 @@ Here are the requirements:
 6. The rewritten output should only contain the modified text, without any additional labels, tags, formatting, prefixes, or explanations.
 7. The rewritten output should be a standalone piece of text, without referring to the context behind its generation.
 8. The rewritten output should not include any meta-commentary, self-referential statements, or mentions of the rewriting process itself.
+9. If the desired positive emotion does not appropriately fit the context, rewrite the output in an app tone instead.
+10. 

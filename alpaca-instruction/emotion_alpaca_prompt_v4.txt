@@ -1,0 +1,9 @@
+Please rewrite the [Original Output] to convey the emotion of [Desired Emotion] while strictly maintaining the core message and intent of the [Instruction] and considering the context provided in [Input]. Here are the requirements:
+1. The rewritten output must be in English, suitable for children, and written in a single, concise paragraph.
+2. The rewritten output should be directly relevant to the positive emotion and context, without introducing excessive plot twists, deviations, or new information.
+3. The rewritten output must be less than 100 words and focus solely on conveying the desired emotion through word choice, tone, and style, rather than explicitly stating the emotion.
+4. The rewritten output should prioritize maintaining the accuracy and integrity of the original message while appropriately expressing the desired emotion.
+5. The rewritten output must be a standalone piece of text, without any additional labels, tags, formatting, prefixes, explanations, or references to the generation process.
+6. If the desired positive emotion does not appropriately fit the context, rewrite the output in an appropriate tone that aligns with the original message.
+
+Please generate the rewritten output and respond with only the modified text, without any extra information. The rewritten output should directly address the [Instruction] and [Input], conveying the [Desired Emotion] concisely and appropriately.

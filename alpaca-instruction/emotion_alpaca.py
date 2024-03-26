@@ -80,7 +80,7 @@ def unpack_response(response):
 
 # create prompt
 def encode_prompt(seed_instructions, prompt_instructions, emotion):
-    prompt = open('./emotion_alpaca_prompt_v3.txt', 'r').read() + "\n\n" # load the prompt
+    prompt = open('./emotion_alpaca_prompt_v4.txt', 'r').read() + "\n\n" # load the prompt
     # Add specific instructions to the prompt
     prompt += "Important Guidelines:\n"
     prompt += "- The rewritten output should maintain the core meaning and facts from the original output.\n"
@@ -88,6 +88,8 @@ def encode_prompt(seed_instructions, prompt_instructions, emotion):
     prompt += "- Focus on conveying the desired emotion through the tone, style, and choice of words, while preserving the original message.\n"
     prompt += "- If the desired emotion does not align with the original output, aim to express in an appropriate positive emotion without altering the fundamental meaning.\n"
     prompt += "- Even for factual or straightforward instructions, try to incorporate emotional language or phrases to convey the desired emotion.\n\n"
+    prompt += "- Use simple, age-appropriate language suitable for children aged 8-12 years old.\n"
+    prompt += "- Employ shorter sentences and avoid complex sentence structures to enhance clarity and understanding.\n\n"
 
     for i, task in enumerate(seed_instructions, start=1):
         instruction = task['instruction']
@@ -104,7 +106,8 @@ def encode_prompt(seed_instructions, prompt_instructions, emotion):
         prompt += f"Original Output: {old_output}\n"
         prompt += f"Rewritten Output: {new_output}\n\n"
         
-    prompt += "Please generate the rewritten output and respond with only the modified text, without any additional labels, tags, prefixes, or explanations. The rewritten output should be a direct response to the [Instruction] and [Input], conveying the [Desired Emotion] in a concise and appropriate manner.\n\n"
+    prompt += "Please generate the rewritten output and respond with only the modified text, without any additional labels, tags, prefixes, or explanations. The rewritten output should be a direct response to the [Instruction] and [Input], conveying the [Desired Emotion] in a concise and appropriate manner.\n"
+    prompt += "Remember to use simple, child-friendly language and shorter sentences to ensure clarity and understanding for children aged 8-12 years old.\n\n"
     
     for idx, task_dict in enumerate(prompt_instructions):
         # print(task_dict)
@@ -128,12 +131,11 @@ def generate_response(prompts):
     with torch.no_grad():
         output = model.generate(
             **inputs,
-            max_new_tokens=512, # 
-            temperature=1.2, # 1.2
-            top_k=0,
-            top_p=1.0, # need 1.0
-            # repetition_penalty=1,
-            do_sample=True, # not sure if this is needed
+            max_new_tokens=512,
+            temperature=0.8,
+            top_p=0.95,
+            repetition_penalty=1.3,
+            do_sample=True,
             pad_token_id=tokenizer.eos_token_id
         )
     responses = tokenizer.batch_decode(output)
@@ -150,6 +152,8 @@ def emo_alpaca(
     num_instructions_to_generate = 100,
     request_batch_size = 5,
 ): 
+    # set a seed
+    random.seed(42)
     with open(seed_task_path, 'r') as file:
         emo_seed_tasks = json.load(file)
     print(f"Loaded emotion seed tasks")
@@ -171,9 +175,9 @@ def emo_alpaca(
     progress_bar = tqdm.tqdm(total=num_instructions_to_generate)
     if emotion_data:
         progress_bar.update(len(emotion_data))
+        start_idx = len(emotion_data)
         if num_instructions_to_generate == -1:
             # generate all the instructions
-            start_idx = len(emotion_data)
             num_instructions_to_generate = len(dataset) - len(emotion_data)
         
     for idx in range(start_idx, start_idx + num_instructions_to_generate, request_batch_size):
@@ -183,8 +187,9 @@ def emo_alpaca(
         
         for i in range(request_batch_size):
             seed_instructions = emo_seed_tasks[random_emotion[i]] # this is already a list
+            sampled_seed_instructions = random.sample(seed_instructions, 3)
             prompt_instructions = [dataset[idx + i]]
-            prompt = encode_prompt(seed_instructions, prompt_instructions, random_emotion[i])
+            prompt = encode_prompt(sampled_seed_instructions, prompt_instructions, random_emotion[i])
             batch_inputs.append(prompt)
         
         request_start = time.time()
