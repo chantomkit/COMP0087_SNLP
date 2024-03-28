@@ -4,6 +4,7 @@ import random
 import numpy as np
 import pickle
 import utils
+import json
 import re
 import time
 import fire
@@ -78,8 +79,35 @@ def unpack_response(response):
     }
 
 # create prompt
-def encode_prompt(prompt_instructions, emotion):
-    prompt = open('alpaca-instruction/emotion_alpaca_prompt_v2.txt', 'r').read() + "\n"
+def encode_prompt(seed_instructions, prompt_instructions, emotion):
+    prompt = open('./emotion_alpaca_prompt_v4.txt', 'r').read() + "\n\n" # load the prompt
+    # Add specific instructions to the prompt
+    prompt += "Important Guidelines:\n"
+    prompt += "- The rewritten output should maintain the core meaning and facts from the original output.\n"
+    prompt += "- Do not introduce new information or change the context of the original output.\n"
+    prompt += "- Focus on conveying the desired emotion through the tone, style, and choice of words, while preserving the original message.\n"
+    prompt += "- If the desired emotion does not align with the original output, aim to express in an appropriate positive emotion without altering the fundamental meaning.\n"
+    prompt += "- Even for factual or straightforward instructions, try to incorporate emotional language or phrases to convey the desired emotion.\n\n"
+    prompt += "- Use simple, age-appropriate language suitable for children aged 8-12 years old.\n"
+    prompt += "- Employ shorter sentences and avoid complex sentence structures to enhance clarity and understanding.\n\n"
+
+    for i, task in enumerate(seed_instructions, start=1):
+        instruction = task['instruction']
+        instruction = re.sub(r"\s+", " ", instruction).strip().rstrip(":")
+        input_data = task['input']
+        input_data = "<noinput>" if input_data.lower() == "" else input_data
+        old_output = task['old_output']
+        new_output = task['new_output']
+
+        prompt += f"Example {i}:\n"
+        prompt += f"Instruction: {instruction}\n"
+        prompt += f"Input: {input_data}\n"
+        prompt += f"Desired Emotion: {emotion}\n"
+        prompt += f"Original Output: {old_output}\n"
+        prompt += f"Rewritten Output: {new_output}\n\n"
+        
+    prompt += "Please generate the rewritten output and respond with only the modified text, without any additional labels, tags, prefixes, or explanations. The rewritten output should be a direct response to the [Instruction] and [Input], conveying the [Desired Emotion] in a concise and appropriate manner.\n"
+    prompt += "Remember to use simple, child-friendly language and shorter sentences to ensure clarity and understanding for children aged 8-12 years old.\n\n"
     
     for idx, task_dict in enumerate(prompt_instructions):
         # print(task_dict)
@@ -104,10 +132,9 @@ def generate_response(prompts):
         output = model.generate(
             **inputs,
             max_new_tokens=512,
-            temperature=0.7,
-            top_k=0,
-            top_p=0.9,
-            repetition_penalty=1,
+            temperature=0.8,
+            top_p=0.95,
+            repetition_penalty=1.3,
             do_sample=True,
             pad_token_id=tokenizer.eos_token_id
         )
@@ -120,16 +147,23 @@ def generate_response(prompts):
 def emo_alpaca(
     dataset=dataset["train"],
     output_dir = "./",
+    seed_task_path = "./emo_seed_task.json",
     start_idx = 0,
     num_instructions_to_generate = 100,
     request_batch_size = 5,
 ): 
+    # set a seed
+    random.seed(42)
+    with open(seed_task_path, 'r') as file:
+        emo_seed_tasks = json.load(file)
+    print(f"Loaded emotion seed tasks")
+    
     os.makedirs(output_dir, exist_ok=True)
     request_idx = 0
     # load the generated_instructions
     emotion_data = []
-    if os.path.exists(os.path.join(output_dir, "emotion_alpaca_v2.json")):
-        emotion_data = utils.jload(os.path.join(output_dir, "emotion_alpaca_v2.json"))
+    if os.path.exists(os.path.join(output_dir, "emotion_alpaca_v4.json")):
+        emotion_data = utils.jload(os.path.join(output_dir, "emotion_alpaca_v4.json"))
         print(f"Loaded {len(emotion_data)} generated instructions")
     
     # positive emotions
@@ -141,19 +175,21 @@ def emo_alpaca(
     progress_bar = tqdm.tqdm(total=num_instructions_to_generate)
     if emotion_data:
         progress_bar.update(len(emotion_data))
+        start_idx = len(emotion_data)
         if num_instructions_to_generate == -1:
             # generate all the instructions
-            start_idx = len(emotion_data)
             num_instructions_to_generate = len(dataset) - len(emotion_data)
         
     for idx in range(start_idx, start_idx + num_instructions_to_generate, request_batch_size):
         request_idx += 1
         batch_inputs = []
-        random_emotion = np.random.choice(positive_tones,request_batch_size)
+        random_emotion = np.random.choice(positive_tones,request_batch_size,replace=False)
         
         for i in range(request_batch_size):
+            seed_instructions = emo_seed_tasks[random_emotion[i]] # this is already a list
+            sampled_seed_instructions = random.sample(seed_instructions, 3)
             prompt_instructions = [dataset[idx + i]]
-            prompt = encode_prompt(prompt_instructions, random_emotion[i])
+            prompt = encode_prompt(sampled_seed_instructions, prompt_instructions, random_emotion[i])
             batch_inputs.append(prompt)
         
         request_start = time.time()
@@ -174,7 +210,7 @@ def emo_alpaca(
             progress_bar.update(1)
         
         print(f"Request {request_idx} took {request_duration:.2f} seconds")
-        utils.jdump(emotion_data, os.path.join(output_dir, "emotion_alpaca_v2.json"))
+        utils.jdump(emotion_data, os.path.join(output_dir, "emotion_alpaca_v4.json"))
         
 # main function
 def main(task, **kwargs):
