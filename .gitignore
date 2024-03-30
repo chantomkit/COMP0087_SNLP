@@ -167,3 +167,7 @@ babylm_filtered.pkl
 gpt2_babylm_clm/
 model_folder/
 *.zip
+model_MEDIUM_folder/
+gpt2-medium_babylm_clm/
+gpt2_finetuned/
+gpt2_finetuned_instruction/
