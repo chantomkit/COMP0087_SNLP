@@ -31,44 +31,23 @@ tokenizer.pad_token = tokenizer.eos_token
 #         for instr, inp, out in zip(batch['instruction'], batch['input'], batch['output'])
 #     ]
 
-PROMPT_DICT = {
-    "prompt_input": (f"{tokenizer.bos_token}"
-        "Below is an instruction that describes a task, paired with an input that provides further context. "
-        "Write a response that appropriately completes the request.\n\n"
-        "### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:\n{response}"
-        f"{tokenizer.eos_token}"
-    ),
-    "prompt_no_input": (f"{tokenizer.bos_token}"
-        "Below is an instruction that describes a task. "
-        "Write a response that appropriately completes the request.\n\n"
-        "### Instruction:\n{instruction}\n\n### Response:\n{response}"
-        f"{tokenizer.eos_token}"
-    ),
-}
-
 def formatting_func(batch):
     formatted_example = []
     for instr, inp, out in zip(batch['instruction'], batch['input'], batch['output']):
+        format_prompt = f"{tokenizer.bos_token} Write an appropriate response to the instruction."
         if inp:
-            formatted_example += PROMPT_DICT["prompt_input"].format(
-                instruction=instr,
-                input=inp,
-                response=out
-            )
+            format_prompt += f"Instruction: {instr}\nInput: {inp}\nResponse: {out}{tokenizer.eos_token}"
         else:
-            formatted_example += PROMPT_DICT["prompt_no_input"].format(
-                instruction=instr,
-                response=out
-            )
-    
+            format_prompt += f"Instruction: {instr}\nResponse: {out}{tokenizer.eos_token}"
+        formatted_example.append(format_prompt)
     return formatted_example
     
 data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
 model = AutoModelForCausalLM.from_pretrained("gpt2-medium")
 
-LR = 5e-5            # Learning rate
-PATIENCE = 20        # Patience for early stopping
+LR = 2e-5            # Learning rate was 5e-5
+PATIENCE = 10        # Patience for early stopping
 BSZ = 4              # Batch size
 EVAL_EVERY = 200     # Evaluate every X steps
 SAVE_EVERY = 200     # Save model checkpoint every X steps
@@ -85,10 +64,9 @@ training_args = TrainingArguments(
     eval_steps=EVAL_EVERY,
     save_steps=SAVE_EVERY,
     load_best_model_at_end=True,
-    metric_for_best_model="eval_loss",
-    greater_is_better=False,
-    gradient_accumulation_steps=2,
+    gradient_accumulation_steps=8, #was 2
     fp16=True,
+    lr_scheduler_type="cosine",
 )
 
 # Initialize SFTTrainer
