@@ -1,0 +1,159 @@
+{
+    "admiration": {
+        "original": {
+            "gratitude": 6,
+            "admiration": 2,
+            "neutral": 21,
+            "optimism": 1
+        },
+        "finetuned": {
+            "admiration": 18,
+            "gratitude": 4,
+            "joy": 2,
+            "love": 1,
+            "neutral": 4,
+            "caring": 1
+        }
+    },
+    "amusement": {
+        "original": {
+            "nervousness": 1,
+            "neutral": 19,
+            "amusement": 3,
+            "gratitude": 1,
+            "approval": 1,
+            "curiosity": 2,
+            "admiration": 1,
+            "optimism": 1,
+            "sadness": 1
+        },
+        "finetuned": {
+            "optimism": 1,
+            "joy": 3,
+            "neutral": 8,
+            "curiosity": 1,
+            "surprise": 1,
+            "amusement": 2,
+            "excitement": 6,
+            "approval": 1,
+            "admiration": 3,
+            "remorse": 1,
+            "caring": 2,
+            "gratitude": 1
+        }
+    },
+    "anger": {
+        "original": {
+            "neutral": 24,
+            "caring": 4,
+            "remorse": 1,
+            "amusement": 1
+        },
+        "finetuned": {
+            "optimism": 2,
+            "gratitude": 1,
+            "neutral": 10,
+            "sadness": 2,
+            "fear": 2,
+            "caring": 3,
+            "disappointment": 1,
+            "nervousness": 1,
+            "approval": 4,
+            "admiration": 1,
+            "excitement": 1,
+            "amusement": 1,
+            "annoyance": 1
+        }
+    },
+    "annoyance": {
+        "original": {
+            "neutral": 20,
+            "love": 1,
+            "annoyance": 3,
+            "joy": 2,
+            "gratitude": 1,
+            "curiosity": 1,
+            "amusement": 1,
+            "admiration": 1
+        },
+        "finetuned": {
+            "neutral": 5,
+            "remorse": 2,
+            "disappointment": 2,
+            "caring": 6,
+            "excitement": 1,
+            "admiration": 1,
+            "joy": 4,
+            "desire": 1,
+            "surprise": 2,
+            "approval": 1,
+            "gratitude": 1,
+            "curiosity": 1,
+            "optimism": 1,
+            "sadness": 1,
+            "realization": 1
+        }
+    },
+    "approval": {
+        "original": {
+            "admiration": 1,
+            "gratitude": 4,
+            "neutral": 22,
+            "curiosity": 1,
+            "optimism": 1,
+            "joy": 1
+        },
+        "finetuned": {
+            "gratitude": 9,
+            "neutral": 2,
+            "approval": 2,
+            "excitement": 3,
+            "joy": 6,
+            "admiration": 6,
+            "caring": 1,
+            "optimism": 1
+        }
+    },
+    "sadness": {
+        "original": {
+            "neutral": 25,
+            "sadness": 1,
+            "admiration": 1,
+            "gratitude": 1,
+            "optimism": 1,
+            "caring": 1
+        },
+        "finetuned": {
+            "neutral": 7,
+            "love": 1,
+            "joy": 5,
+            "caring": 4,
+            "admiration": 6,
+            "sadness": 1,
+            "excitement": 2,
+            "realization": 2,
+            "optimism": 1,
+            "curiosity": 1
+        }
+    },
+    "caring": {
+        "original": {
+            "neutral": 26,
+            "curiosity": 2,
+            "admiration": 1,
+            "annoyance": 1
+        },
+        "finetuned": {
+            "caring": 10,
+            "joy": 4,
+            "amusement": 1,
+            "gratitude": 4,
+            "optimism": 2,
+            "admiration": 4,
+            "sadness": 1,
+            "neutral": 2,
+            "excitement": 1,
+            "love": 1
+        }
+    }
+}
