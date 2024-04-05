@@ -7,8 +7,7 @@ from trl import SFTTrainer
 from transformers import DataCollatorForLanguageModeling, EarlyStoppingCallback
 
 
-# file_path = 'drive/MyDrive/SNLP/emotion_alpaca_v4_cleaned.json'
-file_path = 'COMP0087_SNLP/alpaca-instruction/emotion_alpaca_v4_cleaned.json'
+file_path = '../alpaca-instruction/emotion_alpaca_v4_cleaned.json'  # data file path
 
 with open(file_path, 'r') as file:
     data = json.load(file)
@@ -21,15 +20,8 @@ dataset = Dataset.from_dict({
 
 dataset = dataset.train_test_split(test_size=0.1)
 
-tokenizer = AutoTokenizer.from_pretrained("gpt2-medium")
+tokenizer = AutoTokenizer.from_pretrained("gpt2-medium") # model name
 tokenizer.pad_token = tokenizer.eos_token
-
-# def formatting_func(batch):
-#     # Process each example in the batch and return a list of formatted strings
-#     return [
-#         f"{tokenizer.bos_token} Instruction: {instr} Input: {inp} Output: {out} {tokenizer.eos_token}"
-#         for instr, inp, out in zip(batch['instruction'], batch['input'], batch['output'])
-#     ]
 
 def formatting_func(batch):
     formatted_example = []
@@ -46,6 +38,7 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
 model = AutoModelForCausalLM.from_pretrained("gpt2-medium")
 
+"""Hyperparameters for training."""
 LR = 2e-5            # Learning rate was 5e-5
 PATIENCE = 10        # Patience for early stopping
 BSZ = 4              # Batch size
@@ -85,5 +78,6 @@ trainer = SFTTrainer(
 # Start training
 trainer.train()
 
+# save the model
 model.save_pretrained("./new_model-medium_folder")
 tokenizer.save_pretrained("./new_model-medium_folder")

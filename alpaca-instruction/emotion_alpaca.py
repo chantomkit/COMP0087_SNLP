@@ -81,15 +81,6 @@ def unpack_response(response):
 # create prompt
 def encode_prompt(seed_instructions, prompt_instructions, emotion):
     prompt = open('./emotion_alpaca_prompt_v4.txt', 'r').read() + "\n\n" # load the prompt
-    # Add specific instructions to the prompt
-    prompt += "Important Guidelines:\n"
-    prompt += "- The rewritten output should maintain the core meaning and facts from the original output.\n"
-    prompt += "- Do not introduce new information or change the context of the original output.\n"
-    prompt += "- Focus on conveying the desired emotion through the tone, style, and choice of words, while preserving the original message.\n"
-    prompt += "- If the desired emotion does not align with the original output, aim to express in an appropriate positive emotion without altering the fundamental meaning.\n"
-    prompt += "- Even for factual or straightforward instructions, try to incorporate emotional language or phrases to convey the desired emotion.\n\n"
-    prompt += "- Use simple, age-appropriate language suitable for children aged 8-12 years old.\n"
-    prompt += "- Employ shorter sentences and avoid complex sentence structures to enhance clarity and understanding.\n\n"
 
     for i, task in enumerate(seed_instructions, start=1):
         instruction = task['instruction']
@@ -105,9 +96,6 @@ def encode_prompt(seed_instructions, prompt_instructions, emotion):
         prompt += f"Desired Emotion: {emotion}\n"
         prompt += f"Original Output: {old_output}\n"
         prompt += f"Rewritten Output: {new_output}\n\n"
-        
-    prompt += "Please generate the rewritten output and respond with only the modified text, without any additional labels, tags, prefixes, or explanations. The rewritten output should be a direct response to the [Instruction] and [Input], conveying the [Desired Emotion] in a concise and appropriate manner.\n"
-    prompt += "Remember to use simple, child-friendly language and shorter sentences to ensure clarity and understanding for children aged 8-12 years old.\n\n"
     
     for idx, task_dict in enumerate(prompt_instructions):
         # print(task_dict)
@@ -147,7 +135,7 @@ def generate_response(prompts):
 def emo_alpaca(
     dataset=dataset["train"],
     output_dir = "./",
-    seed_task_path = "./emo_seed_task.json",
+    seed_task_path = "./emotion_seed_task.json",
     start_idx = 0,
     num_instructions_to_generate = 100,
     request_batch_size = 5,
