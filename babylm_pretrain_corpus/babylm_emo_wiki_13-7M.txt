@@ -55,5 +55,6 @@ augment-53, babylm_augment/babylm_augment_27.pkl, 871
 augment-54, babylm_augment/babylm_augment_33.pkl, 871
 augment-55, babylm_augment/babylm_augment_32.pkl, 871
 augment-56, babylm_augment/babylm_augment_26.pkl, 871
-factual-0, data/babylm_data/babylm_10M/simple_wikipedia.train, 9018179
-factual-1, data/babylm_data/babylm_10M/wikipedia.train, 6023492
+factual-0, data/babylm_data/babylm_10M/simple_wikipedia.train, 1
+factual-1, data/babylm_data/babylm_10M/wikipedia.train, 1
+Total word count: 13725438; Average word count per sample: 276.44943503393824
