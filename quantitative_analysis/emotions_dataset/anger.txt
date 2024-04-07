@@ -1,0 +1,30 @@
+Instruct: Write a letter expressing your frustration about a recent poor customer service experience.  
+Instruct: Compose a dialogue between two characters where one is clearly angry at the other for breaking a promise.  
+Instruct: Pen a complaint about a fictional product that failed to meet its advertised promises.  
+Instruct: Draft a monologue from the perspective of a character who's been betrayed by their best friend.  
+Instruct: Create a series of tweets from someone who is angry about a social issue.  
+Instruct: Describe the emotions of a person stuck in traffic when they are already late.  
+Instruct: Write an angry breakup text message.  
+Instruct: Compose a critical review of a movie that you found extremely disappointing.  
+Instruct: Draft an email to a landlord about unresolved maintenance issues in your apartment.  
+Instruct: Write a diary entry about a day when everything seemed to go wrong.  
+Instruct: Create a sarcastic product review for an item that vastly underperformed.  
+Instruct: Pen a heated debate between two politicians with opposing viewpoints.  
+Instruct: Describe the moment of anger in a sports game, from the perspective of a fan.  
+Instruct: Write an open letter to a company explaining your dissatisfaction with their latest product update.  
+Instruct: Compose a text message to a friend who forgot an important appointment.  
+Instruct: Draft a scene where a character discovers they've been lied to about something important.  
+Instruct: Write a response to a dismissive email from a colleague.  
+Instruct: Create a speech for a character who is leading a protest.  
+Instruct: Describe a parent's frustration at a messy room that was supposed to be cleaned by their child.  
+Instruct: Pen a blog post about the anger felt towards environmental pollution.  
+Instruct: Draft a petition against a new policy that is unjust.  
+Instruct: Write a response to a fictional scenario where your hard work was stolen and credited to someone else.  
+Instruct: Compose a narrative about losing an important competition due to unfair judging.  
+Instruct: Create a list of grievances for a characters' union strike in a novel.  
+Instruct: Describe the frustration of trying to contact customer service and being put on hold for hours.  
+Instruct: Write an argumentative essay on a policy you strongly disagree with.  
+Instruct: Compose a statement of protest against an unfair school rule.  
+Instruct: Draft a conversation between a customer and a service provider where the customer's expectations were not met.  
+Instruct: Pen a critical analysis of a policy change in your community that you oppose.  
+Instruct: Write a scene where a character realizes their trust has been betrayed by a close ally.

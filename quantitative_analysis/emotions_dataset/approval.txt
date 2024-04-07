@@ -1,0 +1,30 @@
+Instruct: Write a thank you note for a small act of kindness. Input: Someone held the door open for you when your hands were full.  
+Instruct: Compose a short poem praising the beauty of nature.  
+Instruct: Draft a message of appreciation for your favorite teacher. Input: Your teacher inspired a love for reading in you.  
+Instruct: Pen a positive comment on an online article you enjoyed.  
+Instruct: Create a tweet expressing gratitude for good friends.  
+Instruct: Write a review for a book you couldn't put down.  
+Instruct: Compose an email to a colleague acknowledging their hard work on a project.  
+Instruct: Write a short story where the protagonist overcomes a challenge with help from others.  
+Instruct: Pen a letter to a fictional character you admire.  
+Instruct: Create a diary entry about the best day of your life.  
+Instruct: Write a haiku about the feeling of receiving good news.  
+Instruct: Draft a post complimenting a local restaurant's exceptional service.  
+Instruct: Compose a message of encouragement for someone starting a new job.  
+Instruct: Write a slogan for a campaign promoting kindness.  
+Instruct: Create a caption for a photo that captures a moment of success.  
+Instruct: Pen a testimonial for a service that went above and beyond your expectations.  
+Instruct: Write a brief speech in praise of someone you look up to.  
+Instruct: Compose a note of thanks to someone who gave you great advice.  
+Instruct: Draft a paragraph about the importance of community support.  
+Instruct: Write a statement of support for a friend's new venture.  
+Instruct: Compose a text message that expresses appreciation for a thoughtful gift.  
+Instruct: Pen a blog post about the positive impact of volunteer work.  
+Instruct: Draft a thank you letter for a memorable hospitality experience.  
+Instruct: Write a review of a podcast episode that left you feeling inspired.  
+Instruct: Compose a message of congratulations for a friend who achieved a personal goal.  
+Instruct: Pen a positive feedback comment for an online course that you found beneficial.  
+Instruct: Write an encouraging note to yourself for future challenges.  
+Instruct: Draft a social media post celebrating a community achievement.  
+Instruct: Compose a reflective paragraph on the value of positive feedback.  
+Instruct: Write a letter expressing admiration for someone's courage.

@@ -1,0 +1,30 @@
+Instruct: Write a complaint letter about a noisy neighbor.  
+Instruct: Draft an email to a company regarding a frustrating customer service experience.  
+Instruct: Summarize a recent situation where you were put on hold for an excessive amount of time.  
+Instruct: Compose a social media post about the annoyance of unsolicited advice.  
+Instruct: Write a dialogue between two people where one is constantly interrupting the other.  
+Instruct: Describe the feeling of getting a rock in your shoe during a long walk.  
+Instruct: Explain why receiving too many notifications can be irritating.  
+Instruct: Create a character who overreacts to minor inconveniences.  
+Instruct: Draft a text message expressing disappointment over a cancelled plan.  
+Instruct: Write a sarcastic thank you note for a gift you didn't like.  
+Instruct: Detail the annoyance of someone spoiling the ending of a book or movie.  
+Instruct: Compose a tweet about the frustration of slow internet.  
+Instruct: Describe the inconvenience caused by a public transportation delay.  
+Instruct: Write an opinion piece on why loud eating noises are bothersome.  
+Instruct: Explain the annoyance of being asked the same question repeatedly.  
+Instruct: Draft an email to a neighbor about their pet leaving messes in your yard.  
+Instruct: Summarize a situation where someone took credit for your work.  
+Instruct: Describe the feeling of finding a typo after sending an important email.  
+Instruct: Compose a note to a roommate about not cleaning up after themselves.  
+Instruct: Write a dialogue highlighting the frustration of talking to someone who won't listen.  
+Instruct: Draft a complaint about a product that didn't meet your expectations.  
+Instruct: Explain why unsynchronized traffic lights can be aggravating during a commute.  
+Instruct: Describe the annoyance of a dripping faucet at night.  
+Instruct: Compose a sarcastic guide on how to interrupt people effectively.  
+Instruct: Write about the frustration of forgetting your password and having to reset it.  
+Instruct: Draft a message to a friend who is always late.  
+Instruct: Summarize the annoyance of receiving an incorrect order at a restaurant.  
+Instruct: Explain the irritation of a song stuck in your head.  
+Instruct: Describe the inconvenience of forgetting an umbrella on a rainy day.  
+Instruct: Compose a review for an app that is constantly crashing.
