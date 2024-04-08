@@ -3,7 +3,7 @@
 
 ## Building and augment corpus from BabyLM Challenge data
 Data download links:
-- BabyLM: https://babylm.github.io/
+- BabyLM: https://babylm.github.io/ (2023 version)
 
 ### Usage
 
@@ -26,7 +26,7 @@ Data download links:
 ├── babylm_pretrain_corpus/ (Corpus and metadata log storage)
 │   ├── *.pkl
 │   └── *.txt
-├── pretraining/ (Helper functions packages)
+├── pretrain_data/ (Helper functions packages)
 │   ├── data_pipeline.py
 │   └── data_utils.py
 ├── process_pretrain_data.py (Process BabyLM data runner file)
@@ -36,7 +36,7 @@ Data download links:
 
 2. Do `python process_pretrain_data.py` without any arguments will run the pipeline with default settings.\
 \
-To summarize the default behavior, the pipeline will process the full corpus of BabyLM following the default directory sturcture. It will use the model `SamLowe/roberta-base-go_emotions` with cpu for emotion inference, then it will further filter out non-confident emotions predictions and neutral emotion.\
+To summarize the default behavior, the pipeline will process the full corpus of BabyLM following the default directory sturcture. It will use the model from HuggingFace `SamLowe/roberta-base-go_emotions` with cpu for emotion inference, then it will further filter out non-confident emotions predictions and neutral emotion.\
 \
 To see what each argument does, do `python run_pretrain_data.py -h`.
 
