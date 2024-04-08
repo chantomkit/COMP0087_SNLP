@@ -1,30 +1,30 @@
-Instruction: Write a complaint letter about a noisy neighbor.  
-Instruction: Draft an email to a company regarding a frustrating customer service experience.  
-Instruction: Summarize a recent situation where you were put on hold for an excessive amount of time.  
-Instruction: Compose a social media post about the annoyance of unsolicited advice.  
-Instruction: Write a dialogue between two people where one is constantly interrupting the other.  
-Instruction: Describe the feeling of getting a rock in your shoe during a long walk.  
-Instruction: Explain why receiving too many notifications can be irritating.  
-Instruction: Create a character who overreacts to minor inconveniences.  
-Instruction: Draft a text message expressing disappointment over a cancelled plan.  
-Instruction: Write a sarcastic thank you note for a gift you didn't like.  
-Instruction: Detail the annoyance of someone spoiling the ending of a book or movie.  
-Instruction: Compose a tweet about the frustration of slow internet.  
-Instruction: Describe the inconvenience caused by a public transportation delay.  
-Instruction: Write an opinion piece on why loud eating noises are bothersome.  
-Instruction: Explain the annoyance of being asked the same question repeatedly.  
-Instruction: Draft an email to a neighbor about their pet leaving messes in your yard.  
-Instruction: Summarize a situation where someone took credit for your work.  
-Instruction: Describe the feeling of finding a typo after sending an important email.  
-Instruction: Compose a note to a roommate about not cleaning up after themselves.  
-Instruction: Write a dialogue highlighting the frustration of talking to someone who won't listen.  
-Instruction: Draft a complaint about a product that didn't meet your expectations.  
-Instruction: Explain why unsynchronized traffic lights can be aggravating during a commute.  
-Instruction: Describe the annoyance of a dripping faucet at night.  
-Instruction: Compose a sarcastic guide on how to interrupt people effectively.  
-Instruction: Write about the frustration of forgetting your password and having to reset it.  
-Instruction: Draft a message to a friend who is always late.  
-Instruction: Summarize the annoyance of receiving an incorrect order at a restaurant.  
-Instruction: Explain the irritation of a song stuck in your head.  
-Instruction: Describe the inconvenience of forgetting an umbrella on a rainy day.  
+Instruction: Write a complaint letter about a noisy neighbor.
+Instruction: Draft an email to a company regarding a frustrating customer service experience.
+Instruction: Summarize a recent situation where you were put on hold for an excessive amount of time.
+Instruction: Compose a social media post about the annoyance of unsolicited advice.
+Instruction: Write a dialogue between two people where one is constantly interrupting the other.
+Instruction: Describe the feeling of getting a rock in your shoe during a long walk.
+Instruction: Explain why receiving too many notifications can be irritating.
+Instruction: Create a character who overreacts to minor inconveniences.
+Instruction: Draft a text message expressing disappointment over a cancelled plan.
+Instruction: Write a sarcastic thank you note for a gift you didn't like.
+Instruction: Detail the annoyance of someone spoiling the ending of a book or movie.
+Instruction: Compose a tweet about the frustration of slow internet.
+Instruction: Describe the inconvenience caused by a public transportation delay.
+Instruction: Write an opinion piece on why loud eating noises are bothersome.
+Instruction: Explain the annoyance of being asked the same question repeatedly.
+Instruction: Draft an email to a neighbor about their pet leaving messes in your yard.
+Instruction: Summarize a situation where someone took credit for your work.
+Instruction: Describe the feeling of finding a typo after sending an important email.
+Instruction: Compose a note to a roommate about not cleaning up after themselves.
+Instruction: Write a dialogue highlighting the frustration of talking to someone who won't listen.
+Instruction: Draft a complaint about a product that didn't meet your expectations.
+Instruction: Explain why unsynchronized traffic lights can be aggravating during a commute.
+Instruction: Describe the annoyance of a dripping faucet at night.
+Instruction: Compose a sarcastic guide on how to interrupt people effectively.
+Instruction: Write about the frustration of forgetting your password and having to reset it.
+Instruction: Draft a message to a friend who is always late.
+Instruction: Summarize the annoyance of receiving an incorrect order at a restaurant.
+Instruction: Explain the irritation of a song stuck in your head.
+Instruction: Describe the inconvenience of forgetting an umbrella on a rainy day.
 Instruction: Compose a review for an app that is constantly crashing.

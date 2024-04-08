@@ -1,0 +1,30 @@
+Instruction: Write a question that would lead a stranger to reveal an unexpected hobby.
+Instruction: Compose a message asking for recommendations on an obscure topic. Input: 19th-century French literature.
+Instruction: Invent a fictional animal and ask for suggestions on what to name it.
+Instruction: Draft a letter to a future version of yourself asking about life's unexpected turns.
+Instruction: Develop a riddle about something common in an office but seen differently by everyone.
+Instruction: Create a list of questions to understand someone's most cherished childhood memory.
+Instruction: Pen a short poem that ends with a question about the stars.
+Instruction: Formulate a query to uncover the history behind a local landmark.
+Instruction: Design a treasure hunt with clues leading to your favorite book.
+Instruction: Compile a list of questions for a character in your favorite movie as if they were real.
+Instruction: Ask for explanations on why certain songs evoke strong emotions.
+Instruction: Draft a dialogue between two historical figures about a modern invention.
+Instruction: Pose a philosophical question about technology's role in human connections.
+Instruction: Invent a conspiracy theory about a common household item and ask for opinions.
+Instruction: Devise a question that makes someone rethink their daily routine.
+Instruction: Sketch a scenario that prompts a discussion on the ethics of time travel.
+Instruction: Form a question that explores the connection between art and emotion.
+Instruction: Create an inquiry into the existence of parallel universes with a scientific angle.
+Instruction: Compose an email to an author, asking about the inspiration behind their main character.
+Instruction: Propose a theory about the evolution of language and solicit feedback.
+Instruction: Write a message to a potential mentor, asking about the key to their success.
+Instruction: Construct a hypothesis on how pets perceive human emotions and ask for insights.
+Instruction: Frame a question about the importance of dreams in guiding one's life choices.
+Instruction: Develop a playful interrogation for a friend about their secret talents.
+Instruction: Craft a set of questions for an extraterrestrial being about Earth.
+Instruction: Formulate an inquiry into the psychological effects of social media.
+Instruction: Write a brief survey to gauge opinions on the best superhero power for everyday life.
+Instruction: Compose a speculative question about the future of space exploration.
+Instruction: Ask for a detailed explanation of a complex topic in simple terms. Input: Quantum physics.
+Instruction: Create a dialogue where every line from one character is a question about mysteries of the universe.

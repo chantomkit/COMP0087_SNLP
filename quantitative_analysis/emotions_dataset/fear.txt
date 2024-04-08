@@ -1,0 +1,30 @@
+Instruction: Write a short story where the protagonist is trapped in an unknown, dark place.
+Instruction: Draft a poem about the sound of footsteps following you in an empty hallway.
+Instruction: Compose a letter from a character who believes they're being watched.
+Instruction: Invent a creature that embodies fear and describe it lurking in the shadows.
+Instruction: Describe the feeling of being lost in a forest as night falls.
+Instruction: Create a dialogue between two people hiding from an unknown danger.
+Instruction: Write a journal entry about experiencing a nightmare that felt too real.
+Instruction: Detail an encounter with a ghost in an abandoned building.
+Instruction: Explain the fear of losing someone without saying goodbye.
+Instruction: Compose a warning letter about a cursed object.
+Instruction: Create a metaphor for fear using a stormy sea.
+Instruction: Describe the anticipation of a feared event that never happens.
+Instruction: Write a text message you would send if you thought you were being followed.
+Instruction: Compose a haiku about being alone in a lightning storm.
+Instruction: Invent a legend about a forest that whispers your deepest fears.
+Instruction: Draft a conversation with a mirror that shows your fears instead of your reflection.
+Instruction: Write a scenario where a character's fear saves them from danger.
+Instruction: Describe the moment of panic when you can't find an escape.
+Instruction: Compose an inner monologue of someone hearing strange noises at night.
+Instruction: Write a brief tale about a lighthouse whose light brings fear instead of safety.
+Instruction: Create a warning sign for an eerily silent, fog-covered town.
+Instruction: Describe the fear induced by a painting that changes when you're not looking.
+Instruction: Compose a short narrative about mistaking a friend for a foe in the dark.
+Instruction: Write a diary entry about living in a house that seems to have its own will.
+Instruction: Detail a child's fear of the monster under their bed.
+Instruction: Invent a story about a scientist who discovers their fear can alter reality.
+Instruction: Describe the unease of seeing a familiar place look unrecognizable at night.
+Instruction: Draft a letter to oneself about overcoming a phobia.
+Instruction: Write a scene where a character realizes they're not alone in their room.
+Instruction: Compose a text exploring the fear of the unknown in outer space.

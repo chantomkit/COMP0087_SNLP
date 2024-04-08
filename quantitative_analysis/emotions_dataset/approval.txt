@@ -1,30 +1,30 @@
-Instruction: Write a thank you note for a small act of kindness. Input: Someone held the door open for you when your hands were full.  
-Instruction: Compose a short poem praising the beauty of nature.  
-Instruction: Draft a message of appreciation for your favorite teacher. Input: Your teacher inspired a love for reading in you.  
-Instruction: Pen a positive comment on an online article you enjoyed.  
-Instruction: Create a tweet expressing gratitude for good friends.  
-Instruction: Write a review for a book you couldn't put down.  
-Instruction: Compose an email to a colleague acknowledging their hard work on a project.  
-Instruction: Write a short story where the protagonist overcomes a challenge with help from others.  
-Instruction: Pen a letter to a fictional character you admire.  
-Instruction: Create a diary entry about the best day of your life.  
-Instruction: Write a haiku about the feeling of receiving good news.  
-Instruction: Draft a post complimenting a local restaurant's exceptional service.  
-Instruction: Compose a message of encouragement for someone starting a new job.  
-Instruction: Write a slogan for a campaign promoting kindness.  
-Instruction: Create a caption for a photo that captures a moment of success.  
-Instruction: Pen a testimonial for a service that went above and beyond your expectations.  
-Instruction: Write a brief speech in praise of someone you look up to.  
-Instruction: Compose a note of thanks to someone who gave you great advice.  
-Instruction: Draft a paragraph about the importance of community support.  
-Instruction: Write a statement of support for a friend's new venture.  
-Instruction: Compose a text message that expresses appreciation for a thoughtful gift.  
-Instruction: Pen a blog post about the positive impact of volunteer work.  
-Instruction: Draft a thank you letter for a memorable hospitality experience.  
-Instruction: Write a review of a podcast episode that left you feeling inspired.  
-Instruction: Compose a message of congratulations for a friend who achieved a personal goal.  
-Instruction: Pen a positive feedback comment for an online course that you found beneficial.  
-Instruction: Write an encouraging note to yourself for future challenges.  
-Instruction: Draft a social media post celebrating a community achievement.  
-Instruction: Compose a reflective paragraph on the value of positive feedback.  
+Instruction: Write a thank you note for a small act of kindness. Input: Someone held the door open for you when your hands were full.
+Instruction: Compose a short poem praising the beauty of nature.
+Instruction: Draft a message of appreciation for your favorite teacher. Input: Your teacher inspired a love for reading in you.
+Instruction: Pen a positive comment on an online article you enjoyed.
+Instruction: Create a tweet expressing gratitude for good friends.
+Instruction: Write a review for a book you couldn't put down.
+Instruction: Compose an email to a colleague acknowledging their hard work on a project.
+Instruction: Write a short story where the protagonist overcomes a challenge with help from others.
+Instruction: Pen a letter to a fictional character you admire.
+Instruction: Create a diary entry about the best day of your life.
+Instruction: Write a haiku about the feeling of receiving good news.
+Instruction: Draft a post complimenting a local restaurant's exceptional service.
+Instruction: Compose a message of encouragement for someone starting a new job.
+Instruction: Write a slogan for a campaign promoting kindness.
+Instruction: Create a caption for a photo that captures a moment of success.
+Instruction: Pen a testimonial for a service that went above and beyond your expectations.
+Instruction: Write a brief speech in praise of someone you look up to.
+Instruction: Compose a note of thanks to someone who gave you great advice.
+Instruction: Draft a paragraph about the importance of community support.
+Instruction: Write a statement of support for a friend's new venture.
+Instruction: Compose a text message that expresses appreciation for a thoughtful gift.
+Instruction: Pen a blog post about the positive impact of volunteer work.
+Instruction: Draft a thank you letter for a memorable hospitality experience.
+Instruction: Write a review of a podcast episode that left you feeling inspired.
+Instruction: Compose a message of congratulations for a friend who achieved a personal goal.
+Instruction: Pen a positive feedback comment for an online course that you found beneficial.
+Instruction: Write an encouraging note to yourself for future challenges.
+Instruction: Draft a social media post celebrating a community achievement.
+Instruction: Compose a reflective paragraph on the value of positive feedback.
 Instruction: Write a letter expressing admiration for someone's courage.

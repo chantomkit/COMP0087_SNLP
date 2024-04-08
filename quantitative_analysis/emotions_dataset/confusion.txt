@@ -1,0 +1,30 @@
+Instruction: Write a short story where the main character wakes up with a different memory each day.
+Instruction: Explain how to use an everyday object incorrectly, as if you truly believe that's its purpose.
+Instruction: Write a poem about trying to understand an impossible concept.
+Instruction: Describe this feeling. Input: Trying to read a map upside down.
+Instruction: Compose a letter to an inventor asking about a device that makes no sense to you.
+Instruction: Create a dialogue between two characters who are both lost but refuse to admit it.
+Instruction: Summarize a movie plot that inexplicably changes halfway through.
+Instruction: Explain the rules of a made-up game that are so convoluted you get lost in your explanation.
+Instruction: Write an instruction manual for assembling furniture with missing steps.
+Instruction: Describe this scenario. Input: Seeing someone wave in your direction and waving back, only to realize they weren't waving at you.
+Instruction: Invent a recipe that combines ingredients that should never be mixed together.
+Instruction: Explain a scientific theory as if you're trying to grasp it yourself while explaining.
+Instruction: Write a review for a restaurant where the menu was in a language you don't understand.
+Instruction: Create a list of questions you would ask after waking up in a historical period without any prior knowledge of it.
+Instruction: Describe this experience. Input: Trying to solve a puzzle with pieces from different sets.
+Instruction: Compose a dialogue where each speaker is using words they don't fully understand.
+Instruction: Write a letter from the perspective of someone who misunderstands a cultural tradition.
+Instruction: Describe the process of learning a new skill but focus on the moments of confusion.
+Instruction: Explain why a nonsensical plot twist in a book actually makes perfect sense.
+Instruction: Describe your feelings after reading a poem that seems to have no meaning.
+Instruction: Write a conversation where someone is trying to explain technology to a person from the past.
+Instruction: Describe this sensation. Input: The moment of panic when you think you've forgotten something important, but can't remember what.
+Instruction: Invent a fictional sport with rules that contradict each other.
+Instruction: Write a guide on how to navigate a city you've never visited, based only on hearsay.
+Instruction: Explain the plot of a dream that made sense while you were sleeping, but not after you woke up.
+Instruction: Describe this experience. Input: Trying to understand someone speaking a dialect of a language you partially know.
+Instruction: Compose a text message full of typos that leads to a humorous misunderstanding.
+Instruction: Write a diary entry from the perspective of someone who can't remember their day.
+Instruction: Explain the appeal of a piece of art you personally find baffling.
+Instruction: Describe the feeling of trying to recall a memory that feels just out of reach.
