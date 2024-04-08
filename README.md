@@ -1,16 +1,14 @@
-# COMP0087_SNLP
-NLPeekaboo
-
+# COMP0087_SNLP NLPeekaboo
 ---
-## Building and augment corpus from BabyLM Challenge data
 
+## Building and augment corpus from BabyLM Challenge data
 Data download links:
 - BabyLM: https://babylm.github.io/
 
 ### Usage
 
-1. Download the data and follow the directory structure below
-
+1. Download the data and follow the directory structure below\
+\
 (Default) Directory Structure:
 ```
 │ 
@@ -34,7 +32,6 @@ Data download links:
 ├── process_pretrain_data.py (Process BabyLM data runner file)
 ├── pretrain_data_augment.ipynb (Notebook for augmenting processed data)
 └── pretrain_data_corpus.ipynb (Notebook for building final corpus)
-
 ```
 
 2. Do `python process_pretrain_data.py` without any arguments will run the pipeline with default settings.\
@@ -47,8 +44,9 @@ To see what each argument does, do `python run_pretrain_data.py -h`.
 
 4. Download the `processed_data/babylm.pkl` or `processed_data/babylm_filtered.pkl` pickle files for the processed BabyLM data, follow the `pretrain_data_augment.ipynb` notebook to further augment the processed data via the `augment_and_save_chunks` function. The augmented chunks will be saved as `babylm_augment_{i}.pkl`.
 
-5. Download the augmented chunks `babylm_augment_{i}.pkl` and put the files in `babylm_augment/babylm_augment_{i}.pkl`. Then, follow the first two cells which loads the augmented data and wiki data of BabyLM to build the final corpus. This corpus and the composition log will be saved as `babylm_pretrain_corpus/babylm_emo_wiki_{corpus_size}.pkl`, `babylm_pretrain_corpus/babylm_emo_wiki_{corpus_size}.txt`.
+5. Download the augmented chunks `babylm_augment_{i}.pkl` and put the files in `babylm_augment/babylm_augment_{i}.pkl`. Then, follow the first two cells which loads the augmented data and wiki data of BabyLM to build the final corpus. The corpus and the composition log will be saved as `babylm_pretrain_corpus/babylm_emo_wiki_{corpus_size}.pkl`, `babylm_pretrain_corpus/babylm_emo_wiki_{corpus_size}.txt`.
 
-In our project, we used the `babylm_filtered.pkl` file and augmented about 38 chunks of processed data to build the final corpus.
+*In our project, we used the `babylm_filtered.pkl` file and augmented about 38 chunks of processed data to build the final corpus, the 10M corpus `babylm_pretrain_corpus/babylm_emo_wiki_10M.pkl` is used in subsequent experiments.*
+
 ---
 
