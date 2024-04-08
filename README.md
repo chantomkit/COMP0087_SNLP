@@ -38,7 +38,9 @@ Data download links:
 ```
 
 2. Do `python process_pretrain_data.py` without any arguments will run the pipeline with default settings.\
+\
 To summarize the default behavior, the pipeline will process the full corpus of BabyLM following the default directory sturcture. It will use the model `SamLowe/roberta-base-go_emotions` with cpu for emotion inference, then it will further filter out non-confident emotions predictions and neutral emotion.\
+\
 To see what each argument does, do `python run_pretrain_data.py -h`.
 
 3. Upon successful run of `process_pretrain_data.py`, there will be new directory storing pickle files of processed data in `processed_data/`
