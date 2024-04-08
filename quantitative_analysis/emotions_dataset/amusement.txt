@@ -1,30 +1,30 @@
-Instruct: Write a joke about a cat who thinks it's a dog.
-Instruct: Compose a funny haiku about eating too much pizza.
-Instruct: Create a dialogue between a spoon and a fork discussing their day.
-Instruct: Write a short story about a superhero whose power is turning any situation into a musical.
-Instruct: Invent a silly reason why dinosaurs went extinct.
-Instruct: Compose a limerick about a flying pig.
-Instruct: Describe an awkward moment at a wizard's convention.
-Instruct: Write a humorous review of a product that doesn't exist.
-Instruct: Create a funny recipe for a magical potion.
-Instruct: Invent a dialogue between two pets discussing their owner's fashion sense.
-Instruct: Describe the experience of accidentally sending an embarrassing text to the wrong person.
-Instruct: Write a witty response to someone saying, "Tell me a joke."
-Instruct: Compose a short skit about a misunderstanding at a fantasy creature support group.
-Instruct: Create a parody of a famous song, focusing on the struggles of waking up early.
-Instruct: Describe a day in the life of someone who can only speak in movie quotes.
-Instruct: Write a humorous apology letter from a sock to its owner for getting lost.
-Instruct: Compose a funny warning label for a common household item.
-Instruct: Create a mock interview with a famous historical figure about modern technology.
-Instruct: Invent a silly law that should exist in a world where people have superpowers.
-Instruct: Describe the most bizarre dream you've ever had.
-Instruct: Write a comedic monologue about the perils of online shopping.
-Instruct: Compose a silly poem about a knight who is afraid of the dark.
-Instruct: Create a list of funny FAQs for a completely normal activity.
-Instruct: Write a dialogue between a time traveler and a caveman about modern conveniences.
-Instruct: Invent a humorous backstory for why the chicken crossed the road.
-Instruct: Compose a funny out-of-office email message for a superhero.
-Instruct: Describe an encounter with a vending machine that has a personality.
-Instruct: Write a satirical guide on how to become famous on social media.
-Instruct: Create a comedic scenario where someone misuses a magic spell.
-Instruct: Invent a funny excuse for being late that involves mythical creatures.
+Instruction: Write a joke about a cat who thinks it's a dog.
+Instruction: Compose a funny haiku about eating too much pizza.
+Instruction: Create a dialogue between a spoon and a fork discussing their day.
+Instruction: Write a short story about a superhero whose power is turning any situation into a musical.
+Instruction: Invent a silly reason why dinosaurs went extinct.
+Instruction: Compose a limerick about a flying pig.
+Instruction: Describe an awkward moment at a wizard's convention.
+Instruction: Write a humorous review of a product that doesn't exist.
+Instruction: Create a funny recipe for a magical potion.
+Instruction: Invent a dialogue between two pets discussing their owner's fashion sense.
+Instruction: Describe the experience of accidentally sending an embarrassing text to the wrong person.
+Instruction: Write a witty response to someone saying, "Tell me a joke."
+Instruction: Compose a short skit about a misunderstanding at a fantasy creature support group.
+Instruction: Create a parody of a famous song, focusing on the struggles of waking up early.
+Instruction: Describe a day in the life of someone who can only speak in movie quotes.
+Instruction: Write a humorous apology letter from a sock to its owner for getting lost.
+Instruction: Compose a funny warning label for a common household item.
+Instruction: Create a mock interview with a famous historical figure about modern technology.
+Instruction: Invent a silly law that should exist in a world where people have superpowers.
+Instruction: Describe the most bizarre dream you've ever had.
+Instruction: Write a comedic monologue about the perils of online shopping.
+Instruction: Compose a silly poem about a knight who is afraid of the dark.
+Instruction: Create a list of funny FAQs for a completely normal activity.
+Instruction: Write a dialogue between a time traveler and a caveman about modern conveniences.
+Instruction: Invent a humorous backstory for why the chicken crossed the road.
+Instruction: Compose a funny out-of-office email message for a superhero.
+Instruction: Describe an encounter with a vending machine that has a personality.
+Instruction: Write a satirical guide on how to become famous on social media.
+Instruction: Create a comedic scenario where someone misuses a magic spell.
+Instruction: Invent a funny excuse for being late that involves mythical creatures.

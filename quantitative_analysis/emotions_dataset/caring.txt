@@ -1,30 +1,30 @@
-Instruct: Write a comforting note to someone who lost a pet.
-Instruct: Compose a poem that embodies the warmth of a hug. 
-Instruct: Draft an email expressing gratitude to a teacher who made a difference in your life. 
-Instruct: Create a list of affirmations for a friend going through a tough time. 
-Instruct: Pen a letter to your future self, offering compassion and understanding for the challenges you face. 
-Instruct: Describe the sensation of receiving support during a difficult moment. 
-Instruct: Craft a short story where the main character learns the importance of self-care. 
-Instruct: Write a thank you note for a gift that was thoughtfully chosen. 
-Instruct: Compose a message to someone who is feeling under the weather, wishing them a speedy recovery. 
-Instruct: Devise a comforting bedtime story for a child afraid of the dark. 
-Instruct: Create a dialogue between two friends, where one helps the other through a moment of self-doubt. 
-Instruct: Describe a time when a small act of kindness made a big difference in your day. Input: A stranger smiled at you when you were feeling down. 
-Instruct: Write a letter of encouragement to a character from a book who is facing a challenge. Input: The character is about to embark on a dangerous journey. 
-Instruct: Draft a message of appreciation for someone who always listens when you need to talk. Input: This person has been your friend for many years. 
-Instruct: Compose a poem about the comfort found in old, familiar places. Input: Your childhood home. 
-Instruct: Write an encouraging note to a student struggling with their studies. Input: The student is you at a younger age. 
-Instruct: Craft a message offering support to a friend who is making a major life decision. Input: Your friend is considering moving to a new country. 
-Instruct: Describe the feeling of coming home to a loving family after a long trip. Input: You were away for several months. 
-Instruct: Write a short story about an animal offering comfort to its owner. Input: The owner has just received some bad news. 
-Instruct: Compose a heartfelt message to a coworker who helped you with a project under a tight deadline. Input: You were new to the job and feeling overwhelmed. 
-Instruct: Create a list of soothing words to say to someone who is feeling anxious. 
-Instruct: Draft a letter to someone who inspired you to be kinder to yourself. 
-Instruct: Describe the feeling of warmth and safety in a simple, peaceful moment. 
-Instruct: Write a message of solidarity to someone fighting for a cause you believe in. 
-Instruct: Compose a note to a neighbor, offering to help with groceries during a difficult time. 
-Instruct: Craft a poem about the beauty of shared silence with someone you care about. 
-Instruct: Pen a heartfelt message to a family member, expressing love and gratitude for their presence in your life. 
-Instruct: Describe the act of caring for a plant and the joy it brings. 
-Instruct: Write an encouraging note to someone participating in a competition. Input: They have been preparing for months but are nervous on the day. 
-Instruct: Compose a message to yourself, recognizing your own growth and resilience.
+Instruction: Write a comforting note to someone who lost a pet.
+Instruction: Compose a poem that embodies the warmth of a hug. 
+Instruction: Draft an email expressing gratitude to a teacher who made a difference in your life. 
+Instruction: Create a list of affirmations for a friend going through a tough time. 
+Instruction: Pen a letter to your future self, offering compassion and understanding for the challenges you face. 
+Instruction: Describe the sensation of receiving support during a difficult moment. 
+Instruction: Craft a short story where the main character learns the importance of self-care. 
+Instruction: Write a thank you note for a gift that was thoughtfully chosen. 
+Instruction: Compose a message to someone who is feeling under the weather, wishing them a speedy recovery. 
+Instruction: Devise a comforting bedtime story for a child afraid of the dark. 
+Instruction: Create a dialogue between two friends, where one helps the other through a moment of self-doubt. 
+Instruction: Describe a time when a small act of kindness made a big difference in your day. Input: A stranger smiled at you when you were feeling down. 
+Instruction: Write a letter of encouragement to a character from a book who is facing a challenge. Input: The character is about to embark on a dangerous journey. 
+Instruction: Draft a message of appreciation for someone who always listens when you need to talk. Input: This person has been your friend for many years. 
+Instruction: Compose a poem about the comfort found in old, familiar places. Input: Your childhood home. 
+Instruction: Write an encouraging note to a student struggling with their studies. Input: The student is you at a younger age. 
+Instruction: Craft a message offering support to a friend who is making a major life decision. Input: Your friend is considering moving to a new country. 
+Instruction: Describe the feeling of coming home to a loving family after a long trip. Input: You were away for several months. 
+Instruction: Write a short story about an animal offering comfort to its owner. Input: The owner has just received some bad news. 
+Instruction: Compose a heartfelt message to a coworker who helped you with a project under a tight deadline. Input: You were new to the job and feeling overwhelmed. 
+Instruction: Create a list of soothing words to say to someone who is feeling anxious. 
+Instruction: Draft a letter to someone who inspired you to be kinder to yourself. 
+Instruction: Describe the feeling of warmth and safety in a simple, peaceful moment. 
+Instruction: Write a message of solidarity to someone fighting for a cause you believe in. 
+Instruction: Compose a note to a neighbor, offering to help with groceries during a difficult time. 
+Instruction: Craft a poem about the beauty of shared silence with someone you care about. 
+Instruction: Pen a heartfelt message to a family member, expressing love and gratitude for their presence in your life. 
+Instruction: Describe the act of caring for a plant and the joy it brings. 
+Instruction: Write an encouraging note to someone participating in a competition. Input: They have been preparing for months but are nervous on the day. 
+Instruction: Compose a message to yourself, recognizing your own growth and resilience.

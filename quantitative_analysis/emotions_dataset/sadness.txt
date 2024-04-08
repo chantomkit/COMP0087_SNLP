@@ -1,30 +1,30 @@
-Instruct: Write a poem about the silence in a house that once echoed with laughter.
-Instruct: Compose a short story where the main character says goodbye to their childhood home.
-Instruct: Create a metaphor for the feeling of being left behind.
-Instruct: Describe this scene. Input: An empty swing set at dusk.
-Instruct: Write a letter to someone who doesn't know you're hurting.
-Instruct: Pen a diary entry on the day after saying farewell to a best friend.
-Instruct: Craft a haiku about fading memories.
-Instruct: Describe this experience. Input: Listening to a favorite song that you used to share with someone gone.
-Instruct: Write a monologue from the perspective of a wilted flower in a forgotten vase.
-Instruct: Create a metaphor for the weight of unshed tears.
-Instruct: Compose a letter to the future self about the fears of being forgotten.
-Instruct: Describe this scene. Input: The first leaf falling from a tree in early autumn.
-Instruct: Write a poem about the last light of day disappearing over the horizon.
-Instruct: Pen a dialogue between two characters where one is moving away.
-Instruct: Craft a metaphor for the moment the world seems to stop when bad news is received.
-Instruct: Describe this experience. Input: The cold side of the bed where a loved one used to sleep.
-Instruct: Write a short story from the perspective of a photograph in a locket.
-Instruct: Compose a letter you'll never send to someone who has passed away.
-Instruct: Create a metaphor describing the emptiness of a busy street at dawn.
-Instruct: Describe this scene. Input: A candle burning out on a windowsill.
-Instruct: Pen a reflective essay on the theme of solitude in a busy city.
-Instruct: Write a poem about the shadows that grow longer as the sun sets.
-Instruct: Compose a narrative about finding a forgotten item that belonged to a lost friend.
-Instruct: Create a metaphor for the journey of moving on from grief.
-Instruct: Describe this experience. Input: The smell of rain on what used to be a shared walk.
-Instruct: Write a letter from the perspective of an old tree witnessing the changes around it.
-Instruct: Pen a diary entry from someone experiencing their first storm without their partner.
-Instruct: Craft a haiku about the last page of a diary being filled.
-Instruct: Describe this scene. Input: A boat returning to shore empty, after a storm.
-Instruct: Write a monologue for a character who is watching the stars alone for the first time.
+Instruction: Write a poem about the silence in a house that once echoed with laughter.
+Instruction: Compose a short story where the main character says goodbye to their childhood home.
+Instruction: Create a metaphor for the feeling of being left behind.
+Instruction: Describe this scene. Input: An empty swing set at dusk.
+Instruction: Write a letter to someone who doesn't know you're hurting.
+Instruction: Pen a diary entry on the day after saying farewell to a best friend.
+Instruction: Craft a haiku about fading memories.
+Instruction: Describe this experience. Input: Listening to a favorite song that you used to share with someone gone.
+Instruction: Write a monologue from the perspective of a wilted flower in a forgotten vase.
+Instruction: Create a metaphor for the weight of unshed tears.
+Instruction: Compose a letter to the future self about the fears of being forgotten.
+Instruction: Describe this scene. Input: The first leaf falling from a tree in early autumn.
+Instruction: Write a poem about the last light of day disappearing over the horizon.
+Instruction: Pen a dialogue between two characters where one is moving away.
+Instruction: Craft a metaphor for the moment the world seems to stop when bad news is received.
+Instruction: Describe this experience. Input: The cold side of the bed where a loved one used to sleep.
+Instruction: Write a short story from the perspective of a photograph in a locket.
+Instruction: Compose a letter you'll never send to someone who has passed away.
+Instruction: Create a metaphor describing the emptiness of a busy street at dawn.
+Instruction: Describe this scene. Input: A candle burning out on a windowsill.
+Instruction: Pen a reflective essay on the theme of solitude in a busy city.
+Instruction: Write a poem about the shadows that grow longer as the sun sets.
+Instruction: Compose a narrative about finding a forgotten item that belonged to a lost friend.
+Instruction: Create a metaphor for the journey of moving on from grief.
+Instruction: Describe this experience. Input: The smell of rain on what used to be a shared walk.
+Instruction: Write a letter from the perspective of an old tree witnessing the changes around it.
+Instruction: Pen a diary entry from someone experiencing their first storm without their partner.
+Instruction: Craft a haiku about the last page of a diary being filled.
+Instruction: Describe this scene. Input: A boat returning to shore empty, after a storm.
+Instruction: Write a monologue for a character who is watching the stars alone for the first time.
