@@ -1,6 +1,6 @@
 from tqdm import tqdm
 
-from pretraining.data_utils import ListDataset, line_processor
+from pretrain_data.data_utils import ListDataset, line_processor
 # Parse data and preprocessing
 # Feel free to add rules to filter lines
 

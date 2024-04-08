@@ -5,8 +5,8 @@ import pickle
 from tqdm import tqdm
 
 from transformers import pipeline
-from pretraining.data_pipeline import *
-from pretraining.data_utils import *
+from pretrain_data.data_pipeline import *
+from pretrain_data.data_utils import *
 
 parser = argparse.ArgumentParser(description='Pretraining data runner')
 parser.add_argument('--dir_paths', nargs='+', default=None, help='Raw data directories paths. Default None (use Babylm and Tinystories data paths)')
@@ -20,20 +20,20 @@ args = parser.parse_args()
 
 # Set up the paths
 if args.dir_paths is None:
-    dir_paths = ["data/babylm_data/babylm_100M/", "data/tinystories_data/"]
-    print(f"Directory paths not provided, using default paths {dir_paths}")
-elif isinstance(args.dir_paths, str):
-    dir_paths = [args.dir_paths]
-else:
-    dir_paths = args.dir_paths
+    dir_paths = ["data/babylm_data/babylm_100M/"]
+    print(f"Directory paths not provided, using default path {dir_paths}")
+# elif isinstance(args.dir_paths, str):
+#     dir_paths = [args.dir_paths]
+# else:
+#     dir_paths = args.dir_paths
 
 if args.save_paths is None:
-    save_paths = ["processed_data/babylm.pkl", "processed_data/tinystories.pkl"]
-    print(f"Save paths not provided, using default paths {save_paths}")
-elif isinstance(args.save_paths, str):
-    save_paths = [args.save_paths]
-else:
-    save_paths = args.save_paths
+    save_paths = ["processed_data/babylm.pkl"]
+    print(f"Save paths not provided, using default path {save_paths}")
+# elif isinstance(args.save_paths, str):
+#     save_paths = [args.save_paths]
+# else:
+#     save_paths = args.save_paths
 
 for save_path in save_paths:
     if not save_path.endswith(".pkl"):
