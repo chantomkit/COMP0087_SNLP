@@ -1,0 +1,23 @@
+Instruction: Write a letter to someone you've lost, expressing everything you wish you could have said to them.
+Instruction: Compose a poem about the absence of a loved one.
+Instruction: Describe the feeling of looking at an empty chair that used to be occupied by someone you love.
+Instruction: Create a short story where the main character experiences loss for the first time.
+Instruction: Reflect on a photograph of a happy memory with someone who is no longer with you and describe your emotions.
+Instruction: Write about the first time you realized someone important was no longer in your life.
+Instruction: Describe the process of going through a loved one's belongings after they have passed away.
+Instruction: Write a eulogy for a fictional character who has deeply impacted your life, as if they were real.
+Instruction: Pen down a conversation you wish you could have with someone who has passed away.
+Instruction: Describe the feeling of hearing a song that reminds you of a time spent with someone who is no longer here.
+
+Instruction: Write about the emptiness felt during a celebration without a loved one who has passed. Input: The first birthday after their passing.
+Instruction: Describe the change in a specific place after the loss of someone significant. Input: Your childhood home.
+Instruction: Express the grief of losing a pet in the form of a diary entry. Input: The day after your pet passed away.
+Instruction: Describe the process of learning to live without someone who was a part of your daily routine. Input: The first morning without them.
+Instruction: Reflect on the impact of a lost loved one on your life's path. Input: A career choice influenced by them.
+Instruction: Write a letter to yourself from the perspective of someone who has passed away, offering comfort. Input: After a particularly hard day.
+Instruction: Create a dialogue between two people who are grieving the same person but in different ways. Input: A year after the loss.
+Instruction: Describe a dream visitation from someone who has passed away. Input: A message they conveyed to you in the dream.
+Instruction: Pen a poem about the seasons changing while grieving. Input: The first autumn without them.
+Instruction: Reflect on a significant object that reminds you of someone who has passed. Input: A watch they used to wear.
+
+

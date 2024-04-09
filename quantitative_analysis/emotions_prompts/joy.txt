@@ -1,0 +1,30 @@
+Instruction: Write a short poem about a moment that filled you with joy.
+Instruction: Compose a thank you letter to someone who has brought joy into your life. Input: Consider a specific event or gesture.
+Instruction: Share a story of the happiest day of your life in three sentences.
+Instruction: List five things that make you happy. Input: Think of simple, everyday joys.
+Instruction: Invent a joyful character and describe their perfect day. Input: Include at least three activities that reflect their joy.
+Instruction: Draft a text message expressing happiness about a friend’s good news. Input: The friend just got their dream job.
+Instruction: Create a diary entry about a joyful surprise you received. Input: Detail your initial reaction and feelings.
+Instruction: Write a haiku about the feeling of sunshine on your face.
+Instruction: Describe a memory that always makes you smile. Input: Focus on sensory details that bring the memory to life.
+Instruction: Compose a tweet celebrating a personal achievement. Input: You finally finished a project you’ve been working on for months.
+Instruction: Share an uplifting quote about finding joy in small things. Input: Make it suitable for a social media caption.
+Instruction: Write a letter to your future self about what makes you happy now. Input: Include advice on how to find joy in tough times.
+Instruction: Draft a cheerful birthday card message for a loved one. Input: Highlight a fond memory you share.
+Instruction: Create a joyful character in a story. Input: Describe how they spread joy to others in their community.
+Instruction: List three songs that always lift your spirits. Input: Describe how each song makes you feel.
+Instruction: Write a short scene where the main character discovers joy in an unexpected place.
+Instruction: Pen a gratitude list for today. Input: Include at least one person and one simple pleasure.
+Instruction: Describe the joy of meeting an old friend after a long time. Input: Capture the first moment of reunion.
+Instruction: Compose a celebratory note for a small, personal victory. Input: You managed to wake up early and watch the sunrise.
+Instruction: Share a funny anecdote that brought you joy. Input: Relate it to a family gathering or event.
+Instruction: Invent a holiday centered around joy and describe how it is celebrated.
+Instruction: Write a motivational quote about the pursuit of joy. Input: Design it to be shared in a support group.
+Instruction: Describe a joyful interaction with nature. Input: Focus on a specific location, like a park or garden.
+Instruction: Compose a message of encouragement to someone going through a tough time. Input: Remind them of a joy that awaits in the future.
+Instruction: Share a recipe for your "happy meal". Input: Explain why each ingredient adds to its joyfulness.
+Instruction: Write a brief story about finding joy in learning something new.
+Instruction: Draft an email expressing excitement for an upcoming event. Input: The event is a reunion with college friends.
+Instruction: List actions that can spread joy to strangers. Input: Think of simple, everyday gestures.
+Instruction: Create a joyful slogan for a T-shirt. Input: The T-shirt is for a community event promoting happiness.
+Instruction: Describe the experience of listening to your favorite song. Input: Focus on the emotions it evokes.

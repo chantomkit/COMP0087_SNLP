@@ -1,0 +1,30 @@
+Instruction: Write a dialogue between two characters where one is hiding a secret. Input: The secret is about a lost necklace.
+Instruction: Compose a text message to a friend explaining why you're running late, incorporating your growing anxiety about their reaction.
+Instruction: Write a letter to yourself from the perspective of your future self, addressing your current fears. Input: Your fear of failing at a new job.
+Instruction: Draft an email apologizing for a mistake at work, emphasizing your nervousness about the consequences.
+Instruction: Create a short story about a character who is nervous about meeting someone important. Input: The important person is their idol.
+Instruction: Write a poem about the sensation of butterflies in your stomach.
+Instruction: Draft a conversation between you and a stranger where you have to ask for help. Input: You're lost in a new city.
+Instruction: Compose a diary entry about a day you felt particularly anxious. Input: The day before an important exam.
+Instruction: Write a description of a place that makes you feel nervous. Input: A crowded train station.
+Instruction: Draft a message breaking bad news to someone, trying to soften the impact.
+Instruction: Write a scene where a character is nervously waiting for news. Input: The news is about a job application.
+Instruction: Compose a monologue about the fears of stepping out of your comfort zone.
+Instruction: Write a text apologizing for forgetting a close friend's birthday, including your worry about their response.
+Instruction: Create a short narrative about a character who is nervous about revealing their true feelings. Input: The feelings are for their best friend.
+Instruction: Draft an email to a new mentor, expressing your enthusiasm and nerves about learning from them.
+Instruction: Compose a public speech for a character who is afraid of public speaking. Input: The speech is about the importance of community service.
+Instruction: Write a letter of recommendation for someone, including your concerns about doing them justice.
+Instruction: Draft a conversation where you have to confess a mistake. Input: The mistake is breaking a family heirloom.
+Instruction: Compose a brief note explaining why you can't attend an event, due to anxiety.
+Instruction: Write a description of how your hands feel when you're nervous.
+Instruction: Draft a dialogue between two characters where one is trying to reassure the other. Input: The reassurance is about an upcoming medical test.
+Instruction: Compose a list of reasons you're nervous about a first date.
+Instruction: Write a short story about a character who is trying to overcome their stage fright. Input: The character is performing in a play.
+Instruction: Draft a message to a new roommate, expressing concerns about living together.
+Instruction: Compose a reflection on a time you had to step up in an emergency, focusing on your nervousness.
+Instruction: Write a conversation where you're trying to decline an offer without offending the other person.
+Instruction: Compose a text message asking for feedback on a project, highlighting your apprehension about the criticism.
+Instruction: Draft a journal entry about anticipating the outcome of an important decision.
+Instruction: Write a brief account of preparing for a difficult conversation. Input: The conversation is with a coworker about workload.
+Instruction: Compose a character's inner monologue as they're about to make a life-changing decision.

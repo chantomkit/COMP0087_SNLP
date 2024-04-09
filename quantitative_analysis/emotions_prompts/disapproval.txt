@@ -3,7 +3,7 @@ Instruction: Compose a critique of a recent movie that failed to meet your expec
 Instruction: Draft an email expressing disappointment in a friend's recent actions. Input: The friend forgot your birthday.
 Instruction: Construct a review for a book that was far below your expectations.
 Instruction: Write a paragraph on the inefficacy of a diet plan you tried.
-Instruction: Compose a dialogue between two characters, where one disapproves of the other's decision. Input: The decision involves quitting a job impulsively.
+Instruction: Compose a dialogue between two characters, where one disapproves of the other's decision.
 Instruction: Pen a letter to a restaurant manager about the poor service you received.
 Instruction: Craft a review of a disappointing meal at a highly rated restaurant.
 Instruction: Write an editorial on the negative impact of a new policy in your community.

@@ -1,0 +1,30 @@
+Instruction: Write a sentence using the word "algorithm".
+Instruction: Summarize the plot of a classic novel. Input: "Pride and Prejudice" by Jane Austen.
+Instruction: Explain the process of photosynthesis.
+Instruction: List three synonyms for the word "quickly".
+Instruction: Describe the weather outside without using adjectives.
+Instruction: Compare and contrast two types of coffee brews. Input: Espresso vs. Drip coffee.
+Instruction: Outline the steps to bake bread.
+Instruction: Identify the main theme of a poem. Input: "The Road Not Taken" by Robert Frost.
+Instruction: Explain how to reset a router.
+Instruction: Write a brief overview of the Industrial Revolution.
+Instruction: Define the term "blockchain".
+Instruction: Translate a short sentence from English to French. Input: "Life is beautiful."
+Instruction: Describe the structure of an atom.
+Instruction: Provide a brief explanation of the theory of relativity.
+Instruction: Create a list of ingredients for a smoothie. Input: Include strawberries and bananas.
+Instruction: Summarize the main points of a TED talk. Input: "The Power of Vulnerability" by Brené Brown.
+Instruction: Explain the rules of a simple card game.
+Instruction: List three benefits of regular exercise.
+Instruction: Describe a common use for baking soda.
+Instruction: Explain the function of the heart.
+Instruction: Write a simple code snippet in Python that prints "Hello, World!".
+Instruction: Briefly outline the history of the internet.
+Instruction: Explain the concept of supply and demand.
+Instruction: Provide directions to make a cup of tea.
+Instruction: Write a factual statement about the moon.
+Instruction: Explain the difference between affect and effect.
+Instruction: List the primary colors.
+Instruction: Describe how to change a car tire.
+Instruction: Provide the steps to conduct a basic science experiment. Input: Testing the effects of sunlight on plant growth.
+Instruction: Explain how a calculator works.

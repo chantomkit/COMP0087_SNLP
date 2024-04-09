@@ -1,0 +1,30 @@
+Instruction: Write a haiku about receiving unexpected good news.
+Instruction: Compose a message pretending you've just found a hidden room in your house. Input: The message is to a family member.
+Instruction: Pen a short dialogue where someone reveals they’ve won a lottery.
+Instruction: Draft a letter to your past self about a future surprise. Input: The surprise is your biggest achievement.
+Instruction: Invent a story where the main character wakes up with a superpower.
+Instruction: Create a poem about the shock of seeing snow for the first time. Input: You live in a tropical country.
+Instruction: Write a tweet announcing a surprise party. Input: The party is for a friend who thinks everyone forgot their birthday.
+Instruction: Describe your reaction to finding a secret admirer's note in your book.
+Instruction: Compose an email to a colleague revealing a surprise promotion. Input: You are the manager.
+Instruction: Craft a text message to your friend about an unexpected encounter with a celebrity.
+Instruction: Write a diary entry about discovering a hidden talent. Input: The talent is something you've never tried before.
+Instruction: Draft a conversation where someone surprises their partner with a trip.
+Instruction: Pen a story about finding a mysterious gift at your doorstep. Input: The gift is from an unknown sender.
+Instruction: Create a social media post about witnessing a rare natural phenomenon.
+Instruction: Describe your reaction to unexpectedly seeing your artwork featured in a gallery.
+Instruction: Write an email to your family about a surprise inheritance. Input: The inheritance includes an old mansion.
+Instruction: Compose a blog post about the first time experiencing a surprise party thrown for you.
+Instruction: Draft a letter of gratitude for a surprise gift. Input: The gift is something you've wanted for years.
+Instruction: Write a short scene where a character discovers they're related to royalty.
+Instruction: Describe the feeling of finding an old letter that reveals a family secret.
+Instruction: Pen a poem about the surprise of the first rain after a long drought.
+Instruction: Create a text to a friend about unexpectedly running into your childhood hero.
+Instruction: Write a story where a character finds a hidden passage in their new home.
+Instruction: Compose a tweet expressing shock at an unexpected turn in your favorite TV show.
+Instruction: Draft an announcement for a sudden change in career. Input: You are now pursuing your dream job.
+Instruction: Describe your reaction to a surprise visit from someone you haven't seen in years.
+Instruction: Write a diary entry about the astonishment of waking up to a completely different world.
+Instruction: Compose an email explaining a sudden, unexpected trip. Input: The destination is a place you've always dreamed of visiting.
+Instruction: Create a poem about the bewilderment of a forgotten memory suddenly resurfacing.
+Instruction: Draft a message to your future self about an unexpected lesson you learned today.

@@ -1,0 +1,30 @@
+Instruction: Write a thank you note to someone who helped you during a tough time.
+Instruction: Compose a haiku about the moment stress leaves your body.
+Instruction: Write a short story where the main character overcomes a fear.
+Instruction: Draft a text message you would send to a friend after passing a difficult exam.
+Instruction: Describe the first thing you want to do after hearing good news.
+Instruction: Write a journal entry about a day you received support when you least expected it.
+Instruction: Pen a letter to your future self about how you overcame a current challenge.
+Instruction: Create a social media post expressing gratitude for a small act of kindness.
+Instruction: Write a dialogue between two characters where one comforts the other.
+Instruction: Compose a poem about the calm after a storm.
+Instruction: Describe this feeling. Input: Waking up and realizing you have no obligations for the day.
+Instruction: Write about this moment. Input: The second you find something you thought was lost forever.
+Instruction: Express this in words. Input: The relief felt when a loved one’s test results come back clear.
+Instruction: Summarize this experience. Input: Hearing your favorite song play during a stressful moment.
+Instruction: Narrate this scenario. Input: The first deep breath after laughing so hard you cried.
+Instruction: Illustrate this situation. Input: Finding an unexpected solution to a problem that’s been on your mind.
+Instruction: Capture this emotion. Input: The warmth of sunlight on your face after days of rain.
+Instruction: Depict this event. Input: The moment you finish all your work before a vacation.
+Instruction: Describe this sensation. Input: Diving into cool water on a hot day.
+Instruction: Explain this feeling. Input: Getting a hug exactly when you need it without having to ask.
+Instruction: Chronicle this incident. Input: Receiving a message from someone you missed dearly.
+Instruction: Portray this experience. Input: The first taste of food after being too nervous to eat all day.
+Instruction: Write a reflection on this moment. Input: The sigh of relief when a risky venture turns out well.
+Instruction: Compose an email expressing gratitude for an unexpected day off work.
+Instruction: Draft a diary entry about the peace found in a quiet morning after a week of chaos.
+Instruction: Write a short scene where a character finally solves a puzzle that's been troubling them.
+Instruction: Pen a social media update about overcoming a personal obstacle.
+Instruction: Compose a text celebrating the end of a difficult period.
+Instruction: Write about the emotion. Input: The silence in your head when you stop worrying about what you cannot control.
+Instruction: Describe this relief. Input: The moment when water starts to boil and you can finally make your tea after a long day.

@@ -5,7 +5,7 @@ Instruction: Create a diary entry detailing a day that started with high hopes b
 Instruction: Pen a dialogue between two friends, where one shares their disillusionment about a recent career move.
 Instruction: Write a product review for something you bought that failed to live up to its promises.
 Instruction: Describe the moment you realized your favorite book or movie had a disappointing ending.
-Instruction: Craft a letter to a company expressing your dissatisfaction with their service. Input: Include specifics about what went wrong and how it impacted you.
+Instruction: Craft a letter to a company expressing your dissatisfaction with their service.
 Instruction: Develop a short story where the main character faces a series of disappointing events that lead to an unexpected revelation.
 Instruction: Write a break-up text message that conveys disappointment rather than anger.
 Instruction: Compose a haiku that captures the essence of a missed opportunity.
