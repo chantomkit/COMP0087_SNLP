@@ -1,4 +1,6 @@
 # UCL COMP0087 Statistical Natural Language Processing 2023-24 Group Project
+Title: Bridging the Emotional Gap: Enhancing Compact Language Model’s Emotional Intelligence through Targeted Fine-Tuning
+
 Group Name: NLPeekaboo
 
 ## Building and augment corpus from BabyLM Challenge data
