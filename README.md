@@ -1,5 +1,5 @@
-# COMP0087_SNLP NLPeekaboo
----
+# UCL COMP0087 Statistical Natural Language Processing 2023-24 Group Project
+Group Name: NLPeekaboo
 
 ## Building and augment corpus from BabyLM Challenge data
 Data download links:
@@ -47,6 +47,4 @@ To see what each argument does, do `python run_pretrain_data.py -h`.
 5. Download the augmented chunks `babylm_augment_{i}.pkl` and put the files in `babylm_augment/babylm_augment_{i}.pkl`. Then, follow the first two cells in `pretrain_data_corpus.ipynb` which loads the augmented data and wiki data of BabyLM to build the final corpus. The corpus and the composition log will be saved as `babylm_pretrain_corpus/babylm_emo_wiki_{corpus_size}.pkl`, `babylm_pretrain_corpus/babylm_emo_wiki_{corpus_size}.txt`.
 
 *In our project, we used the `babylm_filtered.pkl` file and augmented about 38 chunks of processed data to build the final corpus, the 10M corpus `babylm_pretrain_corpus/babylm_emo_wiki_10M.pkl` is used in subsequent experiments.*
-
----
 
